@@ -1,0 +1,59 @@
+/*Pregunat ¿Quiero que mis estilos tengan un estilo de ?*/
+
+body {
+    background: #edeff2;
+    color: #ffffff;
+}
+
+p {
+    /*Por defecto los parrafos traen un espacio de mas, se lo quitamos */
+    margin-bottom: 0;
+}
+
+.row {
+    /*Con esta propiedad realizas un espaciado abajo*/
+    margin-bottom: 20px;
+}
+
+/*Estilos de header*/
+
+header {
+    background: #232532;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+main article {
+    color: #000000;
+    background: #ffffff;
+    padding: 20px;
+}
+
+main article p {
+    margin-bottom: 20px;
+}
+
+/*Estilos al aside*/
+
+aside {
+    background: #7aa54c;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/*Estilos a los widget*/
+
+.widgets .widget {
+    background: #4f5ef5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+/*Estilos del footer*/
+
+footer .col {
+    background: slateblue;
+    padding: 20px;
+    margin-top: 20px;
+}
