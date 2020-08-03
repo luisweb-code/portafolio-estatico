@@ -1,0 +1,25 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #e3e4e5;
+  font-family: "Noto Sans JP" sans-serif; }
+
+.box-banner {
+  background-image: url(../img/banner11.jpg); }
+
+.caja-info {
+  border-bottom: solid 5px #63cdfa;
+  margin: 300px;
+  width: 500px;
+  background: rgba(45, 190, 252, 0.2);
+  padding: 20px; }
+  .caja-info .info-titulo {
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+/*# sourceMappingURL=estilos.css.map */
