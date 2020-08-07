@@ -8,7 +8,11 @@ body {
   font-family: "Noto Sans JP" sans-serif; }
 
 .box-banner {
-  background-image: url(../img/banner11.jpg); }
+  background-image: url(../img/banner11.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
 
 .caja-info {
   border-bottom: solid 5px #63cdfa;
@@ -21,5 +25,78 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  .caja-info .info-subtitulo {
+    color: #ffffff;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+  .caja-info .info-parrafo {
+    color: #ffffff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+  .caja-info .btn-enviar {
+    margin: 5px auto;
+    width: 10.625em;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    -webkit-background-clip: text;
+    display: flex;
+    justify-content: center; }
+    .caja-info .btn-enviar:hover {
+      background: #ffffff;
+      color: #63cdfa;
+      font-weight: bold; }
+
+.redes-informacion {
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  background: #1dbbfe; }
+  .redes-informacion a {
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none; }
+    .redes-informacion a:hover {
+      background: #63cdfa; }
+
+.nav-info {
+  background: #72d5fe;
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 35px;
+  display: flex; }
+  .nav-info img {
+    margin-left: 18.125em;
+    margin-right: 33.75em; }
+  .nav-info a {
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+    align-content: center; }
+    .nav-info a:hover {
+      background: #ffffff;
+      color: #72d5fe;
+      border-radius: 5px;
+      text-decoration: none; }
+
+/*Creamos la variable */
+.main {
+  padding: 2.5em; }
+
+.titulo-info {
+  padding-top: 10em;
+  font-weight: 200; }
+  .titulo-info h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3.125em; }
+
+.deck-card {
+  padding: 3.5em; }
+  .deck-card .title {
+    padding: 1em;
+    background: #7bd8ff; }
 
 /*# sourceMappingURL=estilos.css.map */
