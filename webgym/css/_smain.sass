@@ -1,6 +1,7 @@
 /*Creamos la variable*/
 $azul-standar:  #7bd8ff 
-
+$azul-standar-2:  #ade7ff 
+$azul-standar-3: #1dbbfe
 .main
     padding: 2.5em
 
@@ -12,9 +13,81 @@ $azul-standar:  #7bd8ff
         font-size: 3.125em
 
 .deck-card
-    padding: 3.5em
+    padding: 7.5em
+    text-transform: uppercase
+        
+    .block-card
+        border-bottom: 5px solid $azul-standar
+        color: #ffffff
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        
     .title
         padding: 1em
         background: $azul-standar
+        i
+            margin-left: 12em
+
+
+.general-class
+    padding: 5.4em
+    border: 1px solid #000000
+    h3
+        margin: 25px auto
+        color: $azul-standar-3
+        font-weight: 500
+    .subgeneral-class
+        border: 1px solid red
+        background: $azul-standar-2
+        color: #ffffff
+        
+        .subgeneral-class-hijo
+            display: flex
+            background: $azul-standar-2
+            list-style: none
+            
+                        
+            
+
+        
+        
+
+
+
+
+
+
+    
+.general-prices
+    padding: 5.4em
+    h3
+        margin: 25px auto
+        color: $azul-standar-3
+        font-weight: 500
+
+    .subgeneral-prices
+        padding: 40px
+        background: #1dbbfe
+        color: #ffffff
+        width: 33em
+        margin: 20px auto
+        .btn-more
+            border: 1px solid #ffffff
+            padding: 10px
+            border-radius: 5px
+            background: $azul-standar-3
+            color: #ffffff
+            width: 7.4em
+            &:hover
+                background: #ffffff
+                color: $azul-standar-3
+
+    
+    
+
+   
+        
+          
+           
+            
 
 

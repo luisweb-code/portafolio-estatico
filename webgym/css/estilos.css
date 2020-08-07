@@ -94,9 +94,59 @@ body {
     font-size: 3.125em; }
 
 .deck-card {
-  padding: 3.5em; }
+  padding: 7.5em;
+  text-transform: uppercase; }
+  .deck-card .block-card {
+    border-bottom: 5px solid #7bd8ff;
+    color: #ffffff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
   .deck-card .title {
     padding: 1em;
     background: #7bd8ff; }
+    .deck-card .title i {
+      margin-left: 12em; }
+
+.general-class {
+  padding: 5.4em;
+  border: 1px solid #000000; }
+  .general-class h3 {
+    margin: 25px auto;
+    color: #1dbbfe;
+    font-weight: 500; }
+  .general-class .subgeneral-class {
+    border: 1px solid red;
+    background: #ade7ff;
+    color: #ffffff; }
+    .general-class .subgeneral-class .subgeneral-class-hijo {
+      display: flex;
+      background: #ade7ff;
+      list-style: none; }
+      .general-class .subgeneral-class .subgeneral-class-hijo ul li i {
+        padding: 10px;
+        margin: 20px;
+        display: block; }
+
+.general-prices {
+  padding: 5.4em; }
+  .general-prices h3 {
+    margin: 25px auto;
+    color: #1dbbfe;
+    font-weight: 500; }
+  .general-prices .subgeneral-prices {
+    padding: 40px;
+    background: #1dbbfe;
+    color: #ffffff;
+    width: 33em;
+    margin: 20px auto; }
+    .general-prices .subgeneral-prices .btn-more {
+      border: 1px solid #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+      background: #1dbbfe;
+      color: #ffffff;
+      width: 7.4em; }
+      .general-prices .subgeneral-prices .btn-more:hover {
+        background: #ffffff;
+        color: #1dbbfe; }
 
 /*# sourceMappingURL=estilos.css.map */
