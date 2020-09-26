@@ -1,0 +1,16 @@
+.col-icon a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.col-icon span {
+    display: inline-block;
+    margin: 20px;
+}
+
+.color-h5{
+    background-color: #1dbbfe;
+    padding: 25px;
+}

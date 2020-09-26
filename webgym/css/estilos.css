@@ -108,13 +108,13 @@ body {
 
 .general-class {
   padding: 5.4em;
-  border: 1px solid #000000; }
+  /*border: 1px solid #000000;*/ }
   .general-class h3 {
     margin: 25px auto;
     color: #1dbbfe;
     font-weight: 500; }
   .general-class .subgeneral-class {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background: #ade7ff;
     color: #ffffff; }
     .general-class .subgeneral-class .subgeneral-class-hijo {
