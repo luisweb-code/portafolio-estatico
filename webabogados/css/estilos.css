@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+.menu-tel{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(1, 1, 95);    
+    
+    
+}
+
+.menu-tel ul li{
+    list-style-type: none;
+    padding: 5px;
+    
+}
+
+.menu-tel .menu-li{
+    border-right: 2px solid #ffffff;
+    padding-right: 10px;
+}
+
+.menu-tel ul li a{
+    width: 50%;
+    color: #ffffff;
+    text-decoration: none;      
+   
+}
+
+
+/*Estilos del menu logo*/
+.menu-nav{
+    display: flex;
+    
+    
+    background-color: rgb(200, 197, 197);
+}
+
+.menu-nav img{
+    width: 8.56em;
+    
+}
+
+.menu-nav nav{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 53px;
+    /* margin-left: 75.45em; */
+
+}
+
+.menu-nav nav a{
+    text-decoration: none;
+    padding:10px;
+    color: rgb(88, 88, 88);
+    
+}
+
+.menu-nav nav a:hover{
+    text-decoration: underline;
+    
+    
+}
+
+
+/*Estilos para main*/
+
+.main{
+    
+    background: url("../img/inicio1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+
+    padding: 400px 100px;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+
+
+    
+}
+
+.main:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(66, 94, 250, 0.37);
+}
+
+.main .title {
+	font-size: 6.6em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -2.32em;
+}
+
+
+
+.main .sub-title {
+    font-size: 3.34em;
+    color: #fff;
+    margin-top: 2.32em;
+    font-family: 'Dancing Script', cursive;
+	
+}
+
+
+
+.footer{
+   
+    display: flex;
+    height: 170px;
+}
+
+
+.footer .f-experience {
+    text-align: center;
+    background-color: rgba(1, 1, 248, 0.863);
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.footer .f-experience p{
+    font-size: 60px;
+    color: #ffffff;
+
+}
+
+.footer .f-experience h4{
+    font-size: 30px;
+    color: #ffffff;
+    width: 253px;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+.footer .f-personalizada {
+    text-align: center;
+    background-color: rgba(4, 4, 179, 0.781);
+    padding: 5px;
+    width: 100%;
+    
+}
+
+
+.footer .f-personalizada p{
+    font-size: 60px;
+    color: #ffffff;
+
+}
+
+.footer .f-personalizada h4{
+    font-size: 30px;
+    color: #ffffff;
+    width: 253px;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+
+.footer .f-calidad {
+    text-align: center;
+    background-color: rgba(0, 0, 88, 0.829);
+    padding: 5px;
+    width: 100%;
+    
+}
+
+
+.footer .f-calidad p{
+    font-size: 60px;
+    color: #ffffff;
+
+}
+
+.footer .f-calidad h4{
+    font-size: 30px;
+    color: #ffffff;
+    width: 282px;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+
+
+
