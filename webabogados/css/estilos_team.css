@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.menu-tel {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(1, 1, 95);
+}
+
+.menu-tel ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.menu-tel .menu-li {
+  border-right: 2px solid #ffffff;
+  padding-right: 10px;
+}
+
+.menu-tel ul li a {
+  width: 50%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*Estilos del menu logo*/
+.menu-nav {
+  display: flex;
+
+  background-color: rgb(200, 197, 197);
+}
+
+.menu-nav img {
+  width: 8.56em;
+}
+
+.menu-nav nav {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 53px;
+  /* margin-left: 75.45em; */
+}
+
+.menu-nav nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(88, 88, 88);
+}
+
+.menu-nav nav a:hover {
+  text-decoration: underline;
+}
+
+/*####### ESTILOS PARA MAIN #######*/
+.main-section .main-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.23em;
+  margin: 20px 0px;
+}
+
+.main-section .main-text {
+  color: rgb(119, 118, 118);
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.main-people {
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8.13em;
+}
+
+.card {
+ 
+  width: 19%;
+  margin: 0em 2.13em;
+}
+
+.card img {
+  display: block;
+  border-radius: 150px;
+  margin: 5px auto;
+  height: 150px;
+  width: 150px;
+}
+
+.card img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(0.9);
+}
+
+.card h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5px;
+  margin-top: 15px;
+}
+
+.card p {
+  text-align: center;
+  border-top: 2px solid rgb(3, 15, 128);
+  margin: 6px;
+  margin-top: 9px;
+}
+
+.card .redes-sociales {
+  margin: 5px auto;
+  padding: 5px;
+  width: 90px;
+}
+
+.card .redes-sociales a {
+  color: rgb(88, 88, 88);
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.card .redes-sociales a:hover {
+  color: rgb(34, 34, 34);
+}
+
+/*###### ESTILOS PARA FOTTER ######*/
+.footer {
+  
+  background-color: rgb(1, 1, 95);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer p {
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 20px;
+  font-size: 20px;
+}
+
+/*==== Media Querys for 600px ======= */
+
+@media screen and (max-width: 600px) {
+  .menu-tel ul li {
+    list-style-type: none;
+    padding: 5px;
+  }
+
+  .menu-tel .menu-li {
+    border-right: 2px solid #ffffff;
+    padding-right: 5px;
+  }
+
+  .menu-tel ul li a {
+    width: 40%;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  /*Estilos del menu logo*/
+
+  .menu-nav img {
+    width: 3.12em;
+  }
+
+  .menu-nav nav {
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+
+  .menu-nav nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(88, 88, 88);
+  }
+
+  /*####### Estilos main-people #######*/
+  
+  .main-people {
+     
+    margin-top: 1.13em;
+  }
+
+  .card {
+    
+    width: 80%;
+    margin: 2em 2.13em;
+  }
+
+}
+
+/*====== Media Query para 500px */
+@media screen and (min-width: 700px) {
+  .menu-tel ul li {
+    list-style-type: none;
+    padding: 5px;
+  }
+
+  .menu-tel .menu-li {
+    border-right: 2px solid #ffffff;
+    padding-right: 5px;
+  }
+
+  .menu-tel ul li a {
+    width: 30%;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  /*Estilos del menu logo*/
+
+  .menu-nav img {
+    width: 7.12em;
+  }
+
+  .menu-nav nav {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 40px;
+  }
+
+  .menu-nav nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(88, 88, 88);
+  }
+
+  /*####### Estilos main-people #######*/
+  
+  .main-people {
+    
+    margin-top: 1.13em;
+  }
+
+  .card {
+    
+    width: 40%;
+    margin: 2em 2.13em;
+  }
+}
+
+
+/*====== Media Query para 1000px */
+@media screen and (min-width: 1000px) {
+  
+  /*####### Estilos main-people #######*/
+  
+  .main-people {
+     margin-top: 8.13em;
+  }
+
+  .card {
+    
+    width: 20%;
+    margin: 5px auto;
+  }
+}
