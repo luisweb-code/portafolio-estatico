@@ -90,6 +90,9 @@
     color: #fff;
     text-transform: uppercase;
     margin-top: -1.32em;
+    animation: fadeInUp;
+    animation-duration: 3s; 
+
 }
 
 .main .sub-title {
