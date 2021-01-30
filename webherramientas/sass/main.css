@@ -1,0 +1,48 @@
+.contenedor-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 20px; */ }
+  .contenedor-fixed .menu-1 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000;
+    color: #fff; }
+    .contenedor-fixed .menu-1 h4 {
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 7px 5px; }
+    .contenedor-fixed .menu-1 .nav-1 a {
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 9px;
+      font-size: 12px;
+      text-transform: uppercase; }
+      .contenedor-fixed .menu-1 .nav-1 a:hover {
+        color: #ffa41d; }
+      .contenedor-fixed .menu-1 .nav-1 a i {
+        font-weight: bold; }
+  .contenedor-fixed .menu-2 {
+    border: 1px dashed #ff0000;
+    display: flex;
+    justify-content: center; }
+    .contenedor-fixed .menu-2 .nav-2 .img-logo {
+      width: 100px;
+      height: 100px; }
+    .contenedor-fixed .menu-2 .nav-2 a {
+      text-decoration: none;
+      padding: 2px 50px;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: #000;
+      font-weight: bold; }
+      .contenedor-fixed .menu-2 .nav-2 a:hover {
+        color: #ffa41d; }
+
+.main {
+  position: absolute; }
+
+/*# sourceMappingURL=main.css.map */
