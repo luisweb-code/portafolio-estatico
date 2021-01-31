@@ -1,48 +1,118 @@
-.contenedor-fixed {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  /* position: -webkit-sticky;
+.header-stick {
+  position: -webkit-sticky;
   position: sticky;
-  top: 20px; */ }
-  .contenedor-fixed .menu-1 {
+  top: 0;
+  background-color: #e3e4e5;
+  z-index: 200; }
+  .header-stick .menu-1 {
     display: flex;
     justify-content: flex-end;
     background-color: #000;
     color: #fff; }
-    .contenedor-fixed .menu-1 h4 {
+    .header-stick .menu-1 h4 {
       font-size: 12px;
       font-weight: bold;
       text-transform: uppercase;
       padding: 7px 5px; }
-    .contenedor-fixed .menu-1 .nav-1 a {
+    .header-stick .menu-1 .nav-1 a {
       color: #fff;
       text-decoration: none;
       padding: 12px 9px;
       font-size: 12px;
       text-transform: uppercase; }
-      .contenedor-fixed .menu-1 .nav-1 a:hover {
+      .header-stick .menu-1 .nav-1 a:hover {
         color: #ffa41d; }
-      .contenedor-fixed .menu-1 .nav-1 a i {
+      .header-stick .menu-1 .nav-1 a i {
         font-weight: bold; }
-  .contenedor-fixed .menu-2 {
-    border: 1px dashed #ff0000;
+  .header-stick .menu-2 {
     display: flex;
     justify-content: center; }
-    .contenedor-fixed .menu-2 .nav-2 .img-logo {
+    .header-stick .menu-2 .nav-2 .img-logo {
       width: 100px;
       height: 100px; }
-    .contenedor-fixed .menu-2 .nav-2 a {
+    .header-stick .menu-2 .nav-2 a {
       text-decoration: none;
       padding: 2px 50px;
       font-size: 15px;
       text-transform: uppercase;
       color: #000;
       font-weight: bold; }
-      .contenedor-fixed .menu-2 .nav-2 a:hover {
+      .header-stick .menu-2 .nav-2 a:hover {
         color: #ffa41d; }
 
-.main {
-  position: absolute; }
+.main .contenedor {
+  width: 100%;
+  margin: 1px; }
+.main .combo {
+  width: 104%; }
+.main .anuncio {
+  background-color: #ffd82b;
+  height: 100%; }
+  .main .anuncio p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    padding: 120px 120px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000; }
+    .main .anuncio p:hover {
+      text-shadow: 1px 1px #ff0000; }
+.main .informacion {
+  background-color: #e3e4e5;
+  display: flex; }
+  .main .informacion .titulo {
+    margin: 50px 30px; }
+    .main .informacion .titulo h2 {
+      text-transform: uppercase;
+      color: #000;
+      padding: 15px;
+      font-size: 50px;
+      font-family: "Libre Baskerville", serif;
+      margin: 1px 120px; }
+      .main .informacion .titulo h2:hover {
+        text-shadow: 5px 5px #fff; }
+  .main .informacion .subtitulo {
+    margin: 50px 30px; }
+    .main .informacion .subtitulo h3 {
+      color: #000;
+      text-transform: uppercase;
+      padding: 20px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      margin: 1px 120px; }
+    .main .informacion .subtitulo p {
+      color: #000;
+      padding: 5px 25px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 15px;
+      margin: 1px 120px;
+      text-align: justify; }
+    .main .informacion .subtitulo a {
+      background-color: #ffd82b;
+      color: #fff;
+      padding: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      width: 140px;
+      margin: 40px auto; }
+      .main .informacion .subtitulo a:hover {
+        background-color: #000; }
+.main .trabajo h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  padding: 20px;
+  margin: 30px; }
+.main .trabajo .marcas {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto; }
+  .main .trabajo .marcas img:hover {
+    opacity: 0.3; }
 
 /*# sourceMappingURL=main.css.map */
