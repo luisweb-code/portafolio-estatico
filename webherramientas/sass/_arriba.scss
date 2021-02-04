@@ -1,0 +1,21 @@
+.ir-arriba{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: none;
+    background-color: $colorTextoNegro;
+    font-size: 30px;
+    color: $colorTextoBlanco;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    &:hover{
+        background-color: $colorFondoNaranjaClaro;
+    }
+    i{
+        padding: 20PX;
+        text-align: center;
+        
+    }
+}
