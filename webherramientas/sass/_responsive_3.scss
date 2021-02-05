@@ -1,4 +1,4 @@
-@media (max-width: $breakpoint-phone) {
+@media (min-width: $breakpoint-phone_3) {
   .header-stick {
     position: -webkit-sticky;
     position: sticky;
@@ -8,18 +8,19 @@
 
     .menu-1 {
       display: flex;
-      justify-content: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
       background-color: $colorFondoNegro;
       color: $colorTextoBlanco;
 
-      /* h4 {
+      h4 {
         font-size: 12px;
         font-weight: bold;
         text-transform: uppercase;
         padding: 7px 5px;
-      } */
+      }
 
-      /* .nav-1 {
+      .nav-1 {
         a {
           color: $colorTextoBlanco;
           text-decoration: none;
@@ -35,20 +36,22 @@
             font-weight: bold;
           }
         }
-      } */
+      }
     }
 
     .menu-2 {
       display: flex;
-      justify-content: flex-start;
+      flex-wrap: wrap;
+      justify-content: center;
       .nav-2 {
         .img-logo {
-          display: none;
+          width: 100px;
+          height: 100px;
         }
         a {
           text-decoration: none;
-          padding: 2px 6px;
-          font-size: 11px;
+          padding: 2px 50px;
+          font-size: 15px;
           text-transform: uppercase;
           color: $colorTextoNegro;
           font-weight: bold;
@@ -67,54 +70,78 @@
       margin: 1px;
     }
     .combo {
-      width: 118%;
+      width: 104%;
     }
     .anuncio {
+      background-color: $colorFondoNaranjaClaro;
+      height: 100%;
       p {
-        font-size: 14px;
-        padding: 17px 10px;
+        font-family: "Libre Baskerville", serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: $colorTextoBlanco;
+        padding: 120px 120px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px $colorTextoNegro;
+        &:hover {
+          text-shadow: 1px 1px $colorTextoRojo;
+        }
       }
     }
     .informacion {
       background-color: $colorFondoPlata;
       display: flex;
-      flex-wrap: wrap;
       .titulo {
-        margin: 10px 30px;
+        margin: 50px 30px;
         h2 {
           text-transform: uppercase;
           color: $colorTextoNegro;
-          padding: 10px;
-          font-size: 30px;
+          padding: 15px;
+          font-size: 50px;
           font-family: "Libre Baskerville", serif;
-          margin: 1px 10px;
+          margin: 1px 120px;
           &:hover {
             text-shadow: 5px 5px $colorTextoBlanco;
           }
         }
       }
       .subtitulo {
+        margin: 50px 30px;
         h3 {
-          width: 17.4em;
-          height: 5.4em;
-          margin: 0px;
-          padding: 16px;
+          color: $colorTextoNegro;
+          text-transform: uppercase;
+          padding: 10px;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          margin: 1px auto;
+          width: 60%;
           font-size: 20px;
-          font-weight: bold;
-          text-align: center;
+          
         }
         p {
-          width: 17.4em;
-          height: 13.4em;
-          margin: 0px;
-          padding: 15px;
-          font-size: 20px;
-          text-align: center;
+            color: #000;
+            padding: 10px 20px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 19px;
+            margin: 1px auto;
+            padding: -5px;
+            text-align: justify;
+            width: 27em;
         }
         a {
-          padding: 10px;
+          background-color: $colorFondoNaranjaClaro;
+          color: $colorTextoBlanco;
+          padding: 20px;
+          text-transform: uppercase;
+          text-align: center;
+          text-decoration: none;
+          font-weight: bold;
           display: block;
-          width: 50%;
+          width: 140px;
+          margin: 40px auto;
+          &:hover {
+            background-color: $colorFondoNegro;
+          }
         }
       }
     }
@@ -125,15 +152,14 @@
         font-size: 20px;
         font-weight: bold;
         font-style: normal;
-        padding: 10px;
-        margin: 10px;
+        padding: 20px;
+        margin: 30px;
       }
       .marcas {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
+        margin: 30px auto;
         img {
-          padding: 10px;
           &:hover {
             opacity: 0.3;
           }
@@ -145,18 +171,27 @@
   .footer {
     background-color: $colorFondoAzulOpaco;
     color: $colorTextoBlanco;
-
+  
     .list-information {
       display: flex;
-      flex-wrap: wrap;
       justify-content: space-between;
-
+  
       ul {
         list-style-type: none;
-        margin: 20px;
-        padding: 20px;
-
+        margin: 30px;
+        padding: 50px;
+        width: 22.13em;
+        text-align: justify;
+  
+        h4 {
+          text-transform: uppercase;
+          font-size: 19px;
+          font-weight: bold;
+        }
         li {
+          p {
+            font-size: 14px;
+          }
           a {
             text-decoration: none;
             color: $colorTextoBlanco;
@@ -170,23 +205,23 @@
     }
     .pay {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
       p {
-        margin: 10px;
+        margin: 20px;
         color: $colorTextoBlanco;
         font-weight: bold;
+        &:hover {
+          color: $colorTextoNaranja;
+        }
       }
       ul {
         list-style-type: none;
         display: flex;
-        justify-content: center;
-        padding: 10px;
-
+  
         a {
           color: $colorTextoBlanco;
           text-decoration: none;
-          margin: 15px;
+          margin: 22px;
           font-size: 40px;
         }
       }

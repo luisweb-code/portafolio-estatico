@@ -1,4 +1,4 @@
-@media (max-width: $breakpoint-phone) {
+@media (min-width: $breakpoint-phone_2) {
   .header-stick {
     position: -webkit-sticky;
     position: sticky;
@@ -12,38 +12,40 @@
       background-color: $colorFondoNegro;
       color: $colorTextoBlanco;
 
-      /* h4 {
-        font-size: 12px;
+      h4 {
+        font-size: 8px;
         font-weight: bold;
         text-transform: uppercase;
         padding: 7px 5px;
-      } */
+      }
 
       /* .nav-1 {
-        a {
-          color: $colorTextoBlanco;
-          text-decoration: none;
-          padding: 12px 9px;
-          font-size: 12px;
-          text-transform: uppercase;
-
-          &:hover {
-            color: $colorTextoNaranja;
+          a {
+            color: $colorTextoBlanco;
+            text-decoration: none;
+            padding: 12px 9px;
+            font-size: 12px;
+            text-transform: uppercase;
+  
+            &:hover {
+              color: $colorTextoNaranja;
+            }
+  
+            i {
+              font-weight: bold;
+            }
           }
-
-          i {
-            font-weight: bold;
-          }
-        }
-      } */
+        } */
     }
 
     .menu-2 {
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
+
       .nav-2 {
         .img-logo {
-          display: none;
+          width: 50px;
+          height: 50px;
         }
         a {
           text-decoration: none;
@@ -71,16 +73,19 @@
     }
     .anuncio {
       p {
-        font-size: 14px;
-        padding: 17px 10px;
+        font-size: 25px;
+        padding: 33px 10px;
       }
     }
     .informacion {
       background-color: $colorFondoPlata;
       display: flex;
       flex-wrap: wrap;
+
       .titulo {
-        margin: 10px 30px;
+        margin: 15px auto;
+        text-align: center;
+
         h2 {
           text-transform: uppercase;
           color: $colorTextoNegro;
@@ -94,6 +99,8 @@
         }
       }
       .subtitulo {
+        
+        margin: 1px auto;
         h3 {
           width: 17.4em;
           height: 5.4em;
@@ -153,10 +160,12 @@
 
       ul {
         list-style-type: none;
-        margin: 20px;
+        margin: 20px auto;
         padding: 20px;
+        
 
         li {
+            
           a {
             text-decoration: none;
             color: $colorTextoBlanco;
@@ -173,9 +182,10 @@
       flex-wrap: wrap;
       justify-content: center;
       p {
-        margin: 10px;
+        padding: 10px;
         color: $colorTextoBlanco;
         font-weight: bold;
+        
       }
       ul {
         list-style-type: none;
