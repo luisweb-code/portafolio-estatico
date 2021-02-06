@@ -1,0 +1,160 @@
+/*Creamos la variable*/
+* {
+  box-sizing: border-box; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+[class*="col-"] {
+  float: left;
+  padding: 15px; }
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%; }
+
+header {
+  background-image: url("../img/banner11.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50em;
+  /* height: 50em; */ }
+  header .h-fitness {
+    position: relative;
+    top: 14em;
+    background-color: #ade7ff;
+    background-color: rgba(45, 190, 252, 0.2);
+    border-bottom: 8px solid #1dbbfe; }
+    header .h-fitness h2 {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 60px;
+      padding: 16px;
+      margin-bottom: -50px; }
+    header .h-fitness h4 {
+      text-transform: uppercase;
+      font-size: 25px;
+      color: #ffffff;
+      padding: 16px;
+      margin-bottom: -25px; }
+    header .h-fitness p {
+      font-size: 15px;
+      color: #ffffff;
+      padding: 16px;
+      margin-bottom: -15px; }
+    header .h-fitness a {
+      padding: 15px 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: transparent;
+      color: #ffffff;
+      margin: 20px auto;
+      border: 2px solid #ffffff;
+      display: block;
+      width: 150px;
+      text-align: center; }
+      header .h-fitness a:hover {
+        background-color: #ffffff;
+        color: #000000; }
+
+.r-sociales {
+  background-color: #1dbbfe; }
+
+.v-phone-sociales {
+  background-color: #1dbbfe;
+  padding: 10px; }
+  .v-phone-sociales nav {
+    display: flex;
+    justify-content: space-between; }
+    .v-phone-sociales nav a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: bold; }
+      .v-phone-sociales nav a:hover {
+        color: #BEBEBE; }
+
+.r-menu {
+  background-color: #ade7ff; }
+
+@media only screen and (max-width: 600px) and (min-width: 768px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; } }
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%; }
+
+  .col-2 {
+    width: 16.66%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33%; }
+
+  .col-5 {
+    width: 41.66%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33%; }
+
+  .col-8 {
+    width: 66.66%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33%; }
+
+  .col-11 {
+    width: 91.66%; }
+
+  .col-12 {
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */
