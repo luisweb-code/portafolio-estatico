@@ -9,3 +9,9 @@
 <i class="fab fa-tumblr"></i>
 <i class="fab fa-instagram"></i>
 <i class="fas fa-rss"></i>
+
+---- Iconos para clasess ------
+<i class="fas fa-calendar-times"></i>
+<i class="fas fa-envelope-square"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-share"></i>

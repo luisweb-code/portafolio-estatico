@@ -16,6 +16,9 @@
         color: $fondoPlata;
       }
     }
+    /* .ocultar-sociales {
+      display: none;
+    } */
   }
 }
 
@@ -96,6 +99,195 @@
     }
     .owl-dots {
       display: none;
+    }
+  }
+}
+
+.titulo-class {
+  text-align: center;
+  font-size: 2em;
+  color: $azul-standar-3;
+  text-transform: uppercase;
+}
+.r-class {
+  background-color: $fondoPlataLigero;
+  .v-class {
+    .r-class-2 {
+      .lista-1 {
+        background-color: $azul-standar-3;
+        .nav-lista-1 {
+          display: flex;
+          ul {
+            list-style: none;
+            text-decoration: none;
+            padding-left: 20px;
+            li {
+              color: $textoBlanco;
+              font-size: 16px;
+              margin-bottom: 43px;
+              text-transform: uppercase;
+              a {
+                list-style: none;
+                color: $textoBlanco;
+                font-size: 20px;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+                &:hover {
+                  color: $fondoPlata;
+                }
+              }
+            }
+          }
+        }
+      }
+      .lista-2 {
+        background-color: $azul-standar-3;
+        .nav-lista-2 {
+          display: flex;
+          ul {
+            list-style: none;
+            text-decoration: none;
+            padding-left: 26px;
+            li {
+              color: $textoBlanco;
+              font-size: 16px;
+              margin-bottom: 43px;
+              text-transform: uppercase;
+              a {
+                list-style: none;
+                color: $textoBlanco;
+                font-size: 20px;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+                &:hover {
+                  color: $fondoPlata;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .titulo-prices {
+    text-align: center;
+    font-size: 2em;
+    color: $azul-standar-3;
+    text-transform: uppercase;
+  }
+  .v-prices {
+    background-color: $azul-standar-3;
+    padding: 10px 10px;
+
+    h4 {
+      color: $textoBlanco;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+      margin: 40px 5px;
+      font-size: 28px;
+    }
+
+    p {
+      color: $textoBlanco;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+      margin: 40px 5px;
+      font-size: 22px;
+    }
+
+    a {
+      color: $textoBlanco;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+      list-style: none;
+      border: 1px solid $textoBlanco;
+      padding: 12px 10px;
+      background: transparent;
+      width: 140px;
+      margin: 2px auto;
+      display: block;
+      &:hover {
+        background-color: $fondoBlanco;
+        color: $azul-standar-3;
+      }
+    }
+  }
+}
+
+.r-partner {
+  background-color: $fondoPlataLigero;
+  .v-galery {
+    .titulo {
+      text-align: center;
+      font-size: 2em;
+      color: $azul-standar-3;
+      padding: 5px 10px;
+      text-transform: uppercase;
+    }
+  }
+  .v-partner {
+    .titulo {
+      text-align: center;
+      font-size: 2em;
+      color: $azul-standar-3;
+      padding: 5px 10px;
+      text-transform: uppercase;
+    }
+    .marca-1 {
+      ul {
+        list-style: none;
+        text-decoration: none;
+        margin: 2px auto;
+        width: 10em;
+        padding-left: 0px;
+        li {
+          margin: 70px auto;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+    .marca-2 {
+      ul {
+        list-style: none;
+        text-decoration: none;
+        margin: 2px auto;
+        width: 10em;
+        padding-left: 0px;
+        li {
+          margin: 70px auto;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+}
+
+.r-twitter {
+  background-color: $fondoPlataLigero-2;
+  .v-twitter {
+    p {
+      color: $azul-standar-3;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+      a {
+        display: block;
+        font-size: 3em;
+        color: $azul-standar-2;
+        width: 4em;
+
+        margin: 10px auto;
+        &:hover {
+          color: $azul-standar-3;
+        }
+      }
     }
   }
 }
