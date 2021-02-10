@@ -1,0 +1,72 @@
+header {
+  background-image: url("../img/banner1.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 33em;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $fondoOpaco;
+  }
+  .r-header {
+    .h-menu {
+      nav {
+        padding: 10px 2px;
+        a {
+          text-decoration: none;
+          color: $textoBlanco;
+          padding: 8px 15px;
+          font-size: 20px;
+          font-family: "Noto Sans", sans-serif;
+          &:hover {
+            color: $fondoAmarillo;
+          }
+        }
+      }
+    }
+  }
+  .r-life {
+    position: relative;
+    top: 3em;
+
+    .h-life {
+      padding: 5em;
+      .h-a-life {
+        text-decoration: none;
+        color: $textoBlanco;
+        background-color: $fondoNegro;
+        padding: 16px 50px;
+        border-radius: 25px;
+        font-weight: bold;
+        &:hover {
+          color: $fondoAmarillo;
+        }
+      }
+      .h-h2-titulo {
+        font-size: 3em;
+        color: $textoBlanco;
+        padding: 20px 5px;
+        font-family: "Noto Sans JP", sans-serif;
+      }
+      .h-a-join {
+        text-decoration: none;
+        color: $textoNegro;
+        background-color: $fondoAmarillo;
+        padding: 13px 70px;
+        border-radius: 25px;
+        font-weight: bold;
+        &:hover {
+          background-color: $textoBlanco;
+        }
+      }
+    }
+  }
+}
