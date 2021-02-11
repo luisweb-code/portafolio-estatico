@@ -138,6 +138,45 @@ header {
       text-align: center;
       padding: 10px;
       font-weight: bold; }
+  .main .r-articules .m-title {
+    border: 1px solid #ff0000;
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-top: 1em;
+    padding: 1em; }
+  .main .r-articules .m-articules {
+    border: 1px solid purple;
+    padding: 2em 1em; }
+    .main .r-articules .m-articules img {
+      display: block;
+      width: 20em;
+      border-radius: 6em;
+      margin: 1px auto;
+      padding: 8px; }
+    .main .r-articules .m-articules h4 {
+      color: #000000;
+      font-size: 28px;
+      text-align: start;
+      margin: 40px 0px;
+      font-weight: bold; }
+    .main .r-articules .m-articules p {
+      color: #000000;
+      font-size: 15px;
+      text-align: justify;
+      margin-bottom: 4em; }
+    .main .r-articules .m-articules a {
+      text-decoration: none;
+      padding: 10px 40px;
+      border-radius: 4em;
+      background-color: #f5f112;
+      color: #000000;
+      font-weight: bold;
+      text-transform: uppercase; }
+      .main .r-articules .m-articules a:hover {
+        background-color: #000000;
+        color: #ffffff; }
 
 @media only screen and (max-width: 960px) {
   .main .r-picture .m-picture {

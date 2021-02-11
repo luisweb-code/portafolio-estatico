@@ -103,4 +103,53 @@
       }
     }
   }
+  .r-articules {
+    .m-title {
+      border: 1px solid $bordeRojo;
+      font-size: 2em;
+      text-align: center;
+      color: $textoNegro;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      margin-top: 1em;
+      padding: 1em;
+    }
+    .m-articules {
+      border: 1px solid purple;
+      padding: 2em 1em;
+      img {
+        display: block;
+        width: 20em;
+        border-radius: 6em;
+        margin: 1px auto;
+        padding: 8px;
+      }
+      h4 {
+        color: $textoNegro;
+        font-size: 28px;
+        text-align: start;
+        margin: 40px 0px;
+        font-weight: bold;
+      }
+      p {
+        color: $textoNegro;
+        font-size: 15px;
+        text-align: justify;
+        margin-bottom: 4em;
+      }
+      a {
+        text-decoration: none;
+        padding: 10px 40px;
+        border-radius: 4em;
+        background-color: $TextoAmarillo-2;
+        color: $textoNegro;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: $textoNegro;
+          color: $textoBlanco;
+        }
+      }
+    }
+  }
 }
