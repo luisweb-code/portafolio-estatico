@@ -5,8 +5,8 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
-  height: 33em; }
+  background-position: center;
+  position: relative; }
   header:before {
     content: "";
     position: absolute;
@@ -29,7 +29,7 @@ header {
     position: relative;
     top: 3em; }
     header .r-life .h-life {
-      padding: 5em; }
+      padding: 6em 10em; }
       header .r-life .h-life .h-a-life {
         text-decoration: none;
         color: #ffffff;
@@ -53,5 +53,100 @@ header {
         font-weight: bold; }
         header .r-life .h-life .h-a-join:hover {
           background-color: #ffffff; }
+
+.main {
+  border: 1px solid purple; }
+  .main .r-picture .m-picture {
+    display: flex;
+    justify-content: end; }
+    .main .r-picture .m-picture img {
+      width: 47%;
+      height: auto; }
+  .main .r-picture .m-wellcome {
+    background-color: #e3e4e5;
+    padding: 40px;
+    width: 22em;
+    position: relative;
+    bottom: 3em;
+    right: 2em; }
+    .main .r-picture .m-wellcome h4 {
+      color: #000000;
+      font-size: 2em;
+      font-family: "Noto Sans", sans-serif;
+      padding: 10px 8px;
+      margin-bottom: 30px;
+      font-weight: bold; }
+    .main .r-picture .m-wellcome p {
+      color: #000000;
+      font-size: 1em;
+      font-family: "Noto Sans", sans-serif;
+      padding: 10px 8px;
+      text-align: justify;
+      margin-bottom: 60px; }
+    .main .r-picture .m-wellcome a {
+      text-decoration: none;
+      color: #000000;
+      background-color: #b0b302;
+      padding: 15px 40px;
+      border-radius: 25px;
+      font-weight: bold;
+      margin-bottom: 30px; }
+      .main .r-picture .m-wellcome a:hover {
+        background-color: #ffffff; }
+  .main .r-information {
+    background-image: url("../img/banner2.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative; }
+    .main .r-information:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(248, 142, 2, 0.424); }
+    .main .r-information .m-title {
+      text-align: center; }
+      .main .r-information .m-title h2 {
+        font-size: 3em;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: fantasy;
+        padding: 10px; }
+    .main .r-information .m-subtitle a {
+      display: block;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 4em;
+      margin: 2px auto;
+      width: 1em; }
+      .main .r-information .m-subtitle a:hover {
+        color: rgba(248, 141, 2, 0.904); }
+    .main .r-information .m-subtitle h4 {
+      color: rgba(245, 241, 18, 0.966);
+      font-size: 2em;
+      text-align: center;
+      font-weight: bold;
+      padding: 20px; }
+    .main .r-information .m-subtitle p {
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold; }
+
+@media only screen and (max-width: 960px) {
+  .main .r-picture .m-picture {
+    display: none; }
+  .main .r-picture .m-wellcome {
+    background-color: #e3e4e5;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

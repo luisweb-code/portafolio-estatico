@@ -5,8 +5,9 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
   position: relative;
-  height: 33em;
+
   &:before {
     content: "";
     position: absolute;
@@ -38,7 +39,7 @@ header {
     top: 3em;
 
     .h-life {
-      padding: 5em;
+      padding: 6em 10em;
       .h-a-life {
         text-decoration: none;
         color: $textoBlanco;

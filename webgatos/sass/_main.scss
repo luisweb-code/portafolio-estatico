@@ -1,0 +1,106 @@
+.main {
+  border: 1px solid purple;
+  .r-picture {
+    .m-picture {
+      display: flex;
+      justify-content: end;
+      img {
+        width: 47%;
+        height: auto;
+      }
+    }
+    .m-wellcome {
+      background-color: $fondoPlata;
+      padding: 40px;
+      width: 22em;
+      position: relative;
+      bottom: 3em;
+      right: 2em;
+
+      h4 {
+        color: $textoNegro;
+        font-size: 2em;
+        font-family: "Noto Sans", sans-serif;
+        padding: 10px 8px;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+      p {
+        color: $textoNegro;
+        font-size: 1em;
+        font-family: "Noto Sans", sans-serif;
+        padding: 10px 8px;
+        text-align: justify;
+        margin-bottom: 60px;
+      }
+      a {
+        text-decoration: none;
+        color: $textoNegro;
+        background-color: $fondoAmarillo;
+        padding: 15px 40px;
+        border-radius: 25px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        &:hover {
+          background-color: $textoBlanco;
+        }
+      }
+    }
+  }
+  .r-information {
+    background-image: url("../img/banner2.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $fondoNaranja;
+    }
+    .m-title {
+      text-align: center;
+      h2 {
+        font-size: 3em;
+        color: $textoBlanco;
+        font-weight: bold;
+        font-family: fantasy;
+        padding: 10px;
+      }
+    }
+    .m-subtitle {
+      a {
+        display: block;
+        text-decoration: none;
+        color: $textoBlanco;
+        font-size: 4em;
+        margin: 2px auto;
+        width: 1em;
+        &:hover {
+          color: $fondoNaranja-2;
+        }
+      }
+      h4 {
+        color: $TextoAmarillo;
+        font-size: 2em;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+      }
+      p {
+        color: $textoBlanco;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}

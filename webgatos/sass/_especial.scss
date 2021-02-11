@@ -1,0 +1,16 @@
+@media only screen and (max-width: 960px) {
+  .main {
+    .r-picture {
+      .m-picture {
+        display: none;
+      }
+      .m-wellcome {
+        background-color: $fondoPlata;
+        width: 100%;       
+        position: relative;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
