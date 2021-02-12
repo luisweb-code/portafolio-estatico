@@ -1,5 +1,4 @@
 .main {
-  border: 1px solid purple;
   .r-picture {
     .m-picture {
       display: flex;
@@ -105,7 +104,6 @@
   }
   .r-articules {
     .m-title {
-      border: 1px solid $bordeRojo;
       font-size: 2em;
       text-align: center;
       color: $textoNegro;
@@ -114,7 +112,6 @@
       padding: 1em;
     }
     .m-articules {
-      border: 1px solid purple;
       padding: 2em 1em;
       img {
         display: block;
@@ -148,6 +145,69 @@
         &:hover {
           background-color: $textoNegro;
           color: $textoBlanco;
+        }
+      }
+    }
+  }
+  .r-live {
+    .m-image {
+      width: 100%;
+      height: auto;
+      img {
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+      }
+    }
+    .m-cats {
+      background-color: $fondoPlata;
+      padding: 2em 5em;
+      position: relative;
+      top: 4em;
+      right: 6em;
+      h3 {
+        text-align: start;
+        color: $textoNegro;
+        font-size: 3em;
+        margin-bottom: 1em;
+
+        font-weight: bold;
+      }
+      p {
+        text-align: start;
+        color: $textoNegro;
+        font-size: 1em;
+      }
+    }
+  }
+  .r-carousel {
+    .m-caro {
+      .titulo {
+        h3 {
+          text-align: center;
+          font-size: 3em;
+          font-weight: bold;
+          padding: 20px;
+          color: $textoNegro;
+        }
+      }
+      .reference {
+        img {
+          border-radius: 20em;
+          height: 13em;
+          margin: 30px auto;
+          display: block;
+        }
+        p {
+          text-align: center;
+          font-size: 25px;
+          color: $textoNegro;
+          font-family: cursive;
+        }
+        blockquote {
+          text-align: end;
+          font-size: 30px;
+          font-weight: bold;
         }
       }
     }
