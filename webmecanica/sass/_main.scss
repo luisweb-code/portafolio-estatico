@@ -1,0 +1,129 @@
+.main {
+  .sinPadding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .m-card {
+    background-color: $fondoNaranja;
+    margin: 1em auto;
+    &:hover {
+      animation: shakeX;
+      animation-duration: 3s;
+    }
+    .card-header {
+      margin-bottom: 1em;
+      i {
+        font-size: 3em;
+      }
+    }
+  }
+  .m-services {
+    background-color: $fondoGris;
+    padding: 4em;
+    .titulo {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 15px;
+      color: $textoGris;
+      margin-bottom: 20px;
+    }
+    .titulo-info {
+      text-transform: uppercase;
+      font-size: 33px;
+      color: $textoNegro;
+      margin-bottom: 20px;
+    }
+    .titulo-description {
+      color: $textoGris;
+      font-size: 12px;
+      margin-bottom: 66px;
+    }
+    .titulo-button {
+      text-transform: uppercase;
+      color: #ffffff;
+      background-color: rgba(243, 72, 4, 0.924);
+      padding: 8px 15px;
+      font-weight: bold;
+      text-decoration: none;
+      &:hover {
+        background-color: $fondoBlanco;
+        color: $textoNaranja;
+      }
+    }
+  }
+  .m-list-1,
+  .m-list-2 {
+    background-color: $fondoGris;
+    padding: 4em;
+    color: $textoNegro;
+    ul {
+      padding-left: 0;
+      li {
+        list-style: none;
+        margin-bottom: 7px;
+        font-size: 16px;
+        &:hover {
+          color: $textoBlanco;
+        }
+        span {
+          i {
+            color: $textoNaranja;
+          }
+        }
+      }
+    }
+  }
+  .m-works {
+    background-color: $fondoBlanco;
+    h3 {
+      font-size: 15px;
+      color: $textoGris;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    p {
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+  }
+  .m-work-info {
+    background-color: $fondoBlanco;
+    .m-subtitulo {
+      font-size: 20px;
+    }
+    img {
+      display: block;
+      width: 50%;
+      height: auto;
+      margin: 20px auto;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .m-descuento {
+    border: 1px solid red;
+    background-color: $fondoNaranja;
+    padding: 4em;
+    h3 {
+      text-transform: uppercase;
+      font-size: 40px;
+      color: $textoBlanco;
+    }
+    p {
+      font-size: 20px;
+      color: $textoBlanco;
+
+      a {
+        color: $textoBlanco;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 2em;
+        text-decoration: none;
+        &:hover {
+          color: $textoNegro;
+        }
+      }
+    }
+  }
+}
