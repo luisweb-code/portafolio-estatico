@@ -1,5 +1,8 @@
 /*Textos*/
 /*Fondos*/
+.bg-gray {
+  background-color: #dddddd; }
+
 header .h-logo {
   background-color: #0a0d0fba;
   padding: 10px; }
@@ -79,14 +82,18 @@ header .h-info {
   margin: 1em auto; }
   .main .m-card:hover {
     animation: shakeX;
-    animation-duration: 3s; }
+    animation-duration: 2s; }
+  .main .m-card h5 {
+    font-size: 14px; }
+  .main .m-card p {
+    font-size: 15px; }
   .main .m-card .card-header {
     margin-bottom: 1em; }
     .main .m-card .card-header i {
       font-size: 3em; }
 .main .m-services {
   background-color: #dddddd;
-  padding: 4em; }
+  padding: 3em; }
   .main .m-services .titulo {
     text-transform: uppercase;
     font-weight: bold;
@@ -101,7 +108,7 @@ header .h-info {
   .main .m-services .titulo-description {
     color: #808080;
     font-size: 12px;
-    margin-bottom: 66px; }
+    margin-bottom: 30px; }
   .main .m-services .titulo-button {
     text-transform: uppercase;
     color: #ffffff;
@@ -207,12 +214,12 @@ header .h-info {
     padding: 15px; }
     .main .year div .titulo {
       color: #FFFFFF;
-      font-size: 2em;
+      font-size: 17px;
       text-transform: uppercase;
       width: 100%; }
     .main .year div .subtitulo {
       color: #FFFFFF;
-      font-size: 2em;
+      font-size: 25px;
       text-transform: uppercase;
       font-weight: bold; }
 
@@ -269,7 +276,16 @@ header .h-info {
       text-decoration: none; }
       header .h-info a:hover {
         background-color: #FFFFFF;
-        color: rgba(243, 72, 4, 0.924); } }
+        color: rgba(243, 72, 4, 0.924); }
+
+  .main .m-card {
+    background-color: rgba(243, 72, 4, 0.924);
+    margin: 1em auto;
+    font-size: 15px; }
+    .main .m-card .card-header {
+      margin-bottom: 1em; }
+      .main .m-card .card-header i {
+        font-size: 3em; } }
 @media only screen and (min-width: 700px) and (max-width: 1199px) {
   header .h-info {
     padding: 22px;

@@ -67,6 +67,21 @@
       }
     }
   }
+  .main {    
+    .m-card {
+      background-color: $fondoNaranja;
+      margin: 1em auto;
+      font-size: 15px;     
+      .card-header {
+        margin-bottom: 1em;
+        i {
+          font-size: 3em;
+        }
+      }
+    }
+   
+    
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 1199px) {
   header {
