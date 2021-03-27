@@ -71,6 +71,9 @@ header .h-info {
 .main .sinPadding {
   padding-left: 0;
   padding-right: 0; }
+.main .sinMarginLeftRight {
+  margin-left: 0;
+  margin-right: 0; }
 .main .m-card {
   background-color: rgba(243, 72, 4, 0.924);
   margin: 1em auto; }
@@ -168,6 +171,50 @@ header .h-info {
       text-decoration: none; }
       .main .m-descuento p a:hover {
         color: #1b242b; }
+.main .some {
+  background-color: #1b242b;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 3em;
+  padding-bottom: 1em; }
+  .main .some p {
+    color: #808080;
+    font-size: 1em;
+    font-weight: bold; }
+  .main .some h2 {
+    font-weight: bold;
+    font-size: 3em; }
+  .main .some h3 {
+    font-size: 2em; }
+.main .year {
+  background-color: #1b242b;
+  color: #FFFFFF;
+  display: flex;
+  padding-bottom: 3em; }
+  .main .year .bloque1 {
+    padding-left: 1em; }
+  .main .year .numero {
+    font-size: 3em;
+    color: rgba(243, 72, 4, 0.924);
+    font-weight: bold;
+    margin-top: 20px; }
+  .main .year .bloque2 {
+    border-right: 1px solid #FFFFFF;
+    margin-left: 10px;
+    margin-right: 3px; }
+  .main .year div {
+    padding: 15px; }
+    .main .year div .titulo {
+      color: #FFFFFF;
+      font-size: 2em;
+      text-transform: uppercase;
+      width: 100%; }
+    .main .year div .subtitulo {
+      color: #FFFFFF;
+      font-size: 2em;
+      text-transform: uppercase;
+      font-weight: bold; }
 
 @media only screen and (min-width: 300px) and (max-width: 499px) {
   header .h-info {
