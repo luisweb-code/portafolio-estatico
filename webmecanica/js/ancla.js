@@ -1,6 +1,6 @@
-$('div a').click(function (e) {
+$('idServices').click(function (e) {
   e.preventDefault(); //evitar el eventos del enlace normal
-  var strAncla = $(this).attr("href"); //id del ancla
+  var strAncla = $(this).attr("idServices"); //id del ancla
   $("body,html")
     .stop(true, true)
     .animate(

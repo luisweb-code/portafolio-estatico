@@ -79,29 +79,39 @@
         }
       }
     }
+    .imagenes {
+      img {
+        display: block;
+        margin: 0px auto;
+        width: 12em;
+        &:hover {
+          filter: brightness(40%);
+        }
+      }
+    }
    
     
   }
 }
-@media only screen and (min-width: 700px) and (max-width: 1199px) {
+@media only screen and (min-width: 700px) and (max-width: 1280px) {
   header {
     .h-info {
       padding: 22px;
       position: absolute;
-      bottom: 5em;
-      left: 8em;
+      bottom: 10em;
+      left: 17em;
       p {
         text-transform: uppercase;
         color: $textoBlanco;
         margin-bottom: 10px;
-        font-size: 20px;
+        font-size: 30px;
       }
       h2 {
         text-transform: uppercase;
         color: $textoBlanco;
         font-weight: bold;
-        margin-bottom: 10px;
-        font-size: 50px;
+        margin-bottom: 40px;
+        font-size: 5em;
       }
       a {
         text-transform: uppercase;
@@ -117,14 +127,39 @@
       }
     }
   }
+  .main {    
+    .m-card {
+      background-color: $fondoNaranja;
+      margin: 1em auto;
+      font-size: 15px;     
+      .card-header {
+        margin-bottom: 1em;
+        i {
+          font-size: 3em;
+        }
+      }
+    }
+    .imagenes {
+      img {
+        display: block;
+        margin: 0px auto;
+        width: 12em;
+        &:hover {
+          filter: brightness(40%);
+        }
+      }
+    }
+   
+    
+  }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+@media only screen and (min-width: 1300px) and (max-width: 1930px) {
   header {
     .h-info {
       padding: 22px;
       position: absolute;
-      bottom: 4em;
-      left: 9em;
+      bottom: 13em;
+      left: 25em;
       p {
         text-transform: uppercase;
         color: $textoBlanco;
@@ -151,5 +186,30 @@
         }
       }
     }
+  }
+  .main {    
+    .m-card {
+      background-color: $fondoNaranja;
+      margin: 1em auto;
+      font-size: 15px;     
+      .card-header {
+        margin-bottom: 1em;
+        i {
+          font-size: 3em;
+        }
+      }
+    }
+    .imagenes {
+      img {
+        display: block;
+        margin: 0px auto;
+        width: 30em;
+        &:hover {
+          filter: brightness(40%);
+        }
+      }
+    }
+   
+    
   }
 }
