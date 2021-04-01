@@ -1,0 +1,24 @@
+header {
+  .logoTools {
+    width: 3em;
+    height: auto;
+  }
+  .text-a {
+    &:hover {
+      color: $textNaranja !important;
+    }
+  }
+  .c-imagenes {
+    width: 100%;
+    height: auto;
+    filter: brightness(60%);
+  }
+  .h-titulo {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .h-subtitulo {
+    font-size: 1em;
+    font-weight: inherit;
+  }
+}

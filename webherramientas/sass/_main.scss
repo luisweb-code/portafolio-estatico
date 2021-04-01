@@ -1,0 +1,19 @@
+.main {
+  .m-titulo {
+    font-size: 2em;
+    color: $textNaranja;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    &:hover {
+      color: $textBlanco;
+    }
+  }
+  .m-imagenes {
+      opacity:0.5;
+    &:hover {
+      opacity:1;
+    }
+  }
+}
