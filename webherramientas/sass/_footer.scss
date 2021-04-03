@@ -1,0 +1,81 @@
+footer {
+  background-color: $fondoOscuro;
+  .f-contact {
+    padding: 20px;
+    h4 {
+      font-weight: bolder;
+      color: $textoAmarillo;
+      margin-bottom: 40px;
+      padding: 10px;
+    }
+    p {
+      color: $textBlanco;
+      font-weight: lighter;
+      margin-bottom: 20px;
+      font-size: 20px;
+      margin-left: 20px;
+      span {
+        margin-right: 16px;
+      }
+      a {
+        text-decoration: none;
+        color: $textBlanco;
+        &:hover {
+          color: $textoAmarillo;
+        }
+      }
+      &:hover {
+        color: $textoAmarillo;
+      }
+    }
+  }
+  .f-about {
+    padding: 20px;
+    display: flex;
+    div {
+      margin: 0 auto;
+    }
+    h4 {
+      color: $textoAmarillo;
+      font-weight: bolder;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+    ul {
+      padding: 10px;
+      li {
+        list-style: none;
+        margin-bottom: 10px;
+        a {
+          color: $textBlanco;
+          text-decoration: none;
+          &:hover {
+            color: $textoAmarillo;
+          }
+        }
+      }
+    }
+  }
+  .f-subscribe {
+    padding: 20px;
+    h4 {
+      font-weight: bolder;
+      color: $textoAmarillo;
+      margin-bottom: 40px;
+      padding: 10px;
+    }
+    p {
+      color: $textBlanco;
+      font-weight: lighter;
+      margin-bottom: 20px;
+      font-size: 20px;
+      margin-left: 20px;
+    }
+    form{
+        margin: 20px;
+    }
+  }
+  .f-derechos{
+      border-top: 1px solid $textBlanco;
+  }
+}

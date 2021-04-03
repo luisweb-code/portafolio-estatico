@@ -104,6 +104,68 @@ header .h-subtitulo {
   font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
+footer {
+  background-color: #222d35; }
+  footer .f-contact {
+    padding: 20px; }
+    footer .f-contact h4 {
+      font-weight: bolder;
+      color: #f8c704;
+      margin-bottom: 40px;
+      padding: 10px; }
+    footer .f-contact p {
+      color: #fff;
+      font-weight: lighter;
+      margin-bottom: 20px;
+      font-size: 20px;
+      margin-left: 20px; }
+      footer .f-contact p span {
+        margin-right: 16px; }
+      footer .f-contact p a {
+        text-decoration: none;
+        color: #fff; }
+        footer .f-contact p a:hover {
+          color: #f8c704; }
+      footer .f-contact p:hover {
+        color: #f8c704; }
+  footer .f-about {
+    padding: 20px;
+    display: flex; }
+    footer .f-about div {
+      margin: 0 auto; }
+    footer .f-about h4 {
+      color: #f8c704;
+      font-weight: bolder;
+      margin-bottom: 20px;
+      padding: 10px; }
+    footer .f-about ul {
+      padding: 10px; }
+      footer .f-about ul li {
+        list-style: none;
+        margin-bottom: 10px; }
+        footer .f-about ul li a {
+          color: #fff;
+          text-decoration: none; }
+          footer .f-about ul li a:hover {
+            color: #f8c704; }
+  footer .f-subscribe {
+    padding: 20px; }
+    footer .f-subscribe h4 {
+      font-weight: bolder;
+      color: #f8c704;
+      margin-bottom: 40px;
+      padding: 10px; }
+    footer .f-subscribe p {
+      color: #fff;
+      font-weight: lighter;
+      margin-bottom: 20px;
+      font-size: 20px;
+      margin-left: 20px; }
+    footer .f-subscribe form {
+      margin: 20px; }
+  footer .f-derechos {
+    border-top: 1px solid #fff; }
+
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   .main .c-card {
     background-color: #f5c714;
