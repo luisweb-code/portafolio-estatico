@@ -1,0 +1,19 @@
+-- Redes Sociales --
+<i class="fab fa-facebook"></i>
+<i class="fab fa-twitter-square"></i>
+<i class="fab fa-instagram-square"></i>
+<i class="fab fa-linkedin"></i>
+
+-- Contact --
+<i class="fas fa-phone-volume"></i>
+<i class="fas fa-map-marker-alt"></i>
+<i class="fas fa-envelope"></i>
+<i class="fas fa-mobile-alt"></i>
+
+-- Team --
+<i class="fas fa-users-medical"></i>
+<i class="fas fa-heartbeat"></i>
+<i class="fas fa-head-side-virus"></i>
+<i class="far fa-calendar-alt"></i>
+
+
