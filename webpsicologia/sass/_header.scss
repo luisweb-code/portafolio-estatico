@@ -1,0 +1,34 @@
+header {
+  .logo {
+    width: auto;
+    height: 3em;
+  }
+  .font-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    margin-bottom: 0;
+    padding: 1em;
+  }
+  .telefono {
+    font-weight: bold;
+    text-decoration: none;
+    color: $textGrisTransparente;
+    &:hover {
+      color: $textMoradoFuerte;
+    }
+  }
+  .redes-sociales {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    .link {
+      font-size: 1em;
+      color: $textVerdeClaro;
+      &:hover {
+        color: $textAzulMedioAgua;
+      }
+    }
+  }
+}

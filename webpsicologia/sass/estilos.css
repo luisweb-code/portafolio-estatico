@@ -1,0 +1,38 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=ZCOOL+KuaiLe&display=swap");
+/*Color Text*/
+/*Bg-Color*/
+/*Estilos generales*/
+.sinMargin {
+  margin: 0 !important; }
+
+header .logo {
+  width: auto;
+  height: 3em; }
+header .font-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  margin-bottom: 0;
+  padding: 1em; }
+header .telefono {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(66, 71, 76, 0.6); }
+  header .telefono:hover {
+    color: #2a1f36; }
+header .redes-sociales {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em; }
+  header .redes-sociales .link {
+    font-size: 1em;
+    color: #63d2af; }
+    header .redes-sociales .link:hover {
+      color: #24466f; }
+
+/*# sourceMappingURL=estilos.css.map */
