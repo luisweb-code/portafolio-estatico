@@ -9,6 +9,9 @@
 .sinMargin {
   margin: 0 !important; }
 
+.sinPadding {
+  padding: 0 !important; }
+
 header .logo {
   width: auto;
   height: 3em; }
