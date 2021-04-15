@@ -1,5 +1,5 @@
 /*Fuentes*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=ZCOOL+KuaiLe&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=ZCOOL+KuaiLe&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=ZCOOL+KuaiLe&display=swap");
@@ -37,5 +37,67 @@ header .redes-sociales {
     color: #63d2af; }
     header .redes-sociales .link:hover {
       color: #24466f; }
+
+.main .mAdults {
+  background-color: #2a1f36;
+  color: #ffffff;
+  padding: 53px 38px 38px 077px;
+  border-top: 7px solid #63d2af; }
+  .main .mAdults .mTitulo {
+    font-family: "Libre Baskerville", serif;
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 16px; }
+  .main .mAdults .mInfo {
+    font-family: "Lato", serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    color: #a9a0b4; }
+.main .mChildren {
+  background-color: #30243e;
+  color: #ffffff;
+  padding: 53px 38px 38px 077px;
+  border-top: 7px solid #66A9D8; }
+  .main .mChildren .mTitulo {
+    font-family: "Libre Baskerville", serif;
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 16px; }
+  .main .mChildren .mInfo {
+    font-family: "Lato", serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    color: #a9a0b4; }
+.main .mBusiness {
+  background-color: #372649;
+  color: #ffffff;
+  padding: 53px 38px 38px 077px;
+  border-top: 7px solid #7649a7; }
+  .main .mBusiness .mTitulo {
+    font-family: "Libre Baskerville", serif;
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 16px; }
+  .main .mBusiness .mInfo {
+    font-family: "Lato", serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    color: #a9a0b4; }
+.main .mLista {
+  list-style: none;
+  text-transform: uppercase;
+  padding-left: 0;
+  font-weight: bold; }
+  .main .mLista li {
+    margin-bottom: 16px;
+    font-family: "Lato", serif;
+    font-size: 14px;
+    line-height: 30px; }
 
 /*# sourceMappingURL=estilos.css.map */

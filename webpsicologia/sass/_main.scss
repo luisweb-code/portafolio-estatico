@@ -1,0 +1,76 @@
+.main {
+  .mAdults {
+    background-color: $bgMoradoFuerte;
+    color: $textBlanco;
+    padding: 53px 38px 38px 077px;
+    border-top: 7px solid $textVerdeClaro;
+
+    .mTitulo {
+      font-family: "Libre Baskerville", serif;
+      font-size: 3em;
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
+    .mInfo {
+      font-family: "Lato", serif;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 1.6em;
+      margin-bottom: 30px;
+      color: $textGrisMedio;
+
+    }
+  }
+  .mChildren {
+    background-color: $bgMoradoMedio;
+    color: $textBlanco;
+    padding: 53px 38px 38px 077px;
+    border-top: 7px solid $textAzulClaro;
+    .mTitulo {
+      font-family: "Libre Baskerville", serif;
+      font-size: 3em;
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
+    .mInfo {
+        font-family: "Lato", serif;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 1.6em;
+        margin-bottom: 30px;
+        color: $textGrisMedio;
+    }
+  }
+  .mBusiness {
+    background-color: $bgMoradoLigero;
+    color: $textBlanco;
+    padding: 53px 38px 38px 077px;
+    border-top: 7px solid $textMoradoLigero;
+    .mTitulo {
+      font-family: "Libre Baskerville", serif;
+      font-size: 3em;
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
+    .mInfo {
+        font-family: "Lato", serif;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 1.6em;
+        margin-bottom: 30px;
+        color: $textGrisMedio;
+    }
+  }
+  .mLista {
+    list-style: none;
+    text-transform: uppercase;
+    padding-left: 0;
+    font-weight: bold;
+    li {
+      margin-bottom: 16px;
+      font-family: "Lato", serif;
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+}
