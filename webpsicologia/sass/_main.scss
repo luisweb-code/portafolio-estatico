@@ -18,7 +18,6 @@
       line-height: 1.6em;
       margin-bottom: 30px;
       color: $textGrisMedio;
-
     }
   }
   .mChildren {
@@ -33,12 +32,12 @@
       margin-bottom: 16px;
     }
     .mInfo {
-        font-family: "Lato", serif;
-        font-size: 17px;
-        font-weight: 300;
-        line-height: 1.6em;
-        margin-bottom: 30px;
-        color: $textGrisMedio;
+      font-family: "Lato", serif;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 1.6em;
+      margin-bottom: 30px;
+      color: $textGrisMedio;
     }
   }
   .mBusiness {
@@ -53,12 +52,12 @@
       margin-bottom: 16px;
     }
     .mInfo {
-        font-family: "Lato", serif;
-        font-size: 17px;
-        font-weight: 300;
-        line-height: 1.6em;
-        margin-bottom: 30px;
-        color: $textGrisMedio;
+      font-family: "Lato", serif;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 1.6em;
+      margin-bottom: 30px;
+      color: $textGrisMedio;
     }
   }
   .mLista {
@@ -71,6 +70,56 @@
       font-family: "Lato", serif;
       font-size: 14px;
       line-height: 30px;
+    }
+  }
+  .Therapies {
+    padding: 10px 4px 16px 4px;
+    .mTitulo {
+      color: $bgMoradoFuerte;
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+    }
+    .mInfo {
+      color: $textGrisMedio2;
+      font-family: "Roboto", Sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.6em;
+      border-bottom: 2px solid $textVerdeClaro;
+      padding-bottom: 3em;
+    }
+  }
+  /* .mAnimate{
+    &:hover{
+      animation: pulse;
+      animation-duration: 2s;
+    }
+  } */
+  .mCategorias {
+    .mIcono {
+      color: $textAzulClaro;
+      font-size: 20px;
+      padding: 5px;
+      font-size: 2em;
+    }
+    .mEnlace {
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      color: $textAzulClaro;
+      text-decoration: none;
+      &:hover {
+        transition: all 0.3s ease;
+        color: $textMoradoFuerte;
+      }
+    }
+    .mInfo {
+      color: $textNegroMedio;
+      font-family: "Lato", Sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      margin-left: 54px;
     }
   }
 }

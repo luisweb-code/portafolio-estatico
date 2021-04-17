@@ -6,3 +6,13 @@
 .sinPadding{
   padding: 0 !important;
 }
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+ /*  border: 1px solid blue; */
+  max-width: 1140px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}

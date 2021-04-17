@@ -31,6 +31,45 @@ header {
       }
     }
   }
-  
-  
+  .hTextoCarousel {
+    position: absolute;
+    bottom: 7em;
+    left: 7em;
+    .hTitulo {
+      color: $textBlanco;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      animation: bounceInLeft;
+      animation-duration: 2s;
+    }
+    .hSubtitulo {
+      color: $textBlanco;
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 64px;
+      font-weight: 300;
+      animation: bounceInDown;
+      animation-duration: 2s;
+    }
+    .hButtom {
+      background-color: $bgBlanco;
+      border: 0;
+      color: $textAzulMedio;
+      text-decoration: none;
+      padding: 2em 3em;
+      display: block;
+      margin-top: 2em;
+      max-width: 13em;
+      text-transform: uppercase;
+      text-decoration: center;
+      animation: bounceInLeft;
+      animation-duration: 2s;
+      &:hover {
+        background-color: $bgAzulFuerte;
+        color: $textBlanco;
+        transition: all 0.3s ease;
+      }
+    }
+  }
 }
