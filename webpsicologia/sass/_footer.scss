@@ -1,0 +1,30 @@
+footer {
+  .fAddress {
+      padding: 4em;
+    p {
+      font-family: "Lato", Sans-serif;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 28px;
+      color: $textBlanco;
+      text-align: center;
+    }
+    .redes-sociales{
+      /* border:1px solid white; */
+      width: 12em;
+      margin: 3em auto;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      a{
+        color: $textBlanco;
+        text-decoration: none;
+        font-size: 17px;
+        &:hover{
+          color:$textAzulClaro;
+        }
+
+      }
+    }
+  }
+}

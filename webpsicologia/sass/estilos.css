@@ -222,7 +222,7 @@ header .hTextoCarousel {
       letter-spacing: 2px;
       background-color: #372649;
       color: #ffffff;
-      padding: 20px 40px;
+      padding: 20px 29px;
       text-decoration: none;
       border-radius: 10px; }
       .main .mClinic2 a:hover {
@@ -265,7 +265,7 @@ header .hTextoCarousel {
       margin-bottom: 20px; }
     .main .mHelpH a {
       font-family: "Lato", Sans-serif;
-      font-size: 60px;
+      font-size: 50px;
       font-weight: 300;
       text-transform: none;
       font-style: normal;
@@ -322,5 +322,116 @@ header .hTextoCarousel {
     text-align: center;
     margin: 3% 16% 7% 16%;
     color: #1e2428; }
+  .main .mConsulta {
+    background-color: #30243e;
+    padding: 8.2em 0.2em 5em 8.5em;
+    /* padding: 3em; */ }
+    .main .mConsulta .titulo {
+      color: #ffffff;
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 30px;
+      font-weight: 400; }
+    .main .mConsulta .separador {
+      border-bottom: 4px solid #63d2af;
+      margin-bottom: 1em; }
+    .main .mConsulta .subTitulo {
+      color: #ffffff;
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.6em;
+      margin-bottom: 3em;
+      margin-top: 1em; }
+    .main .mConsulta .enlace {
+      font-family: "Lato", Sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.1em;
+      letter-spacing: 2px;
+      fill: #66A9D8;
+      color: #66A9D8;
+      background-color: #ffffff;
+      border-radius: 3px 3px 3px 3px;
+      padding: 21px 50px 21px 50px; }
+      .main .mConsulta .enlace:hover {
+        background-color: #66A9D8;
+        color: #ffffff;
+        transition: all 0.3s ease; }
+  .main .mConsultaDos .imgConsulta {
+    width: 100%;
+    height: 28.8em; }
+
+footer .fAddress {
+  padding: 4em; }
+  footer .fAddress p {
+    font-family: "Lato", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center; }
+  footer .fAddress .redes-sociales {
+    /* border:1px solid white; */
+    width: 12em;
+    margin: 3em auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between; }
+    footer .fAddress .redes-sociales a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 17px; }
+      footer .fAddress .redes-sociales a:hover {
+        color: #66A9D8; }
+
+@media only screen and (max-width: 760px) {
+  .carousel {
+    display: none; }
+
+  .main .mConsulta {
+    padding: 3em; } }
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  header .hTextoCarousel {
+    position: absolute;
+    bottom: 4em;
+    left: 5em; }
+    header .hTextoCarousel .hTitulo {
+      color: #ffffff;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+      text-transform: uppercase;
+      animation: bounceInLeft;
+      animation-duration: 2s; }
+    header .hTextoCarousel .hSubtitulo {
+      color: #ffffff;
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      animation: bounceInDown;
+      animation-duration: 2s; }
+    header .hTextoCarousel .hButtom {
+      background-color: #ffffff;
+      border: 0;
+      color: #2a93c9;
+      text-decoration: none;
+      padding: 1em;
+      display: block;
+      margin-top: 1em;
+      max-width: 9em;
+      text-transform: uppercase;
+      text-decoration: center;
+      animation: bounceInLeft;
+      animation-duration: 2s; }
+      header .hTextoCarousel .hButtom:hover {
+        background-color: #2a88c9;
+        color: #ffffff;
+        transition: all 0.3s ease; }
+
+  .main .mConsulta {
+    padding: 4em; } }
 
 /*# sourceMappingURL=estilos.css.map */

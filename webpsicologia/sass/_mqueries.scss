@@ -1,0 +1,61 @@
+@media only screen and (max-width: 760px) {
+  .carousel {
+    display: none;
+  }
+  .main {
+    .mConsulta {
+      padding: 3em;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  header {
+    .hTextoCarousel {
+      position: absolute;
+      bottom: 4em;
+      left: 5em;
+      .hTitulo {
+        color: $textBlanco;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        text-transform: uppercase;
+        animation: bounceInLeft;
+        animation-duration: 2s;
+      }
+      .hSubtitulo {
+        color: $textBlanco;
+        font-family: "Libre Baskerville", Sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        animation: bounceInDown;
+        animation-duration: 2s;
+      }
+      .hButtom {
+        background-color: $bgBlanco;
+        border: 0;
+        color: $textAzulMedio;
+        text-decoration: none;
+        padding: 1em;
+        display: block;
+        margin-top: 1em;
+        max-width: 9em;
+        text-transform: uppercase;
+        text-decoration: center;
+        animation: bounceInLeft;
+        animation-duration: 2s;
+        &:hover {
+          background-color: $bgAzulFuerte;
+          color: $textBlanco;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+  .main {
+    .mConsulta {
+      padding: 4em;
+    }
+  }
+}
