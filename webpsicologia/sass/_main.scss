@@ -287,7 +287,7 @@
   }
   .mConsulta {
     background-color: $bgMoradoMedio;
-     padding: 8.2em 0.2em 5em 8.5em;
+    padding: 8.2em 0.2em 5em 8.5em;
     /* padding: 3em; */
     .titulo {
       color: $textBlanco;
@@ -329,10 +329,147 @@
       }
     }
   }
-  .mConsultaDos{
-    .imgConsulta{
+  .mConsultaDos {
+    .imgConsulta {
       width: 100%;
       height: 28.8em;
+    }
+  }
+}
+
+.main-personal {
+  .bg-fondo-fila {
+    background-color: $bgAzulMedio;
+  }
+  .mPersonal {
+    padding: 2em;
+    .titulo {
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1em;
+      color: $textBlanco;
+    }
+    .subtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      color: $textBlanco;
+    }
+  }
+  .mTeam {
+    animation: fadeInLeftBig;
+    animation-duration: 3s;
+    width: 65%;
+    margin: 5em auto;
+    .mTituloTeam {
+      font-family: "Lato", Sans-serif;
+      font-size: 26px;
+      font-weight: bold;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      color: $textNegroFuerte;
+      border-bottom: 2px solid $textVerdeClaro;
+      padding-bottom: 20px;
+    }
+
+    .mSubtituloTeam {
+      font-family: "Lato", Sans-serif;
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 1.56em;
+      color: $textNegroFuerte;
+    }
+  }
+  .mTeamDos {
+    animation: fadeInRight;
+    animation-duration: 3s;
+    .imgTeam {
+      width: 100%;
+      height: 25.8em;
+    }
+  }
+  .mEspecialistas {
+    padding: 2em;
+    .mTitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      color: $textNegroFuerte;
+      border-bottom: 3px solid $textAzulClaro;
+      padding-bottom: 1em;
+    }
+  }
+  .card {
+    &:hover {
+      box-shadow: 5px 5px 50px 8px $bgBlancoGris;
+    }
+    .mDepartamento {
+      font-family: "Lato", Sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.5em;
+      letter-spacing: 1px;
+      color: $textGrisLigero;
+      margin-bottom: -0.25rem;
+    }
+    .mNombre {
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.5em;
+      letter-spacing: 0px;
+      a {
+        color: $textNegroFuerte;
+        text-decoration: none;
+        &:hover {
+          color: $textAzulClaro;
+          transition: all 0.2s ease;
+        }
+      }
+    }
+    .mTel,
+    .mEmail {
+      font-family: "Lato", Sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.6em;
+      display: block;
+      text-decoration: none;
+      color: $textNegroFuerte;
+      &:hover {
+        color: $textAzulMedio;
+        transition: all 0.3s ease;
+      }
+      .mIcono {
+        color: $textVerdeClaro;
+        margin-right: 10px;
+        &:hover {
+          color: $textNegroFuerte;
+        }
+      }
     }
   }
 }
