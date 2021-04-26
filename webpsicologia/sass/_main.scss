@@ -473,7 +473,6 @@
     }
   }
   .mInfo {
-    
     .mTitulo {
       font-family: "Lato", Sans-serif;
       font-size: 26px;
@@ -493,6 +492,62 @@
       font-weight: 300;
       line-height: 1.56em;
       color: $textNegroMedio;
+    }
+  }
+  .mIcon {
+    color: $textBlanco;
+    padding: 5px;
+    font-size: 5em;
+  }
+  .mCont {
+    padding: 16px;
+    .mTitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 27px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      color: $textBlanco;
+    }
+    .mSubtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.5em;
+      letter-spacing: 0px;
+      color: $textBlanco;
+    }
+  }
+  .mMedical {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+    a {
+      font-family: "Lato", Sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.1em;
+      letter-spacing: 2px;
+      fill: $textBlanco;
+      color: $textBlanco;
+      background-color: rgba(255, 255, 255, 0);
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: $textBlanco;
+      padding: 21px 50px 21px 50px;
+      &:hover {
+        color: $textAzulMedio;
+        background-color: $textBlanco;
+        transition: all 0.3s ease;
+      }
     }
   }
 }

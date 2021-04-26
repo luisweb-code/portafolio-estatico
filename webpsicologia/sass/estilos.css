@@ -496,6 +496,55 @@ header .hTextoCarousel {
   font-weight: 300;
   line-height: 1.56em;
   color: #42474c; }
+.main-personal .mIcon {
+  color: #ffffff;
+  padding: 5px;
+  font-size: 5em; }
+.main-personal .mCont {
+  padding: 16px; }
+  .main-personal .mCont .mTitulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+    color: #ffffff; }
+  .main-personal .mCont .mSubtitulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    color: #ffffff; }
+.main-personal .mMedical {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end; }
+  .main-personal .mMedical a {
+    font-family: "Lato", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ffffff;
+    padding: 21px 50px 21px 50px; }
+    .main-personal .mMedical a:hover {
+      color: #2a93c9;
+      background-color: #ffffff;
+      transition: all 0.3s ease; }
 
 footer .fAddress {
   padding: 4em; }
@@ -525,7 +574,59 @@ footer .fAddress {
     display: none; }
 
   .main .mConsulta {
-    padding: 3em; } }
+    padding: 3em; }
+
+  .main-personal .mIcon {
+    color: #ffffff;
+    font-size: 5em;
+    margin: 2px auto; }
+  .main-personal .mCont {
+    padding: 16px; }
+    .main-personal .mCont .mTitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 27px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      color: #ffffff;
+      text-align: center; }
+    .main-personal .mCont .mSubtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.5em;
+      letter-spacing: 0px;
+      color: #ffffff;
+      text-align: center; }
+  .main-personal .mMedical {
+    margin: 10px;
+    display: flex;
+    justify-content: center; }
+    .main-personal .mMedical a {
+      font-family: "Lato", Sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.1em;
+      letter-spacing: 2px;
+      fill: #ffffff;
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0);
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #ffffff;
+      padding: 21px 50px 21px 50px; }
+      .main-personal .mMedical a:hover {
+        color: #2a93c9;
+        background-color: #ffffff;
+        transition: all 0.3s ease; } }
 @media only screen and (min-width: 768px) and (max-width: 980px) {
   header .hTextoCarousel {
     position: absolute;
@@ -565,6 +666,58 @@ footer .fAddress {
         transition: all 0.3s ease; }
 
   .main .mConsulta {
-    padding: 4em; } }
+    padding: 4em; }
+
+  .main-personal .mIcon {
+    color: #ffffff;
+    font-size: 5em;
+    margin: 2px auto; }
+  .main-personal .mCont {
+    padding: 16px; }
+    .main-personal .mCont .mTitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 27px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      color: #ffffff;
+      text-align: center; }
+    .main-personal .mCont .mSubtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.5em;
+      letter-spacing: 0px;
+      color: #ffffff;
+      text-align: center; }
+  .main-personal .mMedical {
+    margin: 10px;
+    display: flex;
+    justify-content: center; }
+    .main-personal .mMedical a {
+      font-family: "Lato", Sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.1em;
+      letter-spacing: 2px;
+      fill: #ffffff;
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0);
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #ffffff;
+      padding: 21px 50px 21px 50px; }
+      .main-personal .mMedical a:hover {
+        color: #2a93c9;
+        background-color: #ffffff;
+        transition: all 0.3s ease; } }
 
 /*# sourceMappingURL=estilos.css.map */

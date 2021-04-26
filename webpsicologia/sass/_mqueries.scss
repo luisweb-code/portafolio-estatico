@@ -7,6 +7,66 @@
       padding: 3em;
     }
   }
+  .main-personal {    
+    .mIcon {
+      color: $textBlanco;
+      font-size: 5em;
+      margin: 2px auto;
+    }
+    .mCont {
+      padding: 16px;
+      .mTitulo {
+        font-family: "Lato", Sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        color: $textBlanco;
+        text-align: center;
+      }
+      .mSubtitulo {
+        font-family: "Lato", Sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.5em;
+        letter-spacing: 0px;
+        color: $textBlanco;
+        text-align: center;
+      }
+    }
+    .mMedical {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      a {
+        font-family: "Lato", Sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.1em;
+        letter-spacing: 2px;
+        fill: $textBlanco;
+        color: $textBlanco;
+        background-color: rgba(255, 255, 255, 0);
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: $textBlanco;
+        padding: 21px 50px 21px 50px;
+        &:hover {
+          color: $textAzulMedio;
+          background-color: $textBlanco;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 980px) {
@@ -56,6 +116,66 @@
   .main {
     .mConsulta {
       padding: 4em;
+    }
+  }
+  .main-personal {    
+    .mIcon {
+      color: $textBlanco;
+      font-size: 5em;
+      margin: 2px auto;
+    }
+    .mCont {
+      padding: 16px;
+      .mTitulo {
+        font-family: "Lato", Sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        color: $textBlanco;
+        text-align: center;
+      }
+      .mSubtitulo {
+        font-family: "Lato", Sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.5em;
+        letter-spacing: 0px;
+        color: $textBlanco;
+        text-align: center;
+      }
+    }
+    .mMedical {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      a {
+        font-family: "Lato", Sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.1em;
+        letter-spacing: 2px;
+        fill: $textBlanco;
+        color: $textBlanco;
+        background-color: rgba(255, 255, 255, 0);
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: $textBlanco;
+        padding: 21px 50px 21px 50px;
+        &:hover {
+          color: $textAzulMedio;
+          background-color: $textBlanco;
+          transition: all 0.3s ease;
+        }
+      }
     }
   }
 }
