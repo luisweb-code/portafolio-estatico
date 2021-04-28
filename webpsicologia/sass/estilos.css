@@ -21,6 +21,9 @@
   margin-right: auto;
   margin-left: auto; }
 
+.bg-fondo-fila {
+  background-color: #6EC1E4; }
+
 header .logo {
   width: auto;
   height: 3em; }
@@ -364,11 +367,193 @@ header .hTextoCarousel {
     width: 100%;
     height: 28.8em; }
 
-.main-personal .bg-fondo-fila {
-  background-color: #6EC1E4; }
-.main-personal .mPersonal {
+.main-personal {
+  /*  .bg-fondo-fila {
+    background-color: $bgAzulMedio;
+  } */ }
+  .main-personal .mPersonal {
+    padding: 2em; }
+    .main-personal .mPersonal .titulo {
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1em;
+      color: #ffffff; }
+    .main-personal .mPersonal .subtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      color: #ffffff; }
+  .main-personal .mTeam {
+    animation: fadeInLeftBig;
+    animation-duration: 3s;
+    width: 65%;
+    margin: 5em auto; }
+    .main-personal .mTeam .mTituloTeam {
+      font-family: "Lato", Sans-serif;
+      font-size: 26px;
+      font-weight: bold;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      color: #1e2428;
+      border-bottom: 2px solid #63d2af;
+      padding-bottom: 20px; }
+    .main-personal .mTeam .mSubtituloTeam {
+      font-family: "Lato", Sans-serif;
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 1.56em;
+      color: #1e2428; }
+  .main-personal .mTeamDos {
+    animation: fadeInRight;
+    animation-duration: 3s; }
+    .main-personal .mTeamDos .imgTeam {
+      width: 100%;
+      height: 25.8em; }
+  .main-personal .mEspecialistas {
+    padding: 2em; }
+    .main-personal .mEspecialistas .mTitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      color: #1e2428;
+      border-bottom: 3px solid #66A9D8;
+      padding-bottom: 1em; }
+  .main-personal .card:hover {
+    box-shadow: 5px 5px 50px 8px #eaeaea; }
+  .main-personal .card .mDepartamento {
+    font-family: "Lato", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    color: #b5b9bb;
+    margin-bottom: -0.25rem; }
+  .main-personal .card .mNombre {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px; }
+    .main-personal .card .mNombre a {
+      color: #1e2428;
+      text-decoration: none; }
+      .main-personal .card .mNombre a:hover {
+        color: #66A9D8;
+        transition: all 0.2s ease; }
+  .main-personal .card .mTel,
+  .main-personal .card .mEmail {
+    font-family: "Lato", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.6em;
+    display: block;
+    text-decoration: none;
+    color: #1e2428; }
+    .main-personal .card .mTel:hover,
+    .main-personal .card .mEmail:hover {
+      color: #2a93c9;
+      transition: all 0.3s ease; }
+    .main-personal .card .mTel .mIcono,
+    .main-personal .card .mEmail .mIcono {
+      color: #63d2af;
+      margin-right: 10px; }
+      .main-personal .card .mTel .mIcono:hover,
+      .main-personal .card .mEmail .mIcono:hover {
+        color: #1e2428; }
+  .main-personal .mInfo .mTitulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    color: #1e2428;
+    border-bottom: 2px solid #6EC1E4;
+    padding-bottom: 10px; }
+  .main-personal .mInfo .mSubtitulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.56em;
+    color: #42474c; }
+  .main-personal .mIcon {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 5em; }
+  .main-personal .mCont {
+    padding: 16px; }
+    .main-personal .mCont .mTitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 27px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      color: #ffffff; }
+    .main-personal .mCont .mSubtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.5em;
+      letter-spacing: 0px;
+      color: #ffffff; }
+  .main-personal .mMedical {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end; }
+    .main-personal .mMedical a {
+      font-family: "Lato", Sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.1em;
+      letter-spacing: 2px;
+      fill: #ffffff;
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0);
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #ffffff;
+      padding: 21px 50px 21px 50px; }
+      .main-personal .mMedical a:hover {
+        color: #2a93c9;
+        background-color: #ffffff;
+        transition: all 0.3s ease; }
+
+.main-contact .mContac {
   padding: 2em; }
-  .main-personal .mPersonal .titulo {
+  .main-contact .mContac .titulo {
     font-family: "Libre Baskerville", Sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -377,108 +562,14 @@ header .hTextoCarousel {
     text-decoration: none;
     line-height: 1em;
     color: #ffffff; }
-  .main-personal .mPersonal .subtitulo {
+  .main-contact .mContac .subtitulo {
     font-family: "Lato", Sans-serif;
     font-size: 18px;
     font-weight: 300;
     text-transform: none;
     font-style: normal;
     color: #ffffff; }
-.main-personal .mTeam {
-  animation: fadeInLeftBig;
-  animation-duration: 3s;
-  width: 65%;
-  margin: 5em auto; }
-  .main-personal .mTeam .mTituloTeam {
-    font-family: "Lato", Sans-serif;
-    font-size: 26px;
-    font-weight: bold;
-    text-transform: none;
-    font-style: normal;
-    text-decoration: none;
-    line-height: 1.3em;
-    letter-spacing: 0px;
-    color: #1e2428;
-    border-bottom: 2px solid #63d2af;
-    padding-bottom: 20px; }
-  .main-personal .mTeam .mSubtituloTeam {
-    font-family: "Lato", Sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 1.56em;
-    color: #1e2428; }
-.main-personal .mTeamDos {
-  animation: fadeInRight;
-  animation-duration: 3s; }
-  .main-personal .mTeamDos .imgTeam {
-    width: 100%;
-    height: 25.8em; }
-.main-personal .mEspecialistas {
-  padding: 2em; }
-  .main-personal .mEspecialistas .mTitulo {
-    font-family: "Lato", Sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    text-transform: none;
-    font-style: normal;
-    text-decoration: none;
-    line-height: 1.3em;
-    letter-spacing: 0px;
-    color: #1e2428;
-    border-bottom: 3px solid #66A9D8;
-    padding-bottom: 1em; }
-.main-personal .card:hover {
-  box-shadow: 5px 5px 50px 8px #eaeaea; }
-.main-personal .card .mDepartamento {
-  font-family: "Lato", Sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 1.5em;
-  letter-spacing: 1px;
-  color: #b5b9bb;
-  margin-bottom: -0.25rem; }
-.main-personal .card .mNombre {
-  font-family: "Lato", Sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 1.5em;
-  letter-spacing: 0px; }
-  .main-personal .card .mNombre a {
-    color: #1e2428;
-    text-decoration: none; }
-    .main-personal .card .mNombre a:hover {
-      color: #66A9D8;
-      transition: all 0.2s ease; }
-.main-personal .card .mTel,
-.main-personal .card .mEmail {
-  font-family: "Lato", Sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 1.6em;
-  display: block;
-  text-decoration: none;
-  color: #1e2428; }
-  .main-personal .card .mTel:hover,
-  .main-personal .card .mEmail:hover {
-    color: #2a93c9;
-    transition: all 0.3s ease; }
-  .main-personal .card .mTel .mIcono,
-  .main-personal .card .mEmail .mIcono {
-    color: #63d2af;
-    margin-right: 10px; }
-    .main-personal .card .mTel .mIcono:hover,
-    .main-personal .card .mEmail .mIcono:hover {
-      color: #1e2428; }
-.main-personal .mInfo .mTitulo {
+.main-contact .mCall1 .titulo {
   font-family: "Lato", Sans-serif;
   font-size: 26px;
   font-weight: 400;
@@ -488,63 +579,73 @@ header .hTextoCarousel {
   line-height: 1.3em;
   letter-spacing: 0px;
   color: #1e2428;
-  border-bottom: 2px solid #6EC1E4;
-  padding-bottom: 10px; }
-.main-personal .mInfo .mSubtitulo {
+  margin-bottom: 25px; }
+.main-contact .mCall1 .subtitulo {
   font-family: "Lato", Sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
-  line-height: 1.56em;
-  color: #42474c; }
-.main-personal .mIcon {
-  color: #ffffff;
-  padding: 5px;
-  font-size: 5em; }
-.main-personal .mCont {
-  padding: 16px; }
-  .main-personal .mCont .mTitulo {
+  text-transform: none;
+  font-style: normal;
+  line-height: 25.6px;
+  letter-spacing: 0px;
+  margin-bottom: 30px; }
+.main-contact .mCall1 .tituloEm {
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  color: #2a93c9; }
+  .main-contact .mCall1 .tituloEm .iconEm {
+    font-size: 2em;
+    padding: 6px; }
+.main-contact .mCall1 .subtituloEm {
+  font-family: "Lato", Sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  line-height: 1.1em;
+  margin-left: 12px; }
+  .main-contact .mCall1 .subtituloEm a {
+    text-decoration: none;
+    color: #1e2428;
+    margin-left: 1em; }
+    .main-contact .mCall1 .subtituloEm a:hover {
+      color: #66A9D8;
+      transition: all 0.2s ease; }
+.main-contact .mCall2 .imgEm {
+  width: 100%;
+  height: 29em; }
+.main-contact .mInfo {
+  padding: 4.3em 2.8em 3.4em 2.2em;
+  width: 30em;
+  margin: 2px auto; }
+  .main-contact .mInfo .titulo {
     font-family: "Lato", Sans-serif;
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 400;
     text-transform: none;
     font-style: normal;
     text-decoration: none;
-    line-height: 1.3em;
+    line-height: 0em;
+    letter-spacing: 0px;
     color: #ffffff; }
-  .main-personal .mCont .mSubtitulo {
+    .main-contact .mInfo .titulo .iconIn {
+      padding: 9px;
+      font-size: 2em; }
+  .main-contact .mInfo .subtitulo {
     font-family: "Lato", Sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 300;
     text-transform: none;
     font-style: normal;
-    text-decoration: none;
-    line-height: 1.5em;
-    letter-spacing: 0px;
-    color: #ffffff; }
-.main-personal .mMedical {
-  margin-top: 24px;
-  display: flex;
-  justify-content: flex-end; }
-  .main-personal .mMedical a {
-    font-family: "Lato", Sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-style: normal;
-    text-decoration: none;
-    line-height: 1.1em;
-    letter-spacing: 2px;
-    fill: #ffffff;
+    line-height: 1.75em;
     color: #ffffff;
-    background-color: rgba(255, 255, 255, 0);
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #ffffff;
-    padding: 21px 50px 21px 50px; }
-    .main-personal .mMedical a:hover {
-      color: #2a93c9;
-      background-color: #ffffff;
-      transition: all 0.3s ease; }
+    margin-left: 3.375em; }
 
 footer .fAddress {
   padding: 4em; }
@@ -626,7 +727,77 @@ footer .fAddress {
       .main-personal .mMedical a:hover {
         color: #2a93c9;
         background-color: #ffffff;
-        transition: all 0.3s ease; } }
+        transition: all 0.3s ease; }
+
+  .main-contact .mCall1 .titulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    color: #1e2428;
+    margin-bottom: 25px; }
+  .main-contact .mCall1 .subtitulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 25.6px;
+    letter-spacing: 0px;
+    margin-bottom: 30px; }
+  .main-contact .mCall1 .tituloEm {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    color: #2a93c9; }
+    .main-contact .mCall1 .tituloEm .iconEm {
+      font-size: 2em;
+      padding: 6px; }
+  .main-contact .mCall1 .subtituloEm {
+    font-family: "Lato", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.1em;
+    margin-left: 12px; }
+    .main-contact .mCall1 .subtituloEm a {
+      text-decoration: none;
+      color: #1e2428;
+      margin-left: 1em; }
+      .main-contact .mCall1 .subtituloEm a:hover {
+        color: #66A9D8;
+        transition: all 0.2s ease; }
+  .main-contact .mCall2 .imgEm {
+    display: none; }
+  .main-contact .mInfo {
+    padding: 1em;
+    width: 20em;
+    margin: 2px auto; }
+    .main-contact .mInfo .titulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 0em;
+      letter-spacing: 0px;
+      color: #ffffff; }
+      .main-contact .mInfo .titulo .iconIn {
+        padding: 9px;
+        font-size: 2em; }
+    .main-contact .mInfo .subtitulo {
+      margin-left: 1.375em; } }
 @media only screen and (min-width: 768px) and (max-width: 980px) {
   header .hTextoCarousel {
     position: absolute;

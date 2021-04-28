@@ -338,9 +338,9 @@
 }
 
 .main-personal {
-  .bg-fondo-fila {
+  /*  .bg-fondo-fila {
     background-color: $bgAzulMedio;
-  }
+  } */
   .mPersonal {
     padding: 2em;
     .titulo {
@@ -548,6 +548,123 @@
         background-color: $textBlanco;
         transition: all 0.3s ease;
       }
+    }
+  }
+}
+
+.main-contact {
+  .mContac {
+    padding: 2em;
+    .titulo {
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1em;
+      color: $textBlanco;
+    }
+    .subtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      color: $textBlanco;
+    }
+  }
+  .mCall1 {
+    .titulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      color: $textNegroFuerte;
+      margin-bottom: 25px;
+    }
+    .subtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      line-height: 25.6px;
+      letter-spacing: 0px;
+      margin-bottom: 30px;
+    }
+    .tituloEm {
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.2em;
+      letter-spacing: 0px;
+      color: $textAzulMedio;
+      .iconEm {
+        font-size: 2em;
+        padding: 6px;
+      }
+    }
+    .subtituloEm {
+      font-family: "Lato", Sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      line-height: 1.1em;
+      margin-left: 12px;
+      a {
+        text-decoration: none;
+        color: $textNegroFuerte;
+        margin-left: 1em;
+        &:hover {
+          color: $textAzulClaro;
+          transition: all 0.2s ease;
+        }
+      }
+    }
+  }
+  .mCall2 {
+    .imgEm {
+      width: 100%;
+      height: 29em;
+    }
+  }
+  .mInfo {
+    padding: 4.3em 2.8em 3.4em 2.2em;
+    width: 30em;
+    margin: 2px auto;
+    .titulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 0em;
+      letter-spacing: 0px;
+      color: $textBlanco;
+      .iconIn {
+        padding: 9px;
+        font-size: 2em;
+      }
+    }
+    .subtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      line-height: 1.75em;
+      color: $textBlanco;
+      margin-left: 3.375em;
     }
   }
 }

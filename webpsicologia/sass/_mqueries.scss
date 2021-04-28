@@ -7,7 +7,7 @@
       padding: 3em;
     }
   }
-  .main-personal {    
+  .main-personal {
     .mIcon {
       color: $textBlanco;
       font-size: 5em;
@@ -67,6 +67,94 @@
       }
     }
   }
+  .main-contact {
+    .mCall1 {
+      .titulo {
+        font-family: "Lato", Sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+        color: $textNegroFuerte;
+        margin-bottom: 25px;
+      }
+      .subtitulo {
+        font-family: "Lato", Sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: none;
+        font-style: normal;
+        line-height: 25.6px;
+        letter-spacing: 0px;
+        margin-bottom: 30px;
+      }
+      .tituloEm {
+        font-family: "Lato", Sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.2em;
+        letter-spacing: 0px;
+        color: $textAzulMedio;
+        .iconEm {
+          font-size: 2em;
+          padding: 6px;
+        }
+      }
+      .subtituloEm {
+        font-family: "Lato", Sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        line-height: 1.1em;
+        margin-left: 12px;
+        a {
+          text-decoration: none;
+          color: $textNegroFuerte;
+          margin-left: 1em;
+          &:hover {
+            color: $textAzulClaro;
+            transition: all 0.2s ease;
+          }
+        }
+      }
+    }
+    .mCall2 {
+      .imgEm {
+        display: none;
+      }
+    }
+    .mInfo {
+      padding: 1em;
+      width: 20em;
+      margin: 2px auto;
+      .titulo {
+        font-family: "Lato", Sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 0em;
+        letter-spacing: 0px;
+        color: $textBlanco;
+
+        .iconIn {
+          padding: 9px;
+          font-size: 2em;
+        }
+      }
+      .subtitulo {
+        margin-left: 1.375em;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 980px) {
@@ -118,7 +206,7 @@
       padding: 4em;
     }
   }
-  .main-personal {    
+  .main-personal {
     .mIcon {
       color: $textBlanco;
       font-size: 5em;
