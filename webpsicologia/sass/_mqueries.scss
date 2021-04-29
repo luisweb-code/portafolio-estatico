@@ -154,6 +154,28 @@
         margin-left: 1.375em;
       }
     }
+    .mOficce {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2em;
+      .mOfficeUno,
+      .mOfficeDos,
+      .mHorarioUno,
+      .mHorarioDos {
+        width: 100%;
+        padding: 20px;
+      }
+      .titulo {
+        text-align: center;
+      }
+      .subtitulo {
+        text-align: center;
+      }
+    }
+    .mFormularioDos {
+      padding: 10px;
+      margin: 2em auto;
+    }
   }
 }
 
@@ -262,6 +284,27 @@
           color: $textAzulMedio;
           background-color: $textBlanco;
           transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+  .main-contact {
+    .mFormularioDos {
+      padding: 5px;
+      margin: 1em auto;
+    }
+    .mInstitutos {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 1em;
+      div {
+        margin: 1px auto;
+        .imgInstituto {
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+          margin: 10px;
         }
       }
     }

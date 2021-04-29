@@ -24,6 +24,9 @@
 .bg-fondo-fila {
   background-color: #6EC1E4; }
 
+.bg-fondo-fila-dos {
+  background-color: #ced1d2; }
+
 header .logo {
   width: auto;
   height: 3em; }
@@ -646,6 +649,102 @@ header .hTextoCarousel {
     line-height: 1.75em;
     color: #ffffff;
     margin-left: 3.375em; }
+.main-contact .mMap iframe {
+  width: 100%; }
+.main-contact .mOficce {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em; }
+  .main-contact .mOficce .mOfficeUno,
+  .main-contact .mOficce .mOfficeDos,
+  .main-contact .mOficce .mHorarioUno,
+  .main-contact .mOficce .mHorarioDos {
+    /*  border: 1px solid red; */
+    width: 40%;
+    padding: 20px; }
+  .main-contact .mOficce .titulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 33.8px;
+    letter-spacing: 0px;
+    color: #66A9D8; }
+  .main-contact .mOficce .subtitulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 25.6px;
+    letter-spacing: 0px;
+    color: #1e2428; }
+    .main-contact .mOficce .subtitulo .enlace {
+      text-decoration: none;
+      color: #1e2428; }
+.main-contact .mFormulario {
+  padding: 16px; }
+  .main-contact .mFormulario .titulo {
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 16px;
+    margin-bottom: 1em; }
+  .main-contact .mFormulario label {
+    color: #ffffff; }
+  .main-contact .mFormulario .btnFormulario {
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    padding: 2em 4em;
+    border-radius: 5px;
+    border: 0;
+    color: #2a93c9;
+    text-transform: uppercase; }
+    .main-contact .mFormulario .btnFormulario:hover {
+      background-color: #96f0ff;
+      color: #ffffff; }
+.main-contact .mFormularioDos {
+  padding: 20px;
+  margin: 12em auto; }
+  .main-contact .mFormularioDos .titulo {
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em; }
+  .main-contact .mFormularioDos .subtitulo {
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal; }
+.main-contact .mInstitutos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1em; }
+  .main-contact .mInstitutos div {
+    margin: 1px auto; }
+    .main-contact .mInstitutos div .imgInstituto {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      margin: 5px; }
 
 footer .fAddress {
   padding: 4em; }
@@ -797,7 +896,24 @@ footer .fAddress {
         padding: 9px;
         font-size: 2em; }
     .main-contact .mInfo .subtitulo {
-      margin-left: 1.375em; } }
+      margin-left: 1.375em; }
+  .main-contact .mOficce {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em; }
+    .main-contact .mOficce .mOfficeUno,
+    .main-contact .mOficce .mOfficeDos,
+    .main-contact .mOficce .mHorarioUno,
+    .main-contact .mOficce .mHorarioDos {
+      width: 100%;
+      padding: 20px; }
+    .main-contact .mOficce .titulo {
+      text-align: center; }
+    .main-contact .mOficce .subtitulo {
+      text-align: center; }
+  .main-contact .mFormularioDos {
+    padding: 10px;
+    margin: 2em auto; } }
 @media only screen and (min-width: 768px) and (max-width: 980px) {
   header .hTextoCarousel {
     position: absolute;
@@ -889,6 +1005,22 @@ footer .fAddress {
       .main-personal .mMedical a:hover {
         color: #2a93c9;
         background-color: #ffffff;
-        transition: all 0.3s ease; } }
+        transition: all 0.3s ease; }
+
+  .main-contact .mFormularioDos {
+    padding: 5px;
+    margin: 1em auto; }
+  .main-contact .mInstitutos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em; }
+    .main-contact .mInstitutos div {
+      margin: 1px auto; }
+      .main-contact .mInstitutos div .imgInstituto {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin: 10px; } }
 
 /*# sourceMappingURL=estilos.css.map */

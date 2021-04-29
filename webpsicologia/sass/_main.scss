@@ -667,4 +667,119 @@
       margin-left: 3.375em;
     }
   }
+  .mMap {
+    iframe {
+      width: 100%;
+    }
+  }
+  .mOficce {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    .mOfficeUno,
+    .mOfficeDos,
+    .mHorarioUno,
+    .mHorarioDos {
+      /*  border: 1px solid red; */
+      width: 40%;
+      padding: 20px;
+    }
+    .titulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 33.8px;
+      letter-spacing: 0px;
+      color: $textAzulClaro;
+    }
+    .subtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+      line-height: 25.6px;
+      letter-spacing: 0px;
+      color: $textNegroFuerte;
+      .enlace {
+        text-decoration: none;
+        color: $textNegroFuerte;
+      }
+    }
+  }
+  .mFormulario {
+    padding: 16px;
+    .titulo {
+      color: $textBlanco;
+      font-family: "Lato", Sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      border-bottom: 3px solid $textBlanco;
+      padding-bottom: 16px;
+      margin-bottom: 1em;
+    }
+    label {
+      color: $textBlanco;
+    }
+    .btnFormulario {
+      font-family: "Roboto", Sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1em;
+      letter-spacing: 1px;
+      background-color: $textBlanco;
+      padding: 2em 4em;
+      border-radius: 5px;
+      border: 0;
+      color: $textAzulMedio;
+      text-transform: uppercase;
+      &:hover {
+        background-color: $bgAzulBrillo;
+        color: $textBlanco;
+      }
+    }
+  }
+  .mFormularioDos {
+    padding: 20px;
+    margin: 12em auto;
+    .titulo {
+      font-family: "Libre Baskerville", Sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1em;
+    }
+    .subtitulo {
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: none;
+      font-style: normal;
+    }
+  }
+  .mInstitutos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em;
+    div {
+      margin: 1px auto;
+      .imgInstituto {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin: 5px;
+      }
+    }
+  }
 }
