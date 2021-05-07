@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/*Colores de fuentes*/
+/*Colores de fondo*/
+/*Tamaños de la pantalla*/
+* {
+  font-family: "Ubuntu", sans-serif; }
+
+.sinPaddingLR {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.sinMarginLR {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+header .hRowFondo {
+  background-color: #333333; }
+  header .hRowFondo .hDireccion,
+  header .hRowFondo .mapIcon {
+    color: #fff;
+    font-size: 11px;
+    line-height: 19px; }
+  header .hRowFondo .htitulo {
+    padding: 7px;
+    margin-bottom: 7px; }
+  header .hRowFondo .mapIcon {
+    color: #f36639;
+    margin-right: 5px; }
+header .hHelp .hListHelp {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 5px;
+  margin-bottom: 5px; }
+  header .hHelp .hListHelp .link,
+  header .hHelp .hListHelp .tel,
+  header .hHelp .hListHelp .horario {
+    text-decoration: none;
+    margin: 1px 11px;
+    text-transform: uppercase;
+    font-size: 14px; }
+  header .hHelp .hListHelp .link {
+    color: #f36639; }
+    header .hHelp .hListHelp .link:hover {
+      color: #fff; }
+  header .hHelp .hListHelp .tel {
+    color: #fff;
+    font-weight: 700; }
+  header .hHelp .hListHelp .horario {
+    background-color: #f36639;
+    color: #fff;
+    border-radius: 4px;
+    text-shadow: none;
+    border: none;
+    padding: 3px 8px 3px 10px;
+    font-weight: 700; }
+
+@media only screen and (max-width: 500px) {
+  header .hRowFondo .htitulo {
+    padding: 7px;
+    margin-bottom: 7px;
+    text-align: center; }
+  header .hHelp .hListHelp {
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 2px;
+    text-align: center; }
+    header .hHelp .hListHelp li {
+      margin-bottom: 4px; }
+    header .hHelp .hListHelp .link,
+    header .hHelp .hListHelp .tel,
+    header .hHelp .hListHelp .horario {
+      text-decoration: none;
+      margin: 1px 11px;
+      text-transform: uppercase;
+      font-size: 14px; }
+    header .hHelp .hListHelp .horario {
+      background-color: #f36639;
+      color: #fff;
+      border-radius: 4px;
+      text-shadow: none;
+      border: none;
+      padding: 10px 10px 6px 10px;
+      font-weight: 700; } }
+
+/*# sourceMappingURL=estilos.css.map */
