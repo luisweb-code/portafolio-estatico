@@ -35,6 +35,7 @@ header {
         color: $textNarangaf;
         &:hover {
           color: $textBlancof;
+          transition: all 0.25s ease;
         }
       }
       .tel {
@@ -50,6 +51,43 @@ header {
         padding: 3px 8px 3px 10px;
         font-weight: 700;
       }
+    }
+  }
+  .hRowOrange {
+    background-color: $bgNarangaf;
+    .hLogoUno {
+      color: $textNegro0;
+      text-transform: uppercase;
+      font-weight: 400;
+      &:hover {
+        color: $textBlancof;
+        transition: all 0.25s ease;
+      }
+    }
+    .hLogoDos {
+      color: $textGris8;
+      text-transform: uppercase;
+      font-weight: 400;
+      &:hover {
+        color: $textBlancof;
+        transition: all 0.25s ease;
+      }
+    }
+    .hLinkNav {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1em;
+      line-height: 35px;
+      padding: 19px;
+      border-right: 1px solid $bgNarangaf6;
+      &:hover {
+        background-color: $bgNarangab;
+        transition: all 0.25s ease-out;
+      }
+    }
+    .hlinkOne {
+      background-color: $bgNarangab;
+      border-left: 1px solid $bgNarangaf6;
     }
   }
 }

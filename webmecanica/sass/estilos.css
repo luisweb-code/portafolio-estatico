@@ -43,7 +43,8 @@ header .hHelp .hListHelp {
   header .hHelp .hListHelp .link {
     color: #f36639; }
     header .hHelp .hListHelp .link:hover {
-      color: #fff; }
+      color: #fff;
+      transition: all 0.25s ease; }
   header .hHelp .hListHelp .tel {
     color: #fff;
     font-weight: 700; }
@@ -55,6 +56,35 @@ header .hHelp .hListHelp {
     border: none;
     padding: 3px 8px 3px 10px;
     font-weight: 700; }
+header .hRowOrange {
+  background-color: #f36639; }
+  header .hRowOrange .hLogoUno {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400; }
+    header .hRowOrange .hLogoUno:hover {
+      color: #fff;
+      transition: all 0.25s ease; }
+  header .hRowOrange .hLogoDos {
+    color: #888888;
+    text-transform: uppercase;
+    font-weight: 400; }
+    header .hRowOrange .hLogoDos:hover {
+      color: #fff;
+      transition: all 0.25s ease; }
+  header .hRowOrange .hLinkNav {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 35px;
+    padding: 19px;
+    border-right: 1px solid #f69322; }
+    header .hRowOrange .hLinkNav:hover {
+      background-color: #b45435;
+      transition: all 0.25s ease-out; }
+  header .hRowOrange .hlinkOne {
+    background-color: #b45435;
+    border-left: 1px solid #f69322; }
 
 @media only screen and (max-width: 500px) {
   header .hRowFondo .htitulo {
@@ -84,6 +114,59 @@ header .hHelp .hListHelp {
       text-shadow: none;
       border: none;
       padding: 10px 10px 6px 10px;
-      font-weight: 700; } }
+      font-weight: 700; }
+  header .hRowOrange {
+    background-color: #f36639; }
+    header .hRowOrange .hLinkNav {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1em;
+      line-height: 35px;
+      padding: 19px;
+      border-right: 0; }
+    header .hRowOrange .hlinkOne {
+      background-color: #f36639;
+      border-left: 0; } }
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  header .hRowFondo .htitulo {
+    padding: 7px;
+    margin-bottom: 7px;
+    text-align: center; }
+  header .hHelp .hListHelp {
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 2px;
+    text-align: center; }
+    header .hHelp .hListHelp li {
+      margin-bottom: 4px; }
+    header .hHelp .hListHelp .link,
+    header .hHelp .hListHelp .tel,
+    header .hHelp .hListHelp .horario {
+      text-decoration: none;
+      margin: 1px 11px;
+      text-transform: uppercase;
+      font-size: 14px; }
+    header .hHelp .hListHelp .horario {
+      background-color: #f36639;
+      color: #fff;
+      border-radius: 4px;
+      text-shadow: none;
+      border: none;
+      padding: 10px 10px 6px 10px;
+      font-weight: 700; }
+  header .hRowOrange {
+    background-color: #f36639; }
+    header .hRowOrange .hLinkNav {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1em;
+      line-height: 35px;
+      padding: 19px;
+      border-right: 0; }
+    header .hRowOrange .hlinkOne {
+      background-color: #f36639;
+      border-left: 0; } }
 
 /*# sourceMappingURL=estilos.css.map */
