@@ -85,6 +85,60 @@ header .hRowOrange {
   header .hRowOrange .hlinkOne {
     background-color: #b45435;
     border-left: 1px solid #f69322; }
+header .hRowGris {
+  background-color: #b4b3b3; }
+  header .hRowGris .hCarousel .hCaroImg {
+    filter: brightness(0.5); }
+  header .hRowGris .hCarousel .hBook {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 13em;
+    padding: 2em;
+    left: 12em;
+    animation: fadeInDownBig;
+    animation-duration: 2s; }
+    header .hRowGris .hCarousel .hBook .tituloBook {
+      color: #fff;
+      font-weight: 300;
+      font-size: 6em;
+      text-align: center; }
+    header .hRowGris .hCarousel .hBook .linkBook {
+      color: #fff;
+      border: 2px solid #f36639;
+      border-radius: 10px;
+      text-align: center;
+      padding: 1em 3em;
+      text-align: center;
+      text-transform: uppercase;
+      display: block;
+      margin: 2px auto;
+      width: 220px;
+      text-decoration: none; }
+      header .hRowGris .hCarousel .hBook .linkBook i {
+        margin-right: 10px; }
+      header .hRowGris .hCarousel .hBook .linkBook:hover {
+        background-color: #f36639;
+        color: #fff;
+        transition: all 0.25s ease; }
+header .hRepair {
+  background-color: #f36639;
+  padding: 1em; }
+  header .hRepair .icoRepair,
+  header .hRepair .tiRepair,
+  header .hRepair .subRepair {
+    color: #fff;
+    text-align: center; }
+  header .hRepair .icoRepair i {
+    font-size: 4em;
+    margin: 4px 2px; }
+  header .hRepair .tiRepair {
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 33px;
+    font-family: inherit; }
+  header .hRepair .subRepair {
+    font-size: 13px;
+    line-height: 19px; }
 
 @media only screen and (max-width: 500px) {
   header .hRowFondo .htitulo {
@@ -126,8 +180,41 @@ header .hRowOrange {
       border-right: 0; }
     header .hRowOrange .hlinkOne {
       background-color: #f36639;
-      border-left: 0; } }
-@media only screen and (min-width: 500px) and (max-width: 1000px) {
+      border-left: 0; }
+  header .hRowGris .hCarousel .hCaroImg {
+    filter: brightness(0.5); }
+  header .hRowGris .hCarousel .hBook {
+    /*  border: 1px solid red; */
+    position: absolute;
+    top: 10px;
+    padding: 16px;
+    left: 40px;
+    animation: fadeInDownBig;
+    animation-duration: 2s; }
+    header .hRowGris .hCarousel .hBook .tituloBook {
+      color: #fff;
+      font-weight: 300;
+      font-size: 1em;
+      text-align: center; }
+    header .hRowGris .hCarousel .hBook .linkBook {
+      color: #fff;
+      border: 2px solid #f36639;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      display: block;
+      margin: 2px auto;
+      width: 220px;
+      text-decoration: none; }
+      header .hRowGris .hCarousel .hBook .linkBook i {
+        margin-right: 10px; }
+      header .hRowGris .hCarousel .hBook .linkBook:hover {
+        background-color: #f36639;
+        color: #fff;
+        transition: all 0.25s ease; } }
+@media only screen and (min-width: 500px) and (max-width: 1280px) {
   header .hRowFondo .htitulo {
     padding: 7px;
     margin-bottom: 7px;
@@ -167,6 +254,38 @@ header .hRowOrange {
       border-right: 0; }
     header .hRowOrange .hlinkOne {
       background-color: #f36639;
-      border-left: 0; } }
+      border-left: 0; }
+  header .hRowGris .hCarousel .hCaroImg {
+    filter: brightness(0.5); }
+  header .hRowGris .hCarousel .hBook {
+    position: absolute;
+    top: 0.875em;
+    padding: 1em;
+    margin: 1px auto;
+    animation: fadeInDownBig;
+    animation-duration: 2s; }
+    header .hRowGris .hCarousel .hBook .tituloBook {
+      color: #fff;
+      font-weight: 300;
+      font-size: 3.013em;
+      text-align: center; }
+    header .hRowGris .hCarousel .hBook .linkBook {
+      color: #fff;
+      border: 2px solid #f36639;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      display: block;
+      margin: 2px auto;
+      width: 220px;
+      text-decoration: none; }
+      header .hRowGris .hCarousel .hBook .linkBook i {
+        margin-right: 10px; }
+      header .hRowGris .hCarousel .hBook .linkBook:hover {
+        background-color: #f36639;
+        color: #fff;
+        transition: all 0.25s ease; } }
 
 /*# sourceMappingURL=estilos.css.map */

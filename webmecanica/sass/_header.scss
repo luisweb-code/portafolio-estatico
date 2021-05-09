@@ -90,4 +90,74 @@ header {
       border-left: 1px solid $bgNarangaf6;
     }
   }
+  .hRowGris {
+    background-color: $bgGrisB;
+    .hCarousel {
+      .hCaroImg {
+        filter: brightness(0.5);
+      }
+      .hBook {
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 13em;
+        padding: 2em;
+        left: 12em;
+        animation: fadeInDownBig;
+        animation-duration: 2s;
+        .tituloBook {
+          color: $textBlancof;
+          font-weight: 300;
+          font-size: 6em;
+          text-align: center;
+        }
+        .linkBook {
+          color: $textBlancof;
+          border: 2px solid $bgNarangaf;
+          border-radius: 10px;
+          text-align: center;
+          padding: 1em 3em;
+          text-align: center;
+          text-transform: uppercase;
+          display: block;
+          margin: 2px auto;
+          width: 220px;
+          text-decoration: none;
+          i {
+            margin-right: 10px;
+          }
+          &:hover {
+            background-color: $bgNarangaf;
+            color: $textBlancof;
+            transition: all 0.25s ease;
+          }
+        }
+      }
+    }
+  }
+  .hRepair {
+    background-color: $bgNarangaf;
+    padding: 1em;
+    .icoRepair,
+    .tiRepair,
+    .subRepair {
+      color: $textBlancof;
+      text-align: center;
+    }
+    .icoRepair {
+      i {
+        font-size: 4em;
+        margin: 4px 2px;
+      }
+    }
+    .tiRepair {
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 33px;
+      font-family: inherit;
+    }
+    .subRepair {
+      font-size: 13px;
+      line-height: 19px;
+    }
+  }
 }
