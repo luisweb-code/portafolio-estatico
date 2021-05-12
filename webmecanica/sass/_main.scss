@@ -1,0 +1,100 @@
+.main {
+  .mImagen {
+    .imgMain {
+      width: 100%;
+      height: auto;
+      opacity: 0.7;
+    }
+  }
+  .mBienvenido {
+    border: 1px solid white;
+    .tituloUno {
+      text-transform: uppercase;
+      font-size: 2em;
+      color: $textNarangaf;
+      text-align: center;
+      font-weight: 500;
+    }
+    .tituloDos {
+      text-transform: uppercase;
+      font-size: 2em;
+      text-align: center;
+      font-weight: 100;
+      color: $textNegro0;
+    }
+    .subtitulo {
+      text-align: center;
+      font-weight: 100;
+      color: $textGris8;
+      font-size: 14px;
+    }
+  }
+  .mServices {
+    .tituleServices {
+      color: $textNegro0;
+      font-weight: 200;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 16px 0px 0px 0px;
+    }
+    .subtituleServices {
+      color: $textNegro0;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  .mList {
+    .serviceList {
+      font-size: 15px;
+      line-height: 20px;
+      padding-left: 0;
+      padding-top: 0;
+      li {
+        list-style: none;
+        padding: 0 0 15px 22px;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $textGris8;
+          line-height: 1.5;
+          i {
+            margin-left: 10px;
+            color: $bgNarangaf;
+            width: 20px;
+          }
+          &:hover {
+            color: $bgNarangaf;
+            transition: all 0.5s ease;
+            i {
+              color: $textNegro0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .mLink {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    .btnServices {
+      padding: 7px 26px 9px;
+      font-size: 13px;
+      line-height: 19px;
+      background: $bgNarangaf;
+      color: $textBlancof;
+      text-shadow: none;
+      border: none;
+      outline: none !important;
+      text-transform: uppercase;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      &:hover {
+        background-color: $bgGris3;
+      }
+    }
+  }
+}

@@ -99,7 +99,7 @@ header {
       .hBook {
         /* border: 1px solid red; */
         position: absolute;
-        top: 13em;
+        top: 5em;
         padding: 2em;
         left: 12em;
         animation: fadeInDownBig;
@@ -134,30 +134,77 @@ header {
       }
     }
   }
-  .hRepair {
-    background-color: $bgNarangaf;
-    padding: 1em;
-    .icoRepair,
-    .tiRepair,
-    .subRepair {
-      color: $textBlancof;
-      text-align: center;
-    }
-    .icoRepair {
-      i {
-        font-size: 4em;
-        margin: 4px 2px;
+  .hrow{
+    position: relative;
+    bottom: 7em;
+    .hRepair {
+      background-color: $bgNarangaf;
+      padding: 1em;
+      &:hover{
+        background-color: $bgNarangab;
+        transition: all 0.3s linear;
+        .subRepair{
+          display: none;
+        }
+        .linkRepair {
+          padding: 6px 25px 8px;
+          border: 1px solid $textBlancof;
+          text-decoration: none;
+          text-align: center;
+          color: $textBlancof;
+          display: block;
+          text-transform: uppercase;
+          border-radius: 10px;
+          width: 9em;
+          cursor: pointer;
+          position: relative;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          &:hover {
+            background-color: $bgNarangaf;
+          }
+        }
       }
-    }
-    .tiRepair {
-      text-transform: uppercase;
-      font-weight: 500;
-      line-height: 33px;
-      font-family: inherit;
-    }
-    .subRepair {
-      font-size: 13px;
-      line-height: 19px;
+      .icoRepair,
+      .tiRepair,
+      .subRepair {
+        color: $textBlancof;
+        text-align: center;
+      }
+      .icoRepair {
+        i {
+          font-size: 4em;
+          margin: 4px 2px;
+        }
+      }
+      .tiRepair {
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 33px;
+        font-family: inherit;
+      }
+      .subRepair {
+        font-size: 13px;
+        line-height: 19px;
+      }
+      .linkRepair {
+        padding: 6px 25px 8px;
+        border: 1px solid $textBlancof;
+        text-decoration: none;
+        text-align: center;
+        color: $textBlancof;
+        margin: 10px auto;
+        display: block;
+        text-transform: uppercase;
+        border-radius: 10px;
+        width: 9em;
+        cursor: pointer;
+        display: none;
+        position: relative;
+        &:hover {
+          background-color: $bgNarangaf;
+        }
+      }
     }
   }
 }

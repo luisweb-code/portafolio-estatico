@@ -92,7 +92,7 @@ header .hRowGris {
   header .hRowGris .hCarousel .hBook {
     /* border: 1px solid red; */
     position: absolute;
-    top: 13em;
+    top: 5em;
     padding: 2em;
     left: 12em;
     animation: fadeInDownBig;
@@ -120,25 +120,142 @@ header .hRowGris {
         background-color: #f36639;
         color: #fff;
         transition: all 0.25s ease; }
-header .hRepair {
-  background-color: #f36639;
-  padding: 1em; }
-  header .hRepair .icoRepair,
-  header .hRepair .tiRepair,
-  header .hRepair .subRepair {
-    color: #fff;
-    text-align: center; }
-  header .hRepair .icoRepair i {
-    font-size: 4em;
-    margin: 4px 2px; }
-  header .hRepair .tiRepair {
+header .hrow {
+  position: relative;
+  bottom: 7em; }
+  header .hrow .hRepair {
+    background-color: #f36639;
+    padding: 1em; }
+    header .hrow .hRepair:hover {
+      background-color: #b45435;
+      transition: all 0.3s linear; }
+      header .hrow .hRepair:hover .subRepair {
+        display: none; }
+      header .hrow .hRepair:hover .linkRepair {
+        padding: 6px 25px 8px;
+        border: 1px solid #fff;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        display: block;
+        text-transform: uppercase;
+        border-radius: 10px;
+        width: 9em;
+        cursor: pointer;
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 20px; }
+        header .hrow .hRepair:hover .linkRepair:hover {
+          background-color: #f36639; }
+    header .hrow .hRepair .icoRepair,
+    header .hrow .hRepair .tiRepair,
+    header .hrow .hRepair .subRepair {
+      color: #fff;
+      text-align: center; }
+    header .hrow .hRepair .icoRepair i {
+      font-size: 4em;
+      margin: 4px 2px; }
+    header .hrow .hRepair .tiRepair {
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 33px;
+      font-family: inherit; }
+    header .hrow .hRepair .subRepair {
+      font-size: 13px;
+      line-height: 19px; }
+    header .hrow .hRepair .linkRepair {
+      padding: 6px 25px 8px;
+      border: 1px solid #fff;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      margin: 10px auto;
+      display: block;
+      text-transform: uppercase;
+      border-radius: 10px;
+      width: 9em;
+      cursor: pointer;
+      display: none;
+      position: relative; }
+      header .hrow .hRepair .linkRepair:hover {
+        background-color: #f36639; }
+
+.main .mImagen .imgMain {
+  width: 100%;
+  height: auto;
+  opacity: 0.7; }
+.main .mBienvenido {
+  border: 1px solid white; }
+  .main .mBienvenido .tituloUno {
     text-transform: uppercase;
-    font-weight: 500;
-    line-height: 33px;
-    font-family: inherit; }
-  header .hRepair .subRepair {
+    font-size: 2em;
+    color: #f36639;
+    text-align: center;
+    font-weight: 500; }
+  .main .mBienvenido .tituloDos {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 100;
+    color: #000; }
+  .main .mBienvenido .subtitulo {
+    text-align: center;
+    font-weight: 100;
+    color: #888888;
+    font-size: 14px; }
+.main .mServices .tituleServices {
+  color: #000;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 16px 0px 0px 0px; }
+.main .mServices .subtituleServices {
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px; }
+.main .mList .serviceList {
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 0;
+  padding-top: 0; }
+  .main .mList .serviceList li {
+    list-style: none;
+    padding: 0 0 15px 22px; }
+    .main .mList .serviceList li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #888888;
+      line-height: 1.5; }
+      .main .mList .serviceList li a i {
+        margin-left: 10px;
+        color: #f36639;
+        width: 20px; }
+      .main .mList .serviceList li a:hover {
+        color: #f36639;
+        transition: all 0.5s ease; }
+        .main .mList .serviceList li a:hover i {
+          color: #000; }
+.main .mLink {
+  padding: 1em;
+  display: flex;
+  justify-content: center; }
+  .main .mLink .btnServices {
+    padding: 7px 26px 9px;
     font-size: 13px;
-    line-height: 19px; }
+    line-height: 19px;
+    background: #f36639;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+    outline: none !important;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none; }
+    .main .mLink .btnServices:hover {
+      background-color: #333333; }
 
 @media only screen and (max-width: 500px) {
   header .hRowFondo .htitulo {
@@ -213,7 +330,13 @@ header .hRepair {
       header .hRowGris .hCarousel .hBook .linkBook:hover {
         background-color: #f36639;
         color: #fff;
-        transition: all 0.25s ease; } }
+        transition: all 0.25s ease; }
+  header .hrow {
+    bottom: 0em !important; }
+    header .hrow .hRepair {
+      background-color: #f36639;
+      padding: 1em;
+      margin: 1em; } }
 @media only screen and (min-width: 500px) and (max-width: 1280px) {
   header .hRowFondo .htitulo {
     padding: 7px;
@@ -286,6 +409,70 @@ header .hRepair {
       header .hRowGris .hCarousel .hBook .linkBook:hover {
         background-color: #f36639;
         color: #fff;
-        transition: all 0.25s ease; } }
+        transition: all 0.25s ease; }
+  header .hrow {
+    position: relative;
+    bottom: 0em !important; }
+    header .hrow .hRepair {
+      background-color: #f36639;
+      padding: 1em;
+      margin-top: 1em; }
+      header .hrow .hRepair:hover {
+        background-color: #b45435;
+        transition: all 0.3s linear; }
+        header .hrow .hRepair:hover .subRepair {
+          display: none; }
+        header .hrow .hRepair:hover .linkRepair {
+          padding: 2px 20px 2px;
+          border: 1px solid #fff;
+          text-decoration: none;
+          text-align: center;
+          color: #fff;
+          display: block;
+          text-transform: uppercase;
+          border-radius: 10px;
+          width: 9em;
+          cursor: pointer;
+          position: relative;
+          margin-bottom: 35px;
+          margin-top: 40px;
+          font-size: 13px; }
+          header .hrow .hRepair:hover .linkRepair:hover {
+            background-color: #f36639; }
+      header .hrow .hRepair .icoRepair,
+      header .hrow .hRepair .tiRepair,
+      header .hrow .hRepair .subRepair {
+        color: #fff;
+        text-align: center; }
+      header .hrow .hRepair .icoRepair i {
+        font-size: 3em;
+        margin: 4px 2px; }
+      header .hrow .hRepair .tiRepair {
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 22px;
+        font-family: inherit;
+        font-size: 15px; }
+      header .hrow .hRepair .subRepair {
+        font-size: 12px;
+        line-height: 19px; }
+      header .hrow .hRepair .linkRepair {
+        padding: 2px 20px 2px;
+        border: 1px solid #fff;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        display: block;
+        text-transform: uppercase;
+        border-radius: 10px;
+        width: 9em;
+        cursor: pointer;
+        position: relative;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        font-size: 13px;
+        display: none; }
+        header .hrow .hRepair .linkRepair:hover {
+          background-color: #f36639; } }
 
 /*# sourceMappingURL=estilos.css.map */

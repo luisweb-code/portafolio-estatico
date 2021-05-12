@@ -95,6 +95,14 @@
         }
       }
     }
+    .hrow {
+      bottom: 0em !important;
+      .hRepair {
+        background-color: $bgNarangaf;
+        padding: 1em;
+        margin: 1em;
+      }
+    }
   }
 }
 @media only screen and (min-width: $galaxys9) and (max-width: $ipad) {
@@ -189,6 +197,84 @@
               color: $textBlancof;
               transition: all 0.25s ease;
             }
+          }
+        }
+      }
+    }
+    .hrow {
+      position: relative;
+      bottom: 0em !important;
+      .hRepair {
+        background-color: $bgNarangaf;
+        padding: 1em;
+        margin-top: 1em;
+        &:hover {
+          background-color: $bgNarangab;
+          transition: all 0.3s linear;
+          .subRepair {
+            display: none;
+          }
+          .linkRepair {
+            padding: 2px 20px 2px;
+            border: 1px solid $textBlancof;
+            text-decoration: none;
+            text-align: center;
+            color: $textBlancof;
+            display: block;
+            text-transform: uppercase;
+            border-radius: 10px;
+            width: 9em;
+            cursor: pointer;
+            position: relative;
+            margin-bottom: 35px;
+            margin-top: 40px;
+            font-size: 13px;
+            &:hover {
+              background-color: $bgNarangaf;
+            }
+          }
+        }
+        .icoRepair,
+        .tiRepair,
+        .subRepair {
+          color: $textBlancof;
+          text-align: center;
+        }
+        .icoRepair {
+          i {
+            font-size: 3em;
+            margin: 4px 2px;
+          }
+        }
+        .tiRepair {
+          text-transform: uppercase;
+          font-weight: 500;
+          line-height: 22px;
+          font-family: inherit;
+          font-size: 15px;
+        }
+        .subRepair {
+          font-size: 12px;
+          line-height: 19px;
+        }
+        .linkRepair {
+          padding: 2px 20px 2px;
+          border: 1px solid $textBlancof;
+          text-decoration: none;
+          text-align: center;
+          color: $textBlancof;
+          display: block;
+          text-transform: uppercase;
+          border-radius: 10px;
+          width: 9em;
+          cursor: pointer;
+          position: relative;
+          margin-bottom: 25px;
+          margin-top: 25px;
+          font-size: 13px;
+          display: none;
+          &:hover {
+            background-color: $bgNarangaf;
           }
         }
       }
