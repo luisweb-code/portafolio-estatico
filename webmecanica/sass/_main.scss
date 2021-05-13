@@ -97,4 +97,52 @@
       }
     }
   }
+  .mAbout {
+    .titule {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: $bgNarangaf;
+    }
+    .subtitule {
+      text-align: center;
+      text-transform: uppercase;
+      color: $textNegro0;
+      font-weight: 200;
+      margin-bottom: 1em;
+    }
+    .parrafo {
+      font-size: 13px;
+      line-height: 19px;
+      color: $textGris8;
+      text-align: center;
+    }
+    .link {
+      padding: 7px 26px 9px;
+      font-size: 13px;
+      line-height: 19px;
+      background: $bgNarangaf;
+      color: $textBlancof;
+      text-shadow: none;
+      border: none;
+      outline: none !important;
+      text-transform: uppercase;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      width: 10em;
+      margin: 2px auto;
+      &:hover {
+        background-color: $bgGris3;
+      }
+    }
+  }
+  .mImgAbout {
+    .imgFluid {
+      width: 100%;
+      height: auto;
+      opacity: 0.7;
+    }
+  }
 }

@@ -256,6 +256,44 @@ header .hrow {
     text-decoration: none; }
     .main .mLink .btnServices:hover {
       background-color: #333333; }
+.main .mAbout .titule {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #f36639; }
+.main .mAbout .subtitule {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 200;
+  margin-bottom: 1em; }
+.main .mAbout .parrafo {
+  font-size: 13px;
+  line-height: 19px;
+  color: #888888;
+  text-align: center; }
+.main .mAbout .link {
+  padding: 7px 26px 9px;
+  font-size: 13px;
+  line-height: 19px;
+  background: #f36639;
+  color: #fff;
+  text-shadow: none;
+  border: none;
+  outline: none !important;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  width: 10em;
+  margin: 2px auto; }
+  .main .mAbout .link:hover {
+    background-color: #333333; }
+.main .mImgAbout .imgFluid {
+  width: 100%;
+  height: auto;
+  opacity: 0.7; }
 
 @media only screen and (max-width: 500px) {
   header .hRowFondo .htitulo {
