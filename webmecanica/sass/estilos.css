@@ -294,6 +294,76 @@ header .hrow {
   width: 100%;
   height: auto;
   opacity: 0.7; }
+.main .mTestimonialTitule {
+  padding: 1em;
+  text-align: center;
+  font-weight: 300;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 30px; }
+.main .mIntro_text .citasFoto {
+  border-radius: 100%;
+  height: 7em;
+  display: block;
+  margin: 20px auto; }
+.main .mIntro_text .subtituloCitas {
+  color: #888888;
+  font-weight: 100;
+  text-align: center;
+  line-height: inherit;
+  font-size: 13px; }
+  .main .mIntro_text .subtituloCitas i {
+    color: #f36639;
+    font-size: 2em;
+    padding: 2px; }
+.main .mIntro_text .tituloCitas {
+  text-align: center;
+  color: #f36639;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: normal; }
+.main .mMenu .navMenu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0; }
+  .main .mMenu .navMenu .itemMenu {
+    list-style: none;
+    padding: 30px 3px 3px 3px; }
+    .main .mMenu .navMenu .itemMenu img {
+      width: 100%;
+      height: auto;
+      opacity: 0.5; }
+      .main .mMenu .navMenu .itemMenu img:hover {
+        opacity: 1;
+        transition: all 0.5s linear; }
+
+footer .info {
+  padding: 30px 0 0 30px; }
+  footer .info .infoTitulo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    text-transform: uppercase; }
+  footer .info .infoNav {
+    list-style: none;
+    padding-left: 0;
+    font-size: 12px;
+    text-transform: uppercase; }
+    footer .info .infoNav .infoIteam {
+      margin: 16px 0; }
+      footer .info .infoNav .infoIteam a {
+        color: #888888;
+        text-decoration: none; }
+        footer .info .infoNav .infoIteam a:hover {
+          color: #f36639;
+          transition: all 0.3s linear; }
+      footer .info .infoNav .infoIteam i {
+        color: #f36639;
+        padding-right: 10px; }
 
 @media only screen and (max-width: 500px) {
   header .hRowFondo .htitulo {
