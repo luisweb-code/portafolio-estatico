@@ -572,6 +572,117 @@ header .hrow {
     width: 100%;
     height: auto; }
 
+.mainServices .mTitulo {
+  padding: 10px; }
+  .mainServices .mTitulo .mList {
+    display: flex;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-left: 0px; }
+    .mainServices .mTitulo .mList .mIteam {
+      list-style: none;
+      font-size: 19px;
+      font-weight: 500;
+      margin: 1px 4px; }
+    .mainServices .mTitulo .mList .mIteamE {
+      color: #f36639; }
+      .mainServices .mTitulo .mList .mIteamE:hover {
+        color: #fff;
+        transition: all 0.3s ease; }
+.mainServices .mTituloServices {
+  text-align: center;
+  padding: 20px 10px 10px 20px;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+.mainServices .mServices {
+  animation: fadeInDown;
+  animation-duration: 4s; }
+  .mainServices .mServices .titulo {
+    text-transform: uppercase;
+    color: #f36639;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px; }
+  .mainServices .mServices .subtitulo {
+    color: #888888;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 19px; }
+
+.mainContact {
+  /*Crear un mapa responsivo*/ }
+  .mainContact .mTitulo {
+    padding: 10px; }
+    .mainContact .mTitulo .mList {
+      display: flex;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 0px;
+      padding-left: 0px; }
+      .mainContact .mTitulo .mList .mIteam {
+        list-style: none;
+        font-size: 19px;
+        font-weight: 500;
+        margin: 1px 4px; }
+      .mainContact .mTitulo .mList .mIteamE {
+        color: #f36639; }
+        .mainContact .mTitulo .mList .mIteamE:hover {
+          color: #fff;
+          transition: all 0.3s ease; }
+  .mainContact .mTituloContact {
+    text-align: center;
+    padding: 20px 10px 10px 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .mainContact .mMaps {
+    border: 1px solid #000;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden; }
+    .mainContact .mMaps iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  .mainContact .mDireccion {
+    padding: 22px; }
+    .mainContact .mDireccion .titulo {
+      text-transform: uppercase;
+      color: #000;
+      font-size: 30px;
+      font-weight: 100;
+      line-height: 20px;
+      margin-bottom: 20px; }
+    .mainContact .mDireccion .info {
+      color: #888888;
+      font-size: 16px;
+      font-weight: 500; }
+    .mainContact .mDireccion .tel {
+      text-decoration: none;
+      font-size: 16px;
+      color: #888888;
+      font-weight: 500; }
+      .mainContact .mDireccion .tel i {
+        margin-right: 5px; }
+    .mainContact .mDireccion .email {
+      text-decoration: none;
+      font-size: 16px;
+      color: #f36639;
+      font-weight: 500; }
+      .mainContact .mDireccion .email:hover {
+        color: #888888;
+        transition: ease 0.3s all; }
+
 footer .info {
   padding: 30px 0 0 30px; }
   footer .info .infoTitulo {

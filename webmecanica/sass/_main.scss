@@ -489,3 +489,142 @@
     }
   }
 }
+
+.mainServices {
+  .mTitulo {
+    padding: 10px;
+    .mList {
+      display: flex;
+      text-transform: uppercase;
+      color: $textBlancof;
+      margin-bottom: 0px;
+      padding-left: 0px;
+      .mIteam {
+        list-style: none;
+        font-size: 19px;
+        font-weight: 500;
+        margin: 1px 4px;
+      }
+      .mIteamE {
+        color: $textNarangaf;
+        &:hover {
+          color: $textBlancof;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+  .mTituloServices {
+    text-align: center;
+    padding: 20px 10px 10px 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mServices {
+    animation: fadeInDown;
+    animation-duration: 4s;
+
+    .titulo {
+      text-transform: uppercase;
+      color: $bgNarangaf;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 10px;
+    }
+    .subtitulo {
+      color: $textGris8;
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 19px;
+    }
+  }
+}
+
+.mainContact {
+  .mTitulo {
+    padding: 10px;
+    .mList {
+      display: flex;
+      text-transform: uppercase;
+      color: $textBlancof;
+      margin-bottom: 0px;
+      padding-left: 0px;
+      .mIteam {
+        list-style: none;
+        font-size: 19px;
+        font-weight: 500;
+        margin: 1px 4px;
+      }
+      .mIteamE {
+        color: $textNarangaf;
+        &:hover {
+          color: $textBlancof;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+  .mTituloContact {
+    text-align: center;
+    padding: 20px 10px 10px 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /*Crear un mapa responsivo*/
+  .mMaps {
+    border: 1px solid $textNegro0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .mDireccion {
+    padding: 22px;
+    .titulo {
+      text-transform: uppercase;
+      color: $textNegro0;
+      font-size: 30px;
+      font-weight: 100;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+    .info {
+      color: $textGris8;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .tel {
+      text-decoration: none;
+      font-size: 16px;
+      color: $textGris8;
+      font-weight: 500;
+      i {
+        margin-right: 5px;
+      }
+    }
+    .email {
+      text-decoration: none;
+      font-size: 16px;
+      color: $textNarangaf;
+      font-weight: 500;
+      &:hover {
+        color: $textGris8;
+        transition: ease 0.3s all;
+      }
+    }
+  }
+}
