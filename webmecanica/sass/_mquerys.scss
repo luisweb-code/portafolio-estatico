@@ -104,6 +104,53 @@
       }
     }
   }
+  .mainAbout {
+    .mFast{
+      padding: 3em; 
+      .titulo{
+        color: $textNarangaf;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 20px;
+        font-weight: 500;
+        margin-bottom:1em;
+        font-size: 25px;
+      }
+      .subtitulo{
+        color: $textBlancof;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 10px;
+        font-weight: 400;
+        margin-bottom:1em;
+        font-size: 20px;
+      }
+      .subinfo{
+        color: $textBlancof;
+        text-align: center;
+        line-height: 19px;
+        font-size: 12px;
+      }
+      .link{
+        color: $textBlancof;
+        background-color: $bgNarangaf;
+        display: block;
+        margin: 2px auto;
+        padding: 7px 26px 9px;
+        line-height: 19px;
+        border-radius: 4px;
+        width: 135px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-decoration: none;
+        &:hover{
+          background-color: $textNegro0;
+          transition: all 0.5s ease;
+        }
+      }
+    }
+  }
 }
 @media only screen and (min-width: $galaxys9) and (max-width: $ipad) {
   header {

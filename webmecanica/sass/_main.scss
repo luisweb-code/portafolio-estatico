@@ -204,3 +204,288 @@
     }
   }
 }
+
+.mainAbout {
+  .mTitulo {
+    padding: 10px;
+    .mList {
+      display: flex;
+      text-transform: uppercase;
+      color: $textBlancof;
+      margin-bottom: 0px;
+      padding-left: 0px;
+      .mIteam {
+        list-style: none;
+        font-size: 19px;
+        font-weight: 500;
+        margin: 1px 4px;
+      }
+      .mIteamE {
+        color: $textNarangaf;
+        &:hover {
+          color: $textBlancof;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+  .mAbout {
+    .titule {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: $bgNarangaf;
+    }
+    .subtitule {
+      text-align: center;
+      text-transform: uppercase;
+      color: $textNegro0;
+      font-weight: 200;
+      margin-bottom: 1em;
+    }
+    .parrafo {
+      font-size: 13px;
+      line-height: 19px;
+      color: $textGris8;
+      text-align: center;
+    }
+    .link {
+      padding: 7px 26px 9px;
+      font-size: 13px;
+      line-height: 19px;
+      background: $bgNarangaf;
+      color: $textBlancof;
+      text-shadow: none;
+      border: none;
+      outline: none !important;
+      text-transform: uppercase;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      width: 10em;
+      margin: 2px auto;
+      &:hover {
+        background-color: $bgGris3;
+      }
+    }
+  }
+  .mImgAbout {
+    .imgFluid {
+      width: 100%;
+      height: auto;
+      opacity: 0.8;
+    }
+  }
+  .mWork {
+    text-align: center;
+    color: $textNegro0;
+    margin-bottom: 12px;
+    margin-top: 4em;
+    .titulo {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 43px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .subtitulo {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 43px;
+      padding-bottom: 30px;
+      text-transform: uppercase;
+    }
+  }
+  .mWorkUs {
+    background-color: $bgNarangaf;
+    color: $textBlancof;
+    padding: 29px 20px 20px;
+    .icon {
+      font-size: 26px;
+      text-transform: uppercase;
+      font-weight: 500;
+      text-align: center;
+
+      i {
+        font-size: 2em;
+      }
+    }
+    .titulo {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 100;
+      line-height: 40px;
+    }
+    .subtitulo {
+      text-align: center;
+      font-size: 13px;
+      line-height: 19px;
+    }
+  }
+  .mImagen {
+    .imgMain {
+      width: 100%;
+      height: auto;
+      opacity: 0.7;
+    }
+  }
+  .mBienvenido {
+    border: 1px solid white;
+    .tituloUno {
+      text-transform: uppercase;
+      font-size: 2em;
+      color: $textNarangaf;
+      text-align: center;
+      font-weight: 500;
+    }
+    .tituloDos {
+      text-transform: uppercase;
+      font-size: 2em;
+      text-align: center;
+      font-weight: 100;
+      color: $textNegro0;
+    }
+    .subtitulo {
+      text-align: center;
+      font-weight: 100;
+      color: $textGris8;
+      font-size: 13px;
+    }
+  }
+  .imgFondo {
+    background-image: url("../img/carFondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(50%);
+  }
+  .mFast {
+    padding: 3em;
+    .titulo {
+      color: $textNarangaf;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 20px;
+      font-weight: 500;
+      margin-bottom: 1em;
+      font-size: 4em;
+    }
+    .subtitulo {
+      color: $textBlancof;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 10px;
+      font-weight: 400;
+      margin-bottom: 1em;
+      font-size: 3em;
+    }
+    .subinfo {
+      color: $textBlancof;
+      text-align: center;
+      line-height: 19px;
+      font-size: 13px;
+    }
+    .link {
+      color: $textBlancof;
+      background-color: $bgNarangaf;
+      display: block;
+      margin: 2px auto;
+      padding: 7px 26px 9px;
+      line-height: 19px;
+      border-radius: 4px;
+      width: 135px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 13px;
+      text-decoration: none;
+      &:hover {
+        background-color: $textNegro0;
+        transition: all 0.5s ease;
+      }
+    }
+  }
+  .mTeamTitulo {
+    text-align: center;
+    color: $textGris8;
+    font-weight: 100;
+    line-height: 43px;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .mTeam {
+    padding: 16px;
+    .foto {
+      border-radius: 50%;
+      display: block;
+      margin: 2px auto;
+      opacity: 0.8;
+    }
+    .tituloPersonal {
+      text-transform: uppercase;
+      color: $textNarangaf;
+      font-size: 16px;
+      text-align: center;
+      line-height: 12px;
+      padding: 10px;
+    }
+    .infoPersonal {
+      color: $textGris8;
+      text-align: center;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  .mRepairInfo {
+    padding: 1em;
+    .titulo {
+      text-transform: uppercase;
+      color: $textNarangaf;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 40px;
+      font-size: 30px;
+    }
+    .subtitulo {
+      text-transform: uppercase;
+      color: $textBlancof;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 25px;
+    }
+    .info {
+      color: $textGris8;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 100;
+    }
+    .link {
+      color: $textBlancof;
+      background-color: $bgNarangaf;
+      display: block;
+      margin: 2px auto;
+      padding: 7px 26px 9px;
+      line-height: 19px;
+      border-radius: 4px;
+      width: 135px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 13px;
+      text-decoration: none;
+      &:hover {
+        background-color: $textNegro0;
+        transition: all 0.5s ease;
+      }
+    }
+  }
+  .mRepairFoto {
+    padding: 1em;
+    .foto {
+      margin-top: 2em;
+      opacity: 0.7;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

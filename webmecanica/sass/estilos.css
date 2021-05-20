@@ -340,6 +340,238 @@ header .hrow {
         opacity: 1;
         transition: all 0.5s linear; }
 
+.mainAbout .mTitulo {
+  padding: 10px; }
+  .mainAbout .mTitulo .mList {
+    display: flex;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-left: 0px; }
+    .mainAbout .mTitulo .mList .mIteam {
+      list-style: none;
+      font-size: 19px;
+      font-weight: 500;
+      margin: 1px 4px; }
+    .mainAbout .mTitulo .mList .mIteamE {
+      color: #f36639; }
+      .mainAbout .mTitulo .mList .mIteamE:hover {
+        color: #fff;
+        transition: all 0.3s ease; }
+.mainAbout .mAbout .titule {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #f36639; }
+.mainAbout .mAbout .subtitule {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 200;
+  margin-bottom: 1em; }
+.mainAbout .mAbout .parrafo {
+  font-size: 13px;
+  line-height: 19px;
+  color: #888888;
+  text-align: center; }
+.mainAbout .mAbout .link {
+  padding: 7px 26px 9px;
+  font-size: 13px;
+  line-height: 19px;
+  background: #f36639;
+  color: #fff;
+  text-shadow: none;
+  border: none;
+  outline: none !important;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  width: 10em;
+  margin: 2px auto; }
+  .mainAbout .mAbout .link:hover {
+    background-color: #333333; }
+.mainAbout .mImgAbout .imgFluid {
+  width: 100%;
+  height: auto;
+  opacity: 0.8; }
+.mainAbout .mWork {
+  text-align: center;
+  color: #000;
+  margin-bottom: 12px;
+  margin-top: 4em; }
+  .mainAbout .mWork .titulo {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase; }
+  .mainAbout .mWork .subtitulo {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 43px;
+    padding-bottom: 30px;
+    text-transform: uppercase; }
+.mainAbout .mWorkUs {
+  background-color: #f36639;
+  color: #fff;
+  padding: 29px 20px 20px; }
+  .mainAbout .mWorkUs .icon {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center; }
+    .mainAbout .mWorkUs .icon i {
+      font-size: 2em; }
+  .mainAbout .mWorkUs .titulo {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    line-height: 40px; }
+  .mainAbout .mWorkUs .subtitulo {
+    text-align: center;
+    font-size: 13px;
+    line-height: 19px; }
+.mainAbout .mImagen .imgMain {
+  width: 100%;
+  height: auto;
+  opacity: 0.7; }
+.mainAbout .mBienvenido {
+  border: 1px solid white; }
+  .mainAbout .mBienvenido .tituloUno {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #f36639;
+    text-align: center;
+    font-weight: 500; }
+  .mainAbout .mBienvenido .tituloDos {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 100;
+    color: #000; }
+  .mainAbout .mBienvenido .subtitulo {
+    text-align: center;
+    font-weight: 100;
+    color: #888888;
+    font-size: 13px; }
+.mainAbout .imgFondo {
+  background-image: url("../img/carFondo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(50%); }
+.mainAbout .mFast {
+  padding: 3em; }
+  .mainAbout .mFast .titulo {
+    color: #f36639;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    font-size: 4em; }
+  .mainAbout .mFast .subtitulo {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    font-size: 3em; }
+  .mainAbout .mFast .subinfo {
+    color: #fff;
+    text-align: center;
+    line-height: 19px;
+    font-size: 13px; }
+  .mainAbout .mFast .link {
+    color: #fff;
+    background-color: #f36639;
+    display: block;
+    margin: 2px auto;
+    padding: 7px 26px 9px;
+    line-height: 19px;
+    border-radius: 4px;
+    width: 135px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none; }
+    .mainAbout .mFast .link:hover {
+      background-color: #000;
+      transition: all 0.5s ease; }
+.mainAbout .mTeamTitulo {
+  text-align: center;
+  color: #888888;
+  font-weight: 100;
+  line-height: 43px;
+  font-size: 2em;
+  text-transform: uppercase; }
+.mainAbout .mTeam {
+  padding: 16px; }
+  .mainAbout .mTeam .foto {
+    border-radius: 50%;
+    display: block;
+    margin: 2px auto;
+    opacity: 0.8; }
+  .mainAbout .mTeam .tituloPersonal {
+    text-transform: uppercase;
+    color: #f36639;
+    font-size: 16px;
+    text-align: center;
+    line-height: 12px;
+    padding: 10px; }
+  .mainAbout .mTeam .infoPersonal {
+    color: #888888;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px; }
+.mainAbout .mRepairInfo {
+  padding: 1em; }
+  .mainAbout .mRepairInfo .titulo {
+    text-transform: uppercase;
+    color: #f36639;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 30px; }
+  .mainAbout .mRepairInfo .subtitulo {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px; }
+  .mainAbout .mRepairInfo .info {
+    color: #888888;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100; }
+  .mainAbout .mRepairInfo .link {
+    color: #fff;
+    background-color: #f36639;
+    display: block;
+    margin: 2px auto;
+    padding: 7px 26px 9px;
+    line-height: 19px;
+    border-radius: 4px;
+    width: 135px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none; }
+    .mainAbout .mRepairInfo .link:hover {
+      background-color: #000;
+      transition: all 0.5s ease; }
+.mainAbout .mRepairFoto {
+  padding: 1em; }
+  .mainAbout .mRepairFoto .foto {
+    margin-top: 2em;
+    opacity: 0.7;
+    width: 100%;
+    height: auto; }
+
 footer .info {
   padding: 30px 0 0 30px; }
   footer .info .infoTitulo {
@@ -444,7 +676,47 @@ footer .info {
     header .hrow .hRepair {
       background-color: #f36639;
       padding: 1em;
-      margin: 1em; } }
+      margin: 1em; }
+
+  .mainAbout .mFast {
+    padding: 3em; }
+    .mainAbout .mFast .titulo {
+      color: #f36639;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 20px;
+      font-weight: 500;
+      margin-bottom: 1em;
+      font-size: 25px; }
+    .mainAbout .mFast .subtitulo {
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 10px;
+      font-weight: 400;
+      margin-bottom: 1em;
+      font-size: 20px; }
+    .mainAbout .mFast .subinfo {
+      color: #fff;
+      text-align: center;
+      line-height: 19px;
+      font-size: 12px; }
+    .mainAbout .mFast .link {
+      color: #fff;
+      background-color: #f36639;
+      display: block;
+      margin: 2px auto;
+      padding: 7px 26px 9px;
+      line-height: 19px;
+      border-radius: 4px;
+      width: 135px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 12px;
+      text-decoration: none; }
+      .mainAbout .mFast .link:hover {
+        background-color: #000;
+        transition: all 0.5s ease; } }
 @media only screen and (min-width: 500px) and (max-width: 1280px) {
   header .hRowFondo .htitulo {
     padding: 7px;
