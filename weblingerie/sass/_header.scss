@@ -1,0 +1,57 @@
+header {
+  .bg-blanco-suave {
+    background-color: $bg-plata-suave;
+    padding: 0;
+  }
+  .menu {
+    padding: 5px;
+    .time,
+    .telephone {
+      text-decoration: none;
+      color: $tx-negro;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    .telephone {
+      font-size: 16px;
+      line-height: 12px;
+      &:hover {
+        color: $bg-pinku;
+        transition: all 0.5s ease;
+        font-weight: 400;
+      }
+    }
+  }
+  .menu-link {
+    .navfont {
+      font-size: 12px !important;
+    }
+  }
+  .icon {
+    &:hover {
+      color: $tx-pinku !important;
+      transition: all 0.5s ease !important;
+    }
+    i {
+      margin-right: 3px;
+    }
+  }
+  .logo {
+    display: flex;
+    border: 1px solid red;
+  }
+  .search {
+    display: flex;
+    border: 1px solid green;
+    width: 38em;
+    input[type="search"] {
+     
+    }
+    input[type="button"] {
+     
+    }
+  }
+  .buy {
+    border: 1px solid purple;
+  }
+}

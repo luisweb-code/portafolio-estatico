@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*Color de fondos*/
+/*Color de texto*/
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  background-color: #fff; }
+
+header .bg-blanco-suave {
+  background-color: #e7e7e7;
+  padding: 0; }
+header .menu {
+  padding: 5px; }
+  header .menu .time,
+  header .menu .telephone {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 15px; }
+  header .menu .telephone {
+    font-size: 16px;
+    line-height: 12px; }
+    header .menu .telephone:hover {
+      color: #e8caba;
+      transition: all 0.5s ease;
+      font-weight: 400; }
+header .menu-link .navfont {
+  font-size: 12px !important; }
+header .icon:hover {
+  color: #e8caba !important;
+  transition: all 0.5s ease !important; }
+header .icon i {
+  margin-right: 3px; }
+header .logo {
+  display: flex;
+  border: 1px solid red; }
+header .search {
+  display: flex;
+  border: 1px solid green;
+  width: 38em; }
+header .buy {
+  border: 1px solid purple; }
+
+/*# sourceMappingURL=estilos.css.map */
