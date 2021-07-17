@@ -2,7 +2,7 @@
 /*Color de fondos*/
 /*Color de texto*/
 * {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 body {
   background-color: #fff; }
@@ -34,12 +34,106 @@ header .icon i {
   margin-right: 3px; }
 header .logo {
   display: flex;
-  border: 1px solid red; }
+  width: 100%; }
 header .search {
   display: flex;
-  border: 1px solid green;
-  width: 38em; }
+  width: 100%;
+  padding: 16px; }
+  header .search input[type="text"] {
+    color: #4a4a4a;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 55px;
+    padding: 20.5px 35px 20.5px 25px;
+    background: #f6f6f6;
+    border: 9px solid #f6f6f6;
+    letter-spacing: 0.5px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 10px; }
+    header .search input[type="text"]:hover {
+      box-shadow: 5px 7px 15px #e8caba;
+      transition: all 0.5s ease; }
+  header .search .button-search {
+    background-color: #f6f6f6;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    outline: none; }
+  header .search .fa {
+    color: #4a4a4a;
+    background-color: #eee;
+    line-height: inherit; }
+    header .search .fa:hover {
+      color: #e8caba;
+      transition: all 0.2s ease; }
 header .buy {
-  border: 1px solid purple; }
+  padding: 16px;
+  width: 100%;
+  display: flex; }
+  header .buy a {
+    background-color: #e8caba;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px;
+    width: 162px;
+    height: 55px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    border-radius: 4px;
+    margin-left: 15px;
+    text-align: center; }
+    header .buy a:hover {
+      background-color: #dbad94;
+      transition: all 0.3s ease; }
+    header .buy a i {
+      margin-right: 4px; }
+header .categories {
+  background-color: #e8caba;
+  display: flex; }
+  header .categories .menu-categories {
+    padding: 10px; }
+    header .categories .menu-categories a {
+      text-decoration: none;
+      cursor: pointer;
+      color: #fff;
+      padding: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 1px; }
+      header .categories .menu-categories a:hover {
+        color: #000;
+        transition: all 0.2s ease; }
+      header .categories .menu-categories a i {
+        margin-left: 3px; }
+  header .categories .subMenu {
+    display: none; }
+  header .categories .subMenuSee {
+    background-color: #f6f6f6;
+    width: 100%;
+    z-index: 998;
+    position: absolute;
+    top: 5em;
+    transition: all 0.5s ease;
+    color: #000;
+    min-height: 250px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around; }
+    header .categories .subMenuSee ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      header .categories .subMenuSee ul li a {
+        text-decoration: none;
+        color: #000;
+        line-height: 2em; }
 
 /*# sourceMappingURL=estilos.css.map */

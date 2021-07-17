@@ -38,20 +38,127 @@ header {
   }
   .logo {
     display: flex;
-    border: 1px solid red;
+    width: 100%;
   }
   .search {
     display: flex;
-    border: 1px solid green;
-    width: 38em;
-    input[type="search"] {
-     
+    width: 100%;
+    padding: 16px;
+    input[type="text"] {
+      color: $bg-gris;
+      display: block;
+      margin: 0;
+      width: 100%;
+      height: 55px;
+      padding: 20.5px 35px 20.5px 25px;
+      background: $bg-plata-suave2;
+      border: 9px solid $bg-plata-suave2;
+      letter-spacing: 0.5px;
+      border-radius: 4px 0 0 4px;
+      outline: none;
+      font-size: 10px;
+      &:hover {
+        box-shadow: 5px 7px 15px $bg-pinku;
+        transition: all 0.5s ease;
+      }
     }
-    input[type="button"] {
-     
+    .button-search {
+      background-color: $bg-plata-suave2;
+      border: 0;
+      border-radius: 0 4px 4px 0;
+      outline: none;
+    }
+    .fa {
+      color: $bg-gris;
+      background-color: $bg-plata_ligero;
+      line-height: inherit;
+      &:hover {
+        color: $tx-pinku;
+        transition: all 0.2s ease;
+      }
     }
   }
   .buy {
-    border: 1px solid purple;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    a {
+      background-color: $bg-pinku;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.8px;
+      color: $tx-blanco;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 14px;
+      width: 162px;
+      height: 55px;
+      display: inline-block;
+      position: relative;
+      float: right;
+      border-radius: 4px;
+      margin-left: 15px;
+      text-align: center;
+      &:hover {
+        background-color: $bg-pinku2;
+        transition: all 0.3s ease;
+      }
+      i {
+        margin-right: 4px;
+      }
+    }
+  }
+  .categories {
+    background-color: $bg-pinku;
+    display: flex;
+    .menu-categories {
+      padding: 10px;
+      a {
+        text-decoration: none;
+        cursor: pointer;
+        color: $tx-blanco;
+        padding: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 1px;
+        &:hover {
+          color: $tx-negro;
+          transition: all 0.2s ease;
+        }
+        i {
+          margin-left: 3px;
+        }
+      }
+    }
+    .subMenu {
+      display: none;
+    }
+    .subMenuSee {
+      background-color: $bg-plata-suave2;
+      width: 100%;
+      z-index: 998;
+      position: absolute;
+      top: 5em;
+      transition: all 0.5s ease;
+      color: #000;
+      min-height: 250px;
+      padding: 16px;
+      display: flex;
+      justify-content: space-around;
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+          a {
+            text-decoration: none;
+            color: $tx-negro;
+            line-height: 2em;
+          }
+        }
+      }
+    }
   }
 }
