@@ -121,12 +121,15 @@ header .categories {
     z-index: 998;
     position: absolute;
     top: 5em;
-    transition: all 0.5s ease;
+    animation: fadeInDown;
+    animation-duration: 3s;
     color: #000;
     min-height: 250px;
     padding: 16px;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    font-weight: 300;
+    font-size: 14px; }
     header .categories .subMenuSee ul {
       list-style: none;
       padding: 0;
@@ -135,5 +138,11 @@ header .categories {
         text-decoration: none;
         color: #000;
         line-height: 2em; }
+        header .categories .subMenuSee ul li a:hover {
+          color: #e8caba;
+          transition: all 0.2s ease; }
+  header .categories .titulo {
+    text-transform: uppercase;
+    margin-bottom: 16px; }
 
 /*# sourceMappingURL=estilos.css.map */

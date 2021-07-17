@@ -1,5 +1,5 @@
 import { mostrarSubMenu } from "./modulos/bras.js";
 
 addEventListener("DOMContentLoaded", ()=>{
-    mostrarSubMenu();
+    mostrarSubMenu(".bras", ".subMenu");
 });

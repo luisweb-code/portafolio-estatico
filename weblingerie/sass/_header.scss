@@ -141,12 +141,16 @@ header {
       z-index: 998;
       position: absolute;
       top: 5em;
-      transition: all 0.5s ease;
+      animation: fadeInDown;
+      animation-duration: 3s;
       color: #000;
       min-height: 250px;
       padding: 16px;
       display: flex;
       justify-content: space-around;
+      font-weight: 300;
+      font-size: 14px;
+
       ul {
         list-style: none;
         padding: 0;
@@ -156,9 +160,17 @@ header {
             text-decoration: none;
             color: $tx-negro;
             line-height: 2em;
+            &:hover {
+              color: $tx-pinku;
+              transition: all 0.2s ease;
+            }
           }
         }
       }
+    }
+    .titulo {
+      text-transform: uppercase;
+      margin-bottom: 16px;
     }
   }
 }
