@@ -137,7 +137,7 @@ header {
     }
     .subMenuSee {
       background-color: $bg-plata-suave2;
-      width: 100%;
+      width: 98%;
       z-index: 998;
       position: absolute;
       top: 5em;
@@ -171,6 +171,48 @@ header {
     .titulo {
       text-transform: uppercase;
       margin-bottom: 16px;
+    }
+  }
+  .marco-carousel {
+    height: 40em;
+    width: 100%;
+    position: relative;
+    top: 2em;
+  }
+  .figure-carousel {
+    width: 100% !important;
+    height: 40em;
+    border-radius: 5px;
+  }
+  .info {
+    border: 1px solid red;
+    position: relative;
+    bottom: 30em;
+    left: 1em;
+    width: 50%;
+    padding: 16px;
+    .titulo {
+      font-size: 60px;
+      line-height: 1.15em;
+      font-weight: 300;
+      letter-spacing: -1.5px;
+      text-transform: none;
+      margin-bottom: 35px;
+    }
+    .btn-info {
+      background-color: $bg-pinku;
+      color: $tx-blanco;
+      text-transform: uppercase;
+      padding: 19px 26px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: $bg-pinku2;
+        transition: all 0.2s ease;
+      }
     }
   }
 }
