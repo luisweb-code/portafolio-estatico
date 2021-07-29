@@ -1,0 +1,61 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  header {
+    .logo {
+      display: none;
+    }
+    .buscador {
+      width: 100%;
+      padding: 15px;
+      input {
+        font-size: 12px;
+        background-color: $bg-plata-suave;
+        border: 0;
+        padding: 16px;
+        width: 80%;
+        outline: none;
+        border-radius: 5px;
+        width: 92%;
+        &:hover {
+          box-shadow: 10px 5px 5px $bg-pinku;
+          transition: all 0.5s ease;
+        }
+      }
+      button {
+        padding: 0px;
+        border: 0;
+        color: $tx-negro;
+        background-color: $bg-plata-suave;
+        position: relative;
+        right: 3em;
+        border-radius: 5px;
+      }
+    }
+    .botones {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2px;
+      margin-top: 5px;
+      .link {
+        margin: 5px 10px;
+        text-align: center;
+        cursor: pointer;
+        padding: 7px 20px;
+        text-decoration: none;
+        color: $tx-blanco;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 5px;
+        background-color: $bg-pinku;
+        width: 100%;
+        &:hover {
+          background-color: $bg-pinku2;
+          transition: ease 0.3s all;
+        }
+        i {
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+

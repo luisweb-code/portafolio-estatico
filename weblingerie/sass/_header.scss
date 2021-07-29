@@ -1,217 +1,90 @@
 header {
-  .bg-blanco-suave {
-    background-color: $bg-plata-suave;
-    padding: 0;
+  .horario {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
   }
-  .menu {
-    padding: 5px;
-    .time,
-    .telephone {
-      text-decoration: none;
-      color: $tx-negro;
-      font-size: 12px;
-      line-height: 15px;
-    }
-    .telephone {
-      font-size: 16px;
-      line-height: 12px;
-      &:hover {
-        color: $bg-pinku;
-        transition: all 0.5s ease;
-        font-weight: 400;
-      }
-    }
-  }
-  .menu-link {
-    .navfont {
-      font-size: 12px !important;
-    }
-  }
-  .icon {
+  .phone {
+    text-decoration: none;
+    color: $tx-negro;
+    cursor: pointer;
     &:hover {
-      color: $tx-pinku !important;
-      transition: all 0.5s ease !important;
-    }
-    i {
-      margin-right: 3px;
+      color: $tx-pinku;
+      transition: all 0.2s ease;
     }
   }
-  .logo {
-    display: flex;
-    width: 100%;
-  }
-  .search {
-    display: flex;
-    width: 100%;
-    padding: 16px;
-    input[type="text"] {
-      color: $bg-gris;
-      display: block;
-      margin: 0;
-      width: 100%;
-      height: 55px;
-      padding: 20.5px 35px 20.5px 25px;
-      background: $bg-plata-suave2;
-      border: 9px solid $bg-plata-suave2;
-      letter-spacing: 0.5px;
-      border-radius: 4px 0 0 4px;
-      outline: none;
-      font-size: 10px;
-      &:hover {
-        box-shadow: 5px 7px 15px $bg-pinku;
-        transition: all 0.5s ease;
+  .enlace {
+    font-size: 15px !important;
+    font-weight: 400;
+    a {
+      color: $tx-negro;
+      cursor: pointer;
+      text-decoration: none;
+      i {
+        padding: 0 10px;
       }
-    }
-    .button-search {
-      background-color: $bg-plata-suave2;
-      border: 0;
-      border-radius: 0 4px 4px 0;
-      outline: none;
-    }
-    .fa {
-      color: $bg-gris;
-      background-color: $bg-plata_ligero;
-      line-height: inherit;
       &:hover {
         color: $tx-pinku;
         transition: all 0.2s ease;
       }
     }
   }
-  .buy {
-    padding: 16px;
+  .logo {
+    padding: 5px;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  .buscador {
     width: 100%;
-    display: flex;
-    a {
-      background-color: $bg-pinku;
+    padding: 5px;
+    .miForm {
+      display: flex;
+    }
+    input[type="search"] {
       font-size: 12px;
-      line-height: 14px;
-      letter-spacing: 0.8px;
+      background-color: $bg-plata-suave;
+      border: 0;
+      padding: 20px;
+      outline: none;
+      border-radius: 10px 0px 0px 10px;
+      width: 92%;
+    }
+    button {
+      padding: 12px;
+      border: 0;
+      color: $tx-negro;
+      background-color: $bg-plata-suave;
+      border-radius: 0px 10px 10px 0px;
+    }
+  }
+  .botones {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    width: 100%;
+    .link {
+      padding: 8px;
+      background-color: $bg-pinku;
       color: $tx-blanco;
+      margin: 0px 5px;
+      text-align: center;
+      font-size: 15px;
       font-weight: 700;
       text-decoration: none;
-      padding: 14px;
-      width: 162px;
-      height: 55px;
-      display: inline-block;
-      position: relative;
-      float: right;
-      border-radius: 4px;
-      margin-left: 15px;
-      text-align: center;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+      border-radius: 5px;
       &:hover {
         background-color: $bg-pinku2;
         transition: all 0.3s ease;
       }
       i {
-        margin-right: 4px;
-      }
-    }
-  }
-  .categories {
-    background-color: $bg-pinku;
-    display: flex;
-    .menu-categories {
-      padding: 10px;
-      a {
-        text-decoration: none;
-        cursor: pointer;
-        color: $tx-blanco;
-        padding: 16px;
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 1px;
-        &:hover {
-          color: $tx-negro;
-          transition: all 0.2s ease;
-        }
-        i {
-          margin-left: 3px;
-        }
-      }
-    }
-    .subMenu {
-      display: none;
-    }
-    .subMenuSee {
-      background-color: $bg-plata-suave2;
-      width: 98%;
-      z-index: 998;
-      position: absolute;
-      top: 5em;
-      animation: fadeInDown;
-      animation-duration: 3s;
-      color: #000;
-      min-height: 250px;
-      padding: 16px;
-      display: flex;
-      justify-content: space-around;
-      font-weight: 300;
-      font-size: 14px;
-
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        li {
-          a {
-            text-decoration: none;
-            color: $tx-negro;
-            line-height: 2em;
-            &:hover {
-              color: $tx-pinku;
-              transition: all 0.2s ease;
-            }
-          }
-        }
-      }
-    }
-    .titulo {
-      text-transform: uppercase;
-      margin-bottom: 16px;
-    }
-  }
-  .marco-carousel {
-    height: 40em;
-    width: 100%;
-    position: relative;
-    top: 2em;
-  }
-  .figure-carousel {
-    width: 100% !important;
-    height: 40em;
-    border-radius: 5px;
-  }
-  .info {
-    border: 1px solid red;
-    position: relative;
-    bottom: 30em;
-    left: 1em;
-    width: 50%;
-    padding: 16px;
-    .titulo {
-      font-size: 60px;
-      line-height: 1.15em;
-      font-weight: 300;
-      letter-spacing: -1.5px;
-      text-transform: none;
-      margin-bottom: 35px;
-    }
-    .btn-info {
-      background-color: $bg-pinku;
-      color: $tx-blanco;
-      text-transform: uppercase;
-      padding: 19px 26px;
-      text-decoration: none;
-      font-size: 12px;
-      font-weight: 600;
-      border-radius: 5px;
-      cursor: pointer;
-      &:hover {
-        background-color: $bg-pinku2;
-        transition: all 0.2s ease;
+        padding: 2px;
       }
     }
   }

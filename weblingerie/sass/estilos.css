@@ -7,178 +7,126 @@
 body {
   background-color: #fff; }
 
-header .bg-blanco-suave {
-  background-color: #e7e7e7;
-  padding: 0; }
-header .menu {
-  padding: 5px; }
-  header .menu .time,
-  header .menu .telephone {
-    text-decoration: none;
+header .horario {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 15px; }
+header .phone {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer; }
+  header .phone:hover {
+    color: #e8caba;
+    transition: all 0.2s ease; }
+header .enlace {
+  font-size: 15px !important;
+  font-weight: 400; }
+  header .enlace a {
     color: #000;
-    font-size: 12px;
-    line-height: 15px; }
-  header .menu .telephone {
-    font-size: 16px;
-    line-height: 12px; }
-    header .menu .telephone:hover {
-      color: #e8caba;
-      transition: all 0.5s ease;
-      font-weight: 400; }
-header .menu-link .navfont {
-  font-size: 12px !important; }
-header .icon:hover {
-  color: #e8caba !important;
-  transition: all 0.5s ease !important; }
-header .icon i {
-  margin-right: 3px; }
-header .logo {
-  display: flex;
-  width: 100%; }
-header .search {
-  display: flex;
-  width: 100%;
-  padding: 16px; }
-  header .search input[type="text"] {
-    color: #4a4a4a;
-    display: block;
-    margin: 0;
-    width: 100%;
-    height: 55px;
-    padding: 20.5px 35px 20.5px 25px;
-    background: #f6f6f6;
-    border: 9px solid #f6f6f6;
-    letter-spacing: 0.5px;
-    border-radius: 4px 0 0 4px;
-    outline: none;
-    font-size: 10px; }
-    header .search input[type="text"]:hover {
-      box-shadow: 5px 7px 15px #e8caba;
-      transition: all 0.5s ease; }
-  header .search .button-search {
-    background-color: #f6f6f6;
-    border: 0;
-    border-radius: 0 4px 4px 0;
-    outline: none; }
-  header .search .fa {
-    color: #4a4a4a;
-    background-color: #eee;
-    line-height: inherit; }
-    header .search .fa:hover {
+    cursor: pointer;
+    text-decoration: none; }
+    header .enlace a i {
+      padding: 0 10px; }
+    header .enlace a:hover {
       color: #e8caba;
       transition: all 0.2s ease; }
-header .buy {
-  padding: 16px;
+header .logo {
+  padding: 5px; }
+  header .logo img {
+    display: block;
+    width: 100%; }
+header .buscador {
   width: 100%;
-  display: flex; }
-  header .buy a {
-    background-color: #e8caba;
+  padding: 5px; }
+  header .buscador .miForm {
+    display: flex; }
+  header .buscador input[type="search"] {
     font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.8px;
+    background-color: #e7e7e7;
+    border: 0;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    width: 92%; }
+  header .buscador button {
+    padding: 12px;
+    border: 0;
+    color: #000;
+    background-color: #e7e7e7;
+    border-radius: 0px 10px 10px 0px; }
+header .botones {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  width: 100%; }
+  header .botones .link {
+    padding: 8px;
+    background-color: #e8caba;
     color: #fff;
+    margin: 0px 5px;
+    text-align: center;
+    font-size: 15px;
     font-weight: 700;
     text-decoration: none;
-    padding: 14px;
-    width: 162px;
-    height: 55px;
-    display: inline-block;
-    position: relative;
-    float: right;
-    border-radius: 4px;
-    margin-left: 15px;
-    text-align: center; }
-    header .buy a:hover {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border-radius: 5px; }
+    header .botones .link:hover {
       background-color: #dbad94;
       transition: all 0.3s ease; }
-    header .buy a i {
-      margin-right: 4px; }
-header .categories {
-  background-color: #e8caba;
-  display: flex; }
-  header .categories .menu-categories {
-    padding: 10px; }
-    header .categories .menu-categories a {
-      text-decoration: none;
-      cursor: pointer;
-      color: #fff;
-      padding: 16px;
-      font-weight: 700;
-      text-transform: uppercase;
-      font-size: 12px;
-      line-height: 14px;
-      letter-spacing: 1px; }
-      header .categories .menu-categories a:hover {
-        color: #000;
-        transition: all 0.2s ease; }
-      header .categories .menu-categories a i {
-        margin-left: 3px; }
-  header .categories .subMenu {
+    header .botones .link i {
+      padding: 2px; }
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  header .logo {
     display: none; }
-  header .categories .subMenuSee {
-    background-color: #f6f6f6;
-    width: 98%;
-    z-index: 998;
-    position: absolute;
-    top: 5em;
-    animation: fadeInDown;
-    animation-duration: 3s;
-    color: #000;
-    min-height: 250px;
-    padding: 16px;
+  header .buscador {
+    width: 100%;
+    padding: 15px; }
+    header .buscador input {
+      font-size: 12px;
+      background-color: #e7e7e7;
+      border: 0;
+      padding: 16px;
+      width: 80%;
+      outline: none;
+      border-radius: 5px;
+      width: 92%; }
+      header .buscador input:hover {
+        box-shadow: 10px 5px 5px #e8caba;
+        transition: all 0.5s ease; }
+    header .buscador button {
+      padding: 0px;
+      border: 0;
+      color: #000;
+      background-color: #e7e7e7;
+      position: relative;
+      right: 3em;
+      border-radius: 5px; }
+  header .botones {
     display: flex;
-    justify-content: space-around;
-    font-weight: 300;
-    font-size: 14px; }
-    header .categories .subMenuSee ul {
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      header .categories .subMenuSee ul li a {
-        text-decoration: none;
-        color: #000;
-        line-height: 2em; }
-        header .categories .subMenuSee ul li a:hover {
-          color: #e8caba;
-          transition: all 0.2s ease; }
-  header .categories .titulo {
-    text-transform: uppercase;
-    margin-bottom: 16px; }
-header .marco-carousel {
-  height: 40em;
-  width: 100%;
-  position: relative;
-  top: 2em; }
-header .figure-carousel {
-  width: 100% !important;
-  height: 40em;
-  border-radius: 5px; }
-header .info {
-  border: 1px solid red;
-  position: relative;
-  bottom: 30em;
-  left: 1em;
-  width: 50%;
-  padding: 16px; }
-  header .info .titulo {
-    font-size: 60px;
-    line-height: 1.15em;
-    font-weight: 300;
-    letter-spacing: -1.5px;
-    text-transform: none;
-    margin-bottom: 35px; }
-  header .info .btn-info {
-    background-color: #e8caba;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 19px 26px;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer; }
-    header .info .btn-info:hover {
-      background-color: #dbad94;
-      transition: all 0.2s ease; }
+    flex-wrap: wrap;
+    padding: 2px;
+    margin-top: 5px; }
+    header .botones .link {
+      margin: 5px 10px;
+      text-align: center;
+      cursor: pointer;
+      padding: 7px 20px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      border-radius: 5px;
+      background-color: #e8caba;
+      width: 100%; }
+      header .botones .link:hover {
+        background-color: #dbad94;
+        transition: ease 0.3s all; }
+      header .botones .link i {
+        padding: 5px; } }
 
 /*# sourceMappingURL=estilos.css.map */
