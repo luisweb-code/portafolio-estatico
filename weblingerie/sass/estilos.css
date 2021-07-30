@@ -39,9 +39,17 @@ header .logo {
     width: 100%; }
 header .buscador {
   width: 100%;
-  padding: 5px; }
+  padding: 5px;
+  display: flex;
+  justify-content: center; }
   header .buscador .miForm {
-    display: flex; }
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px; }
+    header .buscador .miForm:hover {
+      box-shadow: 3px 3px 3px #e8caba;
+      transition: all 0.5s ease; }
   header .buscador input[type="search"] {
     font-size: 12px;
     background-color: #e7e7e7;
@@ -49,7 +57,7 @@ header .buscador {
     padding: 20px;
     outline: none;
     border-radius: 10px 0px 0px 10px;
-    width: 92%; }
+    width: 95%; }
   header .buscador button {
     padding: 12px;
     border: 0;
@@ -62,12 +70,12 @@ header .botones {
   padding: 2px;
   width: 100%; }
   header .botones .link {
-    padding: 8px;
+    padding: 14px 15px 5px 16px;
     background-color: #e8caba;
     color: #fff;
     margin: 0px 5px;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;
@@ -79,6 +87,51 @@ header .botones {
       transition: all 0.3s ease; }
     header .botones .link i {
       padding: 2px; }
+header .menu {
+  background-color: #e8caba;
+  padding: 8px; }
+  header .menu .bras i {
+    padding: 2px; }
+  header .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    padding: 16px;
+    cursor: pointer; }
+    header .menu a:hover {
+      color: #000;
+      transition: all 0.2s ease; }
+header .subMenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  padding: 1em 6em;
+  position: absolute;
+  z-index: 996;
+  width: 81em;
+  top: 14em; }
+  header .subMenu .titulo {
+    text-transform: uppercase; }
+  header .subMenu ul li {
+    list-style: none;
+    margin: 5px 0px; }
+    header .subMenu ul li a {
+      text-decoration: none;
+      color: #4a4a4a;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 1px; }
+      header .subMenu ul li a:hover {
+        color: #e8caba;
+        transition: ease 0.3s all; }
+header .hide {
+  display: none; }
+header .min-contenedor {
+  min-height: 35em !important; }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   header .logo {

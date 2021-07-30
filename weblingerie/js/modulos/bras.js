@@ -4,17 +4,13 @@ export function mostrarSubMenu(bras, subMenu) {
   const $bras = d.querySelector(bras),
     $subMenu = d.querySelector(subMenu);
 
-  addEventListener("click", (e) => {
-    if (e.target === $bras) {
-      $subMenu.classList.add("subMenuSee");
-      $subMenu.classList.remove("subMenu");
-    } else {
-      $subMenu.classList.remove("subMenuSee");
-      $subMenu.classList.add("subMenu");
-    }
-  });
+ $bras.addEventListener("mouseover", (e) => {
+    $subMenu.classList.remove("hide");
+  }); 
 
-  /* addEventListener("") */
+  $bras.addEventListener("mouseout", (e) => {
+    $subMenu.classList.add("hide");
+  }); 
 
-  //onmouseover , onmouseout
+  //ononmouseover , onmouseout
 }

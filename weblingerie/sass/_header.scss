@@ -41,8 +41,17 @@ header {
   .buscador {
     width: 100%;
     padding: 5px;
+    display: flex;
+    justify-content: center;
     .miForm {
       display: flex;
+      justify-content: center;
+      width: 100%;
+      border-radius: 10px;
+      &:hover {
+        box-shadow: 3px 3px 3px $bg-pinku;
+        transition: all 0.5s ease;
+      }
     }
     input[type="search"] {
       font-size: 12px;
@@ -51,7 +60,7 @@ header {
       padding: 20px;
       outline: none;
       border-radius: 10px 0px 0px 10px;
-      width: 92%;
+      width: 95%;
     }
     button {
       padding: 12px;
@@ -67,12 +76,12 @@ header {
     padding: 2px;
     width: 100%;
     .link {
-      padding: 8px;
+      padding: 14px 15px 5px 16px;
       background-color: $bg-pinku;
       color: $tx-blanco;
       margin: 0px 5px;
       text-align: center;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 700;
       text-decoration: none;
       cursor: pointer;
@@ -87,5 +96,65 @@ header {
         padding: 2px;
       }
     }
+  }
+  .menu {
+    background-color: $bg-pinku;
+    padding: 8px;
+    .bras {
+      i {
+        padding: 2px;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: $tx-blanco;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+      text-transform: uppercase;
+      padding: 16px;
+      cursor: pointer;
+      &:hover {
+        color: $tx-negro;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+  .subMenu {
+    display: flex;
+    justify-content: space-between;
+    background-color: $bg-plata-suave2;
+    border-radius: 5px;
+    padding: 1em 6em;
+    position: absolute;
+    z-index: 996;
+    width: 81em;
+    top: 14em;
+    .titulo {
+      text-transform: uppercase;
+    }
+    ul {
+      li {
+        list-style: none;
+        margin: 5px 0px;
+        a {
+          text-decoration: none;
+          color: $tx-gris;
+          font-size: 12px;
+          font-weight: 400;
+          letter-spacing: 1px;
+          &:hover {
+            color: $tx-pinku;
+            transition: ease 0.3s all;
+          }
+        }
+      }
+    }
+  }
+  .hide {
+    display: none;
+  }
+  .min-contenedor {
+    min-height: 35em !important;
   }
 }
