@@ -105,6 +105,42 @@ header {
         padding: 2px;
       }
     }
+    .sf-mega {
+      position: absolute;
+      top: 12em;
+      background-color: $bg-plata-suave;
+      z-index: 996;
+      list-style: none;
+      padding: 16px;
+      margin: 0;
+      width: 69%;
+      border-radius: 5px;
+      .sf-mega_row {
+        display: flex;
+        .sf-mega_section {
+          ul {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            li {
+              list-style: none;
+              margin: 10px 0px;
+              a {
+                text-transform: lowercase;
+                text-decoration: none;
+                color: $tx-gris;
+                font-size: 16px;
+                font-weight: 200;
+                &:hover {
+                  color: $bg-pinku;
+                  transition: all 0.3s ease;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     a {
       text-decoration: none;
       color: $tx-blanco;
@@ -120,41 +156,34 @@ header {
       }
     }
   }
-  .subMenu {
-    display: flex;
-    justify-content: space-between;
-    background-color: $bg-plata-suave2;
-    border-radius: 5px;
-    padding: 1em 6em;
-    position: absolute;
-    z-index: 996;
-    width: 81em;
-    top: 14em;
-    .titulo {
-      text-transform: uppercase;
+  .info-carousel {
+    position: relative;
+    bottom: 28em;
+    padding: 16px 10px 16px 40px;
+    width: 50%;
+    h3 {
+      font-size: 3em;
+      font-weight: 300;
+      color: $tx-blanco;
     }
-    ul {
-      li {
-        list-style: none;
-        margin: 5px 0px;
-        a {
-          text-decoration: none;
-          color: $tx-gris;
-          font-size: 12px;
-          font-weight: 400;
-          letter-spacing: 1px;
-          &:hover {
-            color: $tx-pinku;
-            transition: ease 0.3s all;
-          }
-        }
+    a {
+      text-decoration: none;
+      color: $tx-blanco;
+      background-color: $bg-pinku;
+      padding: 20px 30px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 700;
+      display: block;
+      width: 30%;
+      margin-top: 24px;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        background-color: $bg-pinku2;
+        transition: ease 0.3s all;
       }
     }
-  }
-  .hide {
-    display: none;
-  }
-  .min-contenedor {
-    min-height: 35em !important;
   }
 }

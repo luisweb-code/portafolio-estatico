@@ -1,149 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./css/animate.min.css">
-  <link rel="stylesheet" href="./css/all.min.css">
-  <link rel="stylesheet" href="./sass/estilos.css">
-  <title>Pagina index</title>
-</head>
-<body class="container">
-  
-  <header>
-    <div class="row row-cols-12 bg-light">
-      <div class="col-xl-7">
-        <p class="horario"> 24/7 custumer service - <a class="phone" href="#">(800) 123-4567</a></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./sass/estilos.css" />
+    <title>Pagina index</title>
+  </head>
+  <body class="container">
+    <header>
+      <div class="row row-cols-12 bg-light">
+        <div class="col-xl-7">
+          <p class="horario">
+            24/7 custumer service - <a class="phone" href="#">(800) 123-4567</a>
+          </p>
+        </div>
+        <div class="col-xl-5">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse enlace"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Español</a></li>
+                      <li><a class="dropdown-item" href="#">Ruso</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      US Dolar
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Pesos</a></li>
+                      <li><a class="dropdown-item" href="#">Rublos</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <a href="#"><i class="fas fa-user-alt"></i>My Account</a>
+                </ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <a href="#"><i class="far fa-heart"></i>Wishlist</a>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
-      <div class="col-xl-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse enlace" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    English
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Español</a></li>
-                    <li><a class="dropdown-item" href="#">Ruso</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    US Dolar
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Pesos</a></li>
-                    <li><a class="dropdown-item" href="#">Rublos</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <a href="#"><i class="fas fa-user-alt"></i>My Account</a>
-              </ul>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <a href="#"><i class="far fa-heart"></i>Wishlist</a>
-              </ul>
+      <div class="row row-cols-12">
+        <div class="col-xl-2 col-sm-6 mt-3">
+          <div class="logo">
+            <img src="./assets/img/logo.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-xl-6 col-sm-6 mt-3">
+          <div class="buscador">
+            <form class="miForm">
+              <input
+                type="search"
+                name="search"
+                placeholder="I am looking for..."
+              />
+              <button type="button" id="search">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-12 mt-3">
+          <div class="botones">
+            <a class="link" href="#"
+              ><i class="fas fa-paper-plane"></i>Free Shipping WORLDWIDE</a
+            >
+            <a class="link" href="#"
+              ><i class="fas fa-star"></i>Dayly Deals & offers</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-12 mt-3">
+        <div class="col-xl-10 col-sm-10 p-0">
+          <nav class="menu">
+            <a class="bras" href="#">bras<i class="fas fa-chevron-down"></i></a>
+            <ul class="sf-mega" style="display: none;">
+              <li class="sf-mega_row" style="opacity: 0;">
+                <div class="sf-mega_section" style="width: 25%;">
+                    <ul>
+                      <li class="submenu_title"><a href="#">Bra sets</a></li>
+                      <li><a href="#">Balconette bras</a></li>
+                      <li><a href="#">Multiway bras</a></li>
+                      <li><a href="#">Full cup bras</a></li>
+                      <li><a href="#">Raw Cut</a></li>
+                      <li><a href="#">Lingerie brands</a></li>
+                      <li><a href="#">Minimiser bras</a></li>
+                    </ul>
+                </div>
+                <div class="sf-mega_section" style="width: 25%;">
+                    <ul>
+                      <li class="submenu_title"><a href="#">Panties</a></li>
+                      <li><a href="#">Bikini</a></li>
+                      <li><a href="#">Laist-waist</a></li>
+                      <li><a href="#">High-leg</a></li>
+                      <li><a href="#">Cotton</a></li>
+                      <li><a href="#">Lace-Up</a></li>
+                      <li><a href="#">Dream</a></li>
+                    </ul>
+                </div>
+                <div class="sf-mega_section" style="width: 25%;">
+                    <ul>
+                      <li class="submenu_title"><a href="#">Bra separates</a></li>
+                      <li><a href="#">Stockings</a></li>
+                      <li><a href="#">Vinyl/Latex/Leather</a></li>
+                      <li><a href="#">Sexy lingerie</a></li>
+                      <li><a href="#">New in</a></li>
+                    </ul>
+                </div>
+                <div class="sf-mega_section" style="width: 25%;">
+                    <ul>
+                      <li class="submenu_title"><a href="#">Bustiers</a></li>
+                      <li><a href="#">Corsets</a></li>
+                      <li><a href="#">Perfect</a></li>
+                      <li><a href="#">Waist cinchers</a></li>
+                      <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+            <a href="#">panties</a>
+            <a href="#">corsets</a>
+            <a href="#">sexy</a>
+            <a href="#">sleep</a>
+            <a href="#">swim</a>
+            <a href="#">stockings</a>
+            <a href="#">accessories</a>
+          </nav>
+        </div>
+        <div class="col-xl-2 col-sm-2 p-0">
+          <nav class="menu">
+            <a href="#">0 items(s)</a>
+          </nav>
+        </div>
+      </div>      
+      <div class="row row-cols-12 mt-4">
+        <div class="col-xl-12">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide mx-auto"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/img/carousel1.jpg"
+                  class="d-block w-100 rounded"
+                  alt="..."
+                />
+                <div class="info-carousel">
+                  <h3>Summmer New Arrivals</h3>
+                  <a href="#">shop collection</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/img/carousel2.jpg"
+                  class="d-block w-100 rounded"
+                  alt="..."
+                />
+                <div class="info-carousel">
+                  <h3>Only Top Lingerie</h3>
+                  <a href="#">shop collection</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/img/carousel3.jpg"
+                  class="d-block w-100 rounded"
+                  alt="..."
+                />
+                <div class="info-carousel">
+                  <h3>The Hottest Collection</h3>
+                  <a href="#">shop collection</a>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-      </div>
-    </div>
-    <div class="row row-cols-12">
-      <div class="col-xl-2 col-sm-6 mt-3">
-        <div class="logo">
-          <img src="./assets/img/logo.jpg" alt="">
         </div>
       </div>
-      <div class="col-xl-6 col-sm-6 mt-3">
-        <div class="buscador">
-          <form class="miForm">
-            <input type="search" name="search" placeholder="I am looking for...">
-            <button type="button" id="search"><i class="fas fa-search"></i></button>
-          </form>
+    </header>
+
+    <main>
+      <div class="row mt-4">
+        <div class="col bg-light">
+          <p>1-12</p>
         </div>
       </div>
-      <div class="col-xl-4 col-sm-12 mt-3">
-        <div class="botones">
-          <a class="link" href="#"><i class="fas fa-paper-plane"></i>Free Shipping WORLDWIDE</a>
-          <a class="link" href="#"><i class="fas fa-star"></i>Dayly Deals & offers</a>
-        </div>
-      </div>
-    </div>
-    <div class="row row-cols-12 mt-3">
-      <div class="col-xl-10 col-sm-10 p-0">
-        <nav class="menu">
-          <a class="bras" href="#">bras<i class="fas fa-chevron-down"></i></a>
-          <a href="#">panties</a>
-          <a href="#">corsets</a>
-          <a href="#">sexy</a>
-          <a href="#">sleep</a>
-          <a href="#">swim</a>
-          <a href="#">stockings</a>
-          <a href="#">accessories</a>
-        </nav>
-      </div>
-      <div class="col-xl-2 col-sm-2 p-0">
-        <nav class="menu">
-          <a href="#">0 items(s)</a>
-        </nav>
-      </div>
-    </div>
-    <div class="subMenu hide">
-      <ul>
-        <li class="titulo"><a href="#">bra sets</a></li>
-        <li><a href="#">Balconette bras</a></li>
-        <li><a href="#">Multiway bras</a></li>
-        <li><a href="#">Full cup bras</a></li>
-        <li><a href="#">Raw cut</a></li>
-        <li><a href="#">Lingerie brands</a></li>
-        <li><a href="#">Minimiser bras</a></li>
-      </ul>
-      <ul>
-        <li class="titulo"><a href="#">panties</a></li>
-        <li><a href="#">Bikini</a></li>
-        <li><a href="#">Laist-waist</a></li>
-        <li><a href="#">High-leg</a></li>
-        <li><a href="#">Cotton</a></li>
-        <li><a href="#">Lace-up</a></li>
-        <li><a href="#">Dream</a></li>
-      </ul>
-      <ul>
-        <li class="titulo"><a href="#">bra separates</a></li>
-        <li><a href="#">Stockings</a></li>
-        <li><a href="#">Vinyl/Latex/Leather</a></li>
-        <li><a href="#">Sexy lingerie</a></li>
-        <li><a href="#">New in</a></li>
-      </ul>
-      <ul>
-        <li class="titulo"><a href="#">bustiers</a></li>
-        <li><a href="#">Corsets</a></li>
-        <li><a href="#">Perfect</a></li>
-        <li><a href="#">Waist cinchers</a></li>
-        <li><a href="#">Accessories</a></li>
-      </ul>
-    </div>
-    <div class="row row-cols-12 mt-4">
-      <div class="col-xl-12">
-        <p>1-12</p>
-      </div>
-    </div>
-  </header>
-   
+    </main>
 
-
-
-
-
-  <script src="./js/bootstrap.js"></script>
- <script src="./js/main.js" type="module"></script>
-</body>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
 </html>

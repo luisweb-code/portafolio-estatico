@@ -5740,6 +5740,7 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  max-height: 40em;
 }
 .carousel-inner::after {
   display: block;
