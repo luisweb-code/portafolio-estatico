@@ -153,4 +153,30 @@ header {
       }
     }
   }
+  .info-carousel {
+    position: absolute;
+    top: 10em;
+    width: 45%;
+    padding: 10px 12px 10px 40px;
+    h3 {
+      font-size: 4em;
+      font-weight: 300;
+      margin-bottom: 40px;
+      color: $tx-blanco;
+    }
+    a {
+      text-decoration: none;
+      padding: 16px 30px;
+      border-radius: 5px;
+      background-color: $bg-pinku2;
+      color: $tx-blanco;
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      &:hover {
+        background-color: $bg-pinku;
+        transition: all 0.3s ease;
+      }
+    }
+  }
 }
