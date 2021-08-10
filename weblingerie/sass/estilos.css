@@ -158,6 +158,73 @@ header .info-carousel {
       background-color: #e8caba;
       transition: all 0.3s ease; }
 
+main .swiper-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red; }
+main .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+main .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+main .swiper-container {
+  width: 100%;
+  height: 25em;
+  margin: 20px auto; }
+main .append-buttons {
+  text-align: center;
+  margin-top: 20px; }
+main .append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px; }
+main .btn-pinku {
+  padding: 12px 35px;
+  background-color: #e8caba;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 7px;
+  cursor: pointer; }
+  main .btn-pinku:hover {
+    background-color: #dbad94;
+    transition: all 0.3s ease; }
+main .card-title-dos {
+  text-transform: uppercase;
+  margin-bottom: 20;
+  padding: 6px 0;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center; }
+  main .card-title-dos:hover {
+    color: #e8caba;
+    transition: all 0.3s ease; }
+
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   header .logo {
     display: none; }

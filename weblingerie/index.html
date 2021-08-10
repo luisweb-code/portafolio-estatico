@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/animate.min.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./sass/estilos.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <title>Pagina index</title>
   </head>
   <body class="container">
@@ -118,7 +119,8 @@
         <div class="col-xl-10 col-sm-10 p-0">
           <nav class="menu">
             <a class="bras menu-link" href="#"
-              >bras<i class="fas fa-chevron-down"></i></a>
+              >bras<i class="fas fa-chevron-down"></i
+            ></a>
             <div class="cont-sub-menu">
               <nav class="sub-menu">
                 <ul>
@@ -172,24 +174,40 @@
       </div>
       <div class="row row-cols-12 mt-4">
         <div class="col-xl-12">
-          <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto"  data-bs-ride="carousel">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide mx-auto"
+            data-bs-ride="carousel"
+          >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/img/carousel1.jpg" class="d-block w-100 rounded" alt="carousel1" />
+                <img
+                  src="./assets/img/carousel1.jpg"
+                  class="d-block w-100 rounded"
+                  alt="carousel1"
+                />
                 <div class="info-carousel">
                   <h3>Summmer New Arrivals</h3>
                   <a href="#">shop collection</a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./assets/img/carousel2.jpg" class="d-block w-100 rounded" alt="carousel2" />
+                <img
+                  src="./assets/img/carousel2.jpg"
+                  class="d-block w-100 rounded"
+                  alt="carousel2"
+                />
                 <div class="info-carousel">
                   <h3>Only Top Lingerie</h3>
                   <a href="#">shop collection</a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./assets/img/carousel3.jpg" class="d-block w-100 rounded" alt="carousel3" />
+                <img
+                  src="./assets/img/carousel3.jpg"
+                  class="d-block w-100 rounded"
+                  alt="carousel3"
+                />
                 <div class="info-carousel">
                   <h3>The Hottest Collection</h3>
                   <a href="#">shop collection</a>
@@ -205,13 +223,48 @@
       <div class="row row-cols-12 mt-4">
         <div class="col-xl-12">
           <div class="contenedor-main">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/panties.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div #swiperRef="" class="swiper-container mySwiper">
+              <div class="swiper-wrapper">                
+                  <div class="card swiper-slide" style="width: 5rem;">
+                    <img src="./assets/img/panties.jpg" class="card-img-top img-fluid" alt="panties">
+                    <div class="card-body">
+                      <h5 class="card-title-dos">Panties</h5>
+                      <a href="#" class="btn-pinku">shop now</a>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide" style="width: 5rem;">
+                    <img src="./assets/img/push_up.jpg" class="card-img-top img-fluid" alt="push_up">
+                    <div class="card-body">
+                      <h5 class="card-title-dos">Push-up</h5>
+                      <a href="#" class="btn-pinku">shop now</a>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide" style="width: 5rem;">
+                    <img src="./assets/img/hosiery.jpg" class="card-img-top img-fluid" alt="hosiery">
+                    <div class="card-body">
+                      <h5 class="card-title-dos">hosiery</h5>
+                      <a href="#" class="btn-pinku">shop now</a>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide" style="width: 5rem;">
+                    <img src="./assets/img/sleep.jpg" class="card-img-top img-fluid" alt="sleep">
+                    <div class="card-body">
+                      <h5 class="card-title-dos">sleep</h5>
+                      <a href="#" class="btn-pinku">shop now</a>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide" style="width: 5rem;">
+                    <img src="./assets/img/swim.jpg" class="card-img-top img-fluid" alt="swim">
+                    <div class="card-body">
+                      <h5 class="card-title-dos">swim</h5>
+                      <a href="#" class="btn-pinku">shop now</a>
+                    </div>
+                  </div>
+                
+  
               </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
           </div>
         </div>
@@ -220,5 +273,7 @@
 
     <script src="./js/bootstrap.js"></script>
     <script src="./js/subMenu.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
   </body>
 </html>
