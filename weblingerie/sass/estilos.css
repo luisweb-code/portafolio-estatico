@@ -160,8 +160,7 @@ header .info-carousel {
 
 main .swiper-container {
   width: 100%;
-  height: 100%;
-  border: 1px solid red; }
+  height: 100%; }
 main .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -194,8 +193,8 @@ main .append-buttons {
 main .append-buttons button {
   display: inline-block;
   cursor: pointer;
-  border: 1px solid #007aff;
-  color: #007aff;
+  border: 1px solid #ff0800;
+  color: #ff0000;
   text-decoration: none;
   padding: 4px 10px;
   border-radius: 4px;
@@ -221,9 +220,28 @@ main .card-title-dos {
   font-size: 25px;
   font-weight: 400;
   text-align: center; }
-  main .card-title-dos:hover {
-    color: #e8caba;
-    transition: all 0.3s ease; }
+main .card-demo {
+  background-color: #f6f6f6 !important;
+  border: 1px solid #f6f6f6 !important; }
+main .card {
+  border: 1px solid red; }
+  main .card .card-imagen {
+    width: 100%;
+    height: auto; }
+  main .card:hover {
+    /* .card-icon {
+      position: relative;
+      top: -2em;
+      left: 2em;
+      display: flex !important;
+      flex-direction: column;
+      transition: all 0.5s ease;
+      border: 1px solid green;
+    } */ }
+    main .card:hover .card-imagen {
+      opacity: 0.9; }
+main .card-icon {
+  display: none; }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   header .logo {
