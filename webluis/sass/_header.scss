@@ -35,4 +35,16 @@ header {
       }
     }
   }
+  .fh-logo {
+    &:hover {
+      animation: flash;
+      animation-duration: 2s;
+    }
+  }
+  .fh-word {
+    &:hover {
+      color: $bg-silver-three !important;
+      transition: all 0.4s ease;
+    }
+  }
 }

@@ -45,70 +45,46 @@ header .carousel-info {
     header .carousel-info a:hover {
       background-color: #727a7c;
       transition: all 0.3s ease; }
+header .fh-logo:hover {
+  animation: flash;
+  animation-duration: 2s; }
+header .fh-word:hover {
+  color: #727a7c !important;
+  transition: all 0.4s ease; }
 
-main .title-tool {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 10px; }
-main .technology {
-  padding: 1em;
-  display: flex;
-  justify-content: space-between; }
-  main .technology span .html {
-    color: #e34c26;
-    font-size: 3em; }
-    main .technology span .html:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
-  main .technology span .css {
-    color: #264de4;
-    font-size: 3em; }
-    main .technology span .css:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
-  main .technology span .js {
-    color: #F0DB4F;
-    font-size: 3em; }
-    main .technology span .js:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
-  main .technology span .bootstrap {
-    color: #563d7c;
-    font-size: 3em; }
-    main .technology span .bootstrap:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
-  main .technology span .sass {
-    color: #CD6799;
-    font-size: 3em; }
-    main .technology span .sass:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
-  main .technology span .php {
-    color: #8993be;
-    font-size: 3em; }
-    main .technology span .php:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
-  main .technology span .laravel {
-    color: #F05340;
-    font-size: 3em; }
-    main .technology span .laravel:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
-  main .technology span .database {
-    color: #00758F;
-    font-size: 3em; }
-    main .technology span .database:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
-  main .technology span .mathematics {
+main .con-services {
+  padding: 2em; }
+  main .con-services span {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    width: 50%;
+    margin: auto; }
+  main .con-services h5 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600; }
+  main .con-services p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify; }
+  main .con-services a {
+    cursor: pointer;
+    padding: 9px;
+    margin: 10px auto;
+    display: block;
+    width: 23%;
+    background-color: #d7dbdb;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
     color: #000000;
-    font-size: 3em; }
-    main .technology span .mathematics:hover {
-      animation: flash;
-      animation-duration: 0.5s; }
+    font-size: 14px; }
+    main .con-services a:hover {
+      background-color: #000000;
+      color: #ffffff;
+      transition: ease 0.4s all; }
 
 /*# sourceMappingURL=styles.css.map */
