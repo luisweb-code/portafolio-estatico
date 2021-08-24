@@ -1,0 +1,23 @@
+---- Redes Sociales ----
+<i class="fab fa-instagram-square"></i>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-twitter-square"></i>
+
+---- Tecnologias ----
+<i class="fab fa-html5"></i>
+<i class="fab fa-css3-alt"></i>
+<i class="fab fa-js-square"></i>
+<i class="fab fa-bootstrap"></i>
+<i class="fab fa-sass"></i>
+<i class="fab fa-php"></i>
+<i class="fab fa-laravel"></i>
+<i class="fas fa-database"></i>
+<i class="fab fa-react"></i>
+<i class="fab fa-java"></i>
+<i class="fas fa-square-root-alt"></i>
+
+---- Contacto ----
+<i class="far fa-id-card"></i>
+
+---- Other ----
+<i class="fas fa-globe"></i>
