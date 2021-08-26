@@ -39,4 +39,54 @@ main {
       }
     }
   }
+  .con-description {
+    padding: 10px;
+    h5 {
+      text-align: center;
+      color: $tx-white;
+      font-weight: 600;
+      margin-bottom: 1em;
+    }
+    img {
+      display: block;
+      margin: 5px auto;
+      width: 100%;
+      height: auto;
+      &:hover {
+        animation: pulse;
+        animation-duration: 2s;
+      }
+    }
+    p {
+      text-align: justify;
+      color: $tx-white;
+      font-size: 13px;
+      font-weight: 200;
+      padding: 20px;
+      margin: 0;
+    }
+  }
+  .contenedor-form {
+    padding: 1em;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    h3 {
+      font-size: 2em;
+      font-weight: 500;
+      text-align: center;
+      text-transform: uppercase;
+      color: $tx-black;
+      padding: 14px;
+    }
+    .btn-send {
+      background-color: $bg-black;
+      color: $tx-white;
+      padding: 10px;
+      display: block;
+      width: 12em;
+      margin: 1em auto;
+      font-size: 20px;
+    }
+  }
 }

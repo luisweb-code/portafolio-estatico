@@ -15,6 +15,9 @@
 body {
   font-family: "Open Sans", "Blinker", "Roboto", "Inconsolata"; }
 
+.bg-silver-two {
+  background-color: #d7dbdb; }
+
 header .carousel-info {
   position: absolute;
   top: 16em; }
@@ -86,5 +89,47 @@ main .con-services {
       background-color: #000000;
       color: #ffffff;
       transition: ease 0.4s all; }
+main .con-description {
+  padding: 10px; }
+  main .con-description h5 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 1em; }
+  main .con-description img {
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+    height: auto; }
+    main .con-description img:hover {
+      animation: pulse;
+      animation-duration: 2s; }
+  main .con-description p {
+    text-align: justify;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 20px;
+    margin: 0; }
+main .contenedor-form {
+  padding: 1em;
+  width: 50%;
+  height: auto;
+  margin: auto; }
+  main .contenedor-form h3 {
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 14px; }
+  main .contenedor-form .btn-send {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    width: 12em;
+    margin: 1em auto;
+    font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
