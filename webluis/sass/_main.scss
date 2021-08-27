@@ -273,7 +273,7 @@ main {
   }
   /*Estilos de la hoja de contacto*/
   .container-direction {
-    padding: 1em;
+    padding: 9em;
     width: 50%;
     height: auto;
     margin: auto;
@@ -295,18 +295,22 @@ main {
       font-size: 20px;
     }
   }
-  .telefono {
-    display: block;
-    margin: 5px auto;
-    text-decoration: none;
-    color: $tx-black;
-    font-size: 1.5rem !important;
-    font-weight: 600;
-    text-align: center;
-    cursor: pointer;
-    &:hover {
-      color: $tx-silver-three;
-      transition: all 2s ease;
+  .conatiner-location {
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      color: $tx-black;
+    }
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      color: $tx-blue;
+      text-align: center;
+      &:hover {
+        border-bottom: 1px solid $tx-white;
+        transition: all 2s;
+      }
     }
   }
 }

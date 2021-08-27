@@ -203,9 +203,9 @@ main {
         animation: bounce;
         animation-duration: 2s; }
     main .container-technology .js {
-      border: 1px solid #F0DB4F;
+      border: 1px solid #f0db4f;
       padding: 7px 16px;
-      background-color: #F0DB4F;
+      background-color: #f0db4f;
       border-radius: 50%; }
       main .container-technology .js:hover {
         animation: bounce;
@@ -219,9 +219,9 @@ main {
         animation: bounce;
         animation-duration: 2s; }
     main .container-technology .sass {
-      border: 1px solid #CD6799;
+      border: 1px solid #cd6799;
       padding: 7px 16px;
-      background-color: #CD6799;
+      background-color: #cd6799;
       border-radius: 50%; }
       main .container-technology .sass:hover {
         animation: bounce;
@@ -235,9 +235,9 @@ main {
         animation: bounce;
         animation-duration: 2s; }
     main .container-technology .db {
-      border: 1px solid #00758F;
+      border: 1px solid #00758f;
       padding: 7px 16px;
-      background-color: #00758F;
+      background-color: #00758f;
       border-radius: 50%; }
       main .container-technology .db:hover {
         animation: bounce;
@@ -273,7 +273,7 @@ main {
         font-size: 20px;
         font-weight: 300; }
   main .container-direction {
-    padding: 1em;
+    padding: 9em;
     width: 50%;
     height: auto;
     margin: auto; }
@@ -292,18 +292,19 @@ main {
       width: 12em;
       margin: 1em auto;
       font-size: 20px; }
-  main .telefono {
-    display: block;
-    margin: 5px auto;
+  main .conatiner-location p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000; }
+  main .conatiner-location a {
     text-decoration: none;
-    color: #000000;
-    font-size: 1.5rem !important;
-    font-weight: 600;
-    text-align: center;
-    cursor: pointer; }
-    main .telefono:hover {
-      color: #727a7c;
-      transition: all 2s ease; }
+    font-size: 14px;
+    font-weight: 400;
+    color: #1a1a7e;
+    text-align: center; }
+    main .conatiner-location a:hover {
+      border-bottom: 1px solid #ffffff;
+      transition: all 2s; }
 
 /* footer {
   position: fixed;
