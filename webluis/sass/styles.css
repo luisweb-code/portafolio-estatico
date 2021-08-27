@@ -62,6 +62,7 @@ header .fh-word:hover {
   transition: all 0.4s ease; }
 
 main {
+  background-color: #ffffff;
   /*Estilos de la hoja about*/
   /*Estilos de la hoja de contacto*/ }
   main .con-services {
@@ -140,80 +141,132 @@ main {
       width: 12em;
       margin: 1em auto;
       font-size: 20px; }
-  main .container-about {
+  main .container-bio {
+    border-bottom: 2px solid #eedf0b;
     padding: 12px; }
-    main .container-about img {
+    main .container-bio img {
       display: block;
       margin: 10px auto;
       width: 15%;
       height: auto;
-      border-radius: 100%; }
-    main .container-about h2 {
+      border-radius: 100%;
+      box-shadow: 5px 5px 10px #727a7c; }
+    main .container-bio h2 {
       font-size: 2em;
       font-weight: 600;
       text-align: center; }
-      main .container-about h2:hover {
-        color: #ffbf00;
-        transition: all 3s ease; }
-    main .container-about h4 {
+    main .container-bio h4 {
       font-size: 1em;
       font-weight: 200;
       text-align: center;
       letter-spacing: 1px; }
   main .titule {
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 500;
     color: #000000; }
   main .conatiner-about p {
     font-size: 1em;
     font-weight: 300;
     color: #000000;
     text-align: justify; }
+  main .container-experience div:hover {
+    background-color: #f8f9fa;
+    transition: ease 2s all; }
   main .container-experience p {
     font-size: 1em;
     font-weight: 300;
     color: #000000;
-    text-align: justify; }
+    text-align: justify;
+    border-bottom: 1px solid #d7dbdb;
+    padding-bottom: 10px; }
   main .container-technology {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin: 0 auto; }
+    /* width: 100%; */ }
     main .container-technology span {
-      font-size: 2em; }
-    main .container-technology .html:hover {
-      color: #e34c26;
-      transition: all 2s ease; }
-    main .container-technology .css:hover {
-      color: #264de4;
-      transition: all 2s ease; }
-    main .container-technology .js:hover {
-      color: #F0DB4F;
-      transition: all 2s ease; }
-    main .container-technology .boot:hover {
-      color: #563d7c;
-      transition: all 2s ease; }
-    main .container-technology .sass:hover {
-      color: #CD6799;
-      transition: all 2s ease; }
-    main .container-technology .php:hover {
-      color: #8993be;
-      transition: all 2s ease; }
-    main .container-technology .db:hover {
-      color: #00758F;
-      transition: all 2s ease; }
-    main .container-technology .sq:hover {
-      color: #ffffff;
-      transition: all 2s ease; }
-    main .container-technology .cog:hover {
-      color: #808000;
-      transition: all 2s ease; }
+      font-size: 30px;
+      color: #ffffff; }
+    main .container-technology .html {
+      border: 1px solid #e34c26;
+      padding: 7px 16px;
+      background-color: #e34c26;
+      border-radius: 50%; }
+      main .container-technology .html:hover {
+        animation: bounce;
+        animation-duration: 2s; }
+    main .container-technology .css {
+      border: 1px solid #264de4;
+      padding: 7px 16px;
+      background-color: #264de4;
+      border-radius: 50%; }
+      main .container-technology .css:hover {
+        animation: bounce;
+        animation-duration: 2s; }
+    main .container-technology .js {
+      border: 1px solid #F0DB4F;
+      padding: 7px 16px;
+      background-color: #F0DB4F;
+      border-radius: 50%; }
+      main .container-technology .js:hover {
+        animation: bounce;
+        animation-duration: 2s; }
+    main .container-technology .boot {
+      border: 1px solid #563d7c;
+      padding: 7px 16px;
+      background-color: #563d7c;
+      border-radius: 50%; }
+      main .container-technology .boot:hover {
+        animation: bounce;
+        animation-duration: 2s; }
+    main .container-technology .sass {
+      border: 1px solid #CD6799;
+      padding: 7px 16px;
+      background-color: #CD6799;
+      border-radius: 50%; }
+      main .container-technology .sass:hover {
+        animation: bounce;
+        animation-duration: 2s; }
+    main .container-technology .php {
+      border: 1px solid #8993be;
+      padding: 7px 16px;
+      background-color: #8993be;
+      border-radius: 50%; }
+      main .container-technology .php:hover {
+        animation: bounce;
+        animation-duration: 2s; }
+    main .container-technology .db {
+      border: 1px solid #00758F;
+      padding: 7px 16px;
+      background-color: #00758F;
+      border-radius: 50%; }
+      main .container-technology .db:hover {
+        animation: bounce;
+        animation-duration: 2s; }
+    main .container-technology .sq {
+      border: 1px solid #000000;
+      padding: 7px 16px;
+      background-color: #000000;
+      border-radius: 50%; }
+      main .container-technology .sq:hover {
+        animation: bounce;
+        animation-duration: 2s; }
+    main .container-technology .cog {
+      border: 1px solid #808000;
+      padding: 7px 16px;
+      background-color: #808000;
+      border-radius: 50%; }
+      main .container-technology .cog:hover {
+        animation: bounce;
+        animation-duration: 2s; }
   main .container-ability ul {
     padding-left: 16px; }
     main .container-ability ul li {
       list-style: none;
       font-size: 20px;
       font-weight: 300; }
+      main .container-ability ul li:hover {
+        animation: pulse;
+        animation-duration: 2s; }
       main .container-ability ul li span {
         color: #000000;
         margin: 10px;

@@ -1,4 +1,5 @@
 main {
+  background-color: $bg-white;
   .con-services {
     padding: 2em;
     span {
@@ -90,7 +91,8 @@ main {
     }
   }
   /*Estilos de la hoja about*/
-  .container-about {
+  .container-bio {
+    border-bottom: 2px solid rgb(238, 223, 11);
     padding: 12px;
     img {
       display: block;
@@ -98,15 +100,12 @@ main {
       width: 15%;
       height: auto;
       border-radius: 100%;
+      box-shadow: 5px 5px 10px $bg-silver-three;
     }
     h2 {
       font-size: 2em;
       font-weight: 600;
       text-align: center;
-      &:hover {
-        color: $tx-gold;
-        transition: all 3s ease;
-      }
     }
     h4 {
       font-size: 1em;
@@ -117,7 +116,7 @@ main {
   }
   .titule {
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 500;
     color: $tx-black;
   }
   .conatiner-about {
@@ -129,73 +128,126 @@ main {
     }
   }
   .container-experience {
+    div {
+      &:hover {
+        background-color: $bg-silver-four;
+        transition: ease 2s all;
+      }
+    }
     p {
       font-size: 1em;
       font-weight: 300;
       color: $tx-black;
       text-align: justify;
+      border-bottom: 1px solid $bg-silver-two;
+      padding-bottom: 10px;
     }
   }
   .container-technology {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
+    /* width: 100%; */
     span {
-      font-size: 2em;
+      font-size: 30px;
+      color: $tx-white;
     }
     .html {
+      border: 1px solid $html-5;
+      padding: 7px 16px;
+      background-color: $html-5;
+      border-radius: 50%;
+
       &:hover {
-        color: $html-5;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
     .css {
+      border: 1px solid $css-3;
+      padding: 7px 16px;
+      background-color: $css-3;
+      border-radius: 50%;
+
       &:hover {
-        color: $css-3;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
     .js {
+      border: 1px solid $java-script;
+      padding: 7px 16px;
+      background-color: $java-script;
+      border-radius: 50%;
+
       &:hover {
-        color: $java-script;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
     .boot {
+      border: 1px solid $bootstrap;
+      padding: 7px 16px;
+      background-color: $bootstrap;
+      border-radius: 50%;
+
       &:hover {
-        color: $bootstrap;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
     .sass {
+      border: 1px solid $sass;
+      padding: 7px 16px;
+      background-color: $sass;
+      border-radius: 50%;
+
       &:hover {
-        color: $sass;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
     .php {
+      border: 1px solid $php;
+      padding: 7px 16px;
+      background-color: $php;
+      border-radius: 50%;
+
       &:hover {
-        color: $php;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
     .db {
+      border: 1px solid $database;
+      padding: 7px 16px;
+      background-color: $database;
+      border-radius: 50%;
+
       &:hover {
-        color: $database;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
     .sq {
+      border: 1px solid $mathematics;
+      padding: 7px 16px;
+      background-color: $mathematics;
+      border-radius: 50%;
+
       &:hover {
-        color: $mathematics;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
     .cog {
+      border: 1px solid $cog;
+      padding: 7px 16px;
+      background-color: $cog;
+      border-radius: 50%;
+
       &:hover {
-        color: $cog;
-        transition: all 2s ease;
+        animation: bounce;
+        animation-duration: 2s;
       }
     }
   }
@@ -206,6 +258,10 @@ main {
         list-style: none;
         font-size: 20px;
         font-weight: 300;
+        &:hover {
+          animation: pulse;
+          animation-duration: 2s;
+        }
         span {
           color: $tx-black;
           margin: 10px;
@@ -239,7 +295,7 @@ main {
       font-size: 20px;
     }
   }
-  .telefono{
+  .telefono {
     display: block;
     margin: 5px auto;
     text-decoration: none;
@@ -248,7 +304,7 @@ main {
     font-weight: 600;
     text-align: center;
     cursor: pointer;
-    &:hover{
+    &:hover {
       color: $tx-silver-three;
       transition: all 2s ease;
     }
