@@ -15,6 +15,7 @@
 <i class="fab fa-react"></i>
 <i class="fab fa-java"></i>
 <i class="fas fa-square-root-alt"></i>
+<i class="fas fa-cog"></i>
 
 ---- Contacto ----
 <i class="far fa-id-card"></i>

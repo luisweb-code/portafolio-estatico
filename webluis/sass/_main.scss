@@ -89,4 +89,130 @@ main {
       font-size: 20px;
     }
   }
+  /*Estilos de la hoja about*/
+  .container-about {
+    padding: 12px;
+    img {
+      display: block;
+      margin: 10px auto;
+      width: 15%;
+      height: auto;
+      border-radius: 100%;
+    }
+    h2 {
+      font-size: 2em;
+      font-weight: 600;
+      text-align: center;
+      &:hover {
+        color: $tx-gold;
+        transition: all 3s ease;
+      }
+    }
+    h4 {
+      font-size: 1em;
+      font-weight: 200;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+  }
+  .titule {
+    font-size: 2em;
+    font-weight: 600;
+    color: $tx-black;
+  }
+  .conatiner-about {
+    p {
+      font-size: 1em;
+      font-weight: 300;
+      color: $tx-black;
+      text-align: justify;
+    }
+  }
+  .container-experience {
+    p {
+      font-size: 1em;
+      font-weight: 300;
+      color: $tx-black;
+      text-align: justify;
+    }
+  }
+  .container-technology {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    span {
+      font-size: 2em;
+    }
+    .html {
+      &:hover {
+        color: $html-5;
+        transition: all 2s ease;
+      }
+    }
+    .css {
+      &:hover {
+        color: $css-3;
+        transition: all 2s ease;
+      }
+    }
+    .js {
+      &:hover {
+        color: $java-script;
+        transition: all 2s ease;
+      }
+    }
+    .boot {
+      &:hover {
+        color: $bootstrap;
+        transition: all 2s ease;
+      }
+    }
+    .sass {
+      &:hover {
+        color: $sass;
+        transition: all 2s ease;
+      }
+    }
+    .php {
+      &:hover {
+        color: $php;
+        transition: all 2s ease;
+      }
+    }
+    .db {
+      &:hover {
+        color: $database;
+        transition: all 2s ease;
+      }
+    }
+    .sq {
+      &:hover {
+        color: $mathematics;
+        transition: all 2s ease;
+      }
+    }
+    .cog {
+      &:hover {
+        color: $cog;
+        transition: all 2s ease;
+      }
+    }
+  }
+  .container-ability {
+    ul {
+      padding-left: 16px;
+      li {
+        list-style: none;
+        font-size: 20px;
+        font-weight: 300;
+        span {
+          color: $tx-black;
+          margin: 10px;
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
 }
