@@ -62,7 +62,8 @@ header .fh-word:hover {
   transition: all 0.4s ease; }
 
 main {
-  /*Estilos de la hoja about*/ }
+  /*Estilos de la hoja about*/
+  /*Estilos de la hoja de contacto*/ }
   main .con-services {
     padding: 2em; }
     main .con-services span {
@@ -218,10 +219,43 @@ main {
         margin: 10px;
         font-size: 20px;
         font-weight: 300; }
+  main .container-direction {
+    padding: 1em;
+    width: 50%;
+    height: auto;
+    margin: auto; }
+    main .container-direction h3 {
+      font-size: 2em;
+      font-weight: 500;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000000;
+      padding: 14px; }
+    main .container-direction .btn-send {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 10px;
+      display: block;
+      width: 12em;
+      margin: 1em auto;
+      font-size: 20px; }
+  main .telefono {
+    display: block;
+    margin: 5px auto;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer; }
+    main .telefono:hover {
+      color: #727a7c;
+      transition: all 2s ease; }
 
-footer {
+/* footer {
   position: fixed;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+} */
 
 /*# sourceMappingURL=styles.css.map */

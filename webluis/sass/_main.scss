@@ -215,4 +215,42 @@ main {
       }
     }
   }
+  /*Estilos de la hoja de contacto*/
+  .container-direction {
+    padding: 1em;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    h3 {
+      font-size: 2em;
+      font-weight: 500;
+      text-align: center;
+      text-transform: uppercase;
+      color: $tx-black;
+      padding: 14px;
+    }
+    .btn-send {
+      background-color: $bg-black;
+      color: $tx-white;
+      padding: 10px;
+      display: block;
+      width: 12em;
+      margin: 1em auto;
+      font-size: 20px;
+    }
+  }
+  .telefono{
+    display: block;
+    margin: 5px auto;
+    text-decoration: none;
+    color: $tx-black;
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+      color: $tx-silver-three;
+      transition: all 2s ease;
+    }
+  }
 }
