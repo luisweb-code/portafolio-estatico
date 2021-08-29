@@ -1,0 +1,56 @@
+header {
+  background-image: url("../img/banner11.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50em;
+
+  /* height: 50em; */
+  .h-fitness {
+    position: relative;
+    top: 14em;
+    background-color: $azul-standar-2;
+    background-color: $azul-standar-4;
+    border-bottom: 8px solid $azul-standar-3;
+    h2 {
+      text-transform: uppercase;
+      color: $textoBlanco;
+      font-size: 60px;
+      padding: 16px;
+      margin-bottom: -50px;
+    }
+    h4 {
+      text-transform: uppercase;
+      font-size: 25px;
+      color: $textoBlanco;
+      padding: 16px;
+      margin-bottom: -25px;
+    }
+    p {
+      font-size: 15px;
+      color: $textoBlanco;
+      padding: 16px;
+      margin-bottom: -15px;
+    }
+    a {
+      padding: 15px 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: transparent;
+      color: $textoBlanco;
+      margin: 20px auto;
+      border: 2px solid $textoBlanco;
+      display: block;
+      width: 150px;
+      text-align: center;
+
+      &:hover {
+        background-color: $fondoBlanco;
+        color: $textoNegro;
+        transition: all 2s ease;
+      }
+    }
+  }
+}
