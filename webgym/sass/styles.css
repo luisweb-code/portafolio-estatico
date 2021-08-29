@@ -10,6 +10,9 @@
 .azul-standar-3 {
   background-color: #1dbbfe; }
 
+.azul-standar-5 {
+  background-color: #ade7ff !important; }
+
 header .container-imagen {
   background-image: url("../img/banner11.jpg");
   background-repeat: no-repeat;
@@ -73,6 +76,25 @@ main .contenedor-info-redes {
       transition: all 2s; }
     main .contenedor-info-redes a span {
       font-size: 20px; }
+main .container-menu-logo {
+  text-align: center; }
+  main .container-menu-logo img {
+    padding: 10px; }
+main .container-menu {
+  text-align: center !important; }
+  main .container-menu a {
+    /*  border: 1px solid red; */
+    color: #ffffff !important;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 20px !important;
+    border-radius: 10px; }
+    main .container-menu a:hover {
+      background-color: #ffffff;
+      color: #000000 !important;
+      transition: ease 2s all; }
 
 .r-news {
   background-color: #7bd8ff;

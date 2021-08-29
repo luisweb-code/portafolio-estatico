@@ -9,12 +9,36 @@ main {
       text-decoration: none;
       padding: 12px;
       letter-spacing: 2px;
-      &:hover{
-          color: $textoPlata;
-          transition: all 2s;
+      &:hover {
+        color: $textoPlata;
+        transition: all 2s;
       }
-      span{
-          font-size: 20px;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+  .container-menu-logo {
+    text-align: center;
+    img {
+      padding: 10px;
+    }
+  }
+  .container-menu {
+    text-align: center !important;
+    a {
+     /*  border: 1px solid red; */
+      color: $textoBlanco !important;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 500;
+      padding: 10px 20px !important;
+      border-radius: 10px;
+      &:hover {
+        background-color: $textoBlanco;
+        color: $textoNegro !important;
+        transition: ease 2s all;
       }
     }
   }
