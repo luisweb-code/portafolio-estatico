@@ -84,7 +84,7 @@ main {
       display: none;
     }
   }
-  .container-class {
+  .contenedor-class {
     padding: 1em 2em;
     background-color: $azul-standar-3;
     text-align: center;
@@ -114,6 +114,64 @@ main {
         color: $textoNegro;
         transition: ease 2s all;
       }
+    }
+  }
+  .contenedor-all {
+    background-color: $azul-standar-3;
+    .menu-class-uno {
+      width: 100%;
+      padding: 0;
+      li {
+        list-style: none;
+        font-size: 22px;
+        color: $textoBlanco;
+        text-transform: uppercase;
+        padding: 15px;
+        border-bottom: 1px solid $textoBlanco;
+        a {
+          text-decoration: none;
+          cursor: pointer;
+          color: $textoBlanco;
+          display: flex;
+          justify-content: space-between;
+          span {
+            color: $textoBlanco;
+            font-size: 22px;
+            &:hover {
+              color: $textoPlata;
+              transition: all 2s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+  .contenedor-marcas {
+    display: flex;
+    justify-content: space-between;
+    img {
+      opacity: 0.5;
+      &:hover {
+        opacity: 0.9;
+        transition: ease 2s ease;
+      }
+    }
+  }
+  .contenedor-twitter {
+    background-color: $textoPlata-2;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    span {
+      color: $azul-standar-5;
+      font-size: 4em;
+      margin: 0 30px;
+    }
+    p {
+      margin: 0;
+      color: $azul-standar-3;
+      font-size: 16px;
+      padding: 2em 0;
     }
   }
 }
