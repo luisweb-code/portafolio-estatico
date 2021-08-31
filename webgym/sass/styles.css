@@ -13,6 +13,12 @@
 .azul-standar-5 {
   background-color: #ade7ff !important; }
 
+.fondoPlata {
+  background-color: #ececec !important; }
+
+.text-azul {
+  color: #1dbbfe; }
+
 header .container-imagen {
   background-image: url("../img/banner11.jpg");
   background-repeat: no-repeat;
@@ -94,6 +100,66 @@ main .container-menu {
     main .container-menu a:hover {
       background-color: #ffffff;
       color: #000000 !important;
+      transition: ease 2s all; }
+main .cont-img {
+  text-align: center;
+  margin-top: 3em; }
+  main .cont-img img {
+    padding: 10px; }
+main .cont-info {
+  padding: 1em;
+  margin-top: 8em; }
+  main .cont-info h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2em;
+    color: rgba(90, 90, 90, 0.918); }
+  main .cont-info p {
+    font-weight: 300;
+    color: rgba(90, 90, 90, 0.918);
+    text-align: justify; }
+main .card {
+  background-color: #1dbbfe;
+  border-bottom: 8px solid #1dbbfe; }
+  main .card .titule,
+  main .card .sub-titule {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-style: italic; }
+  main .card .owl-imgen {
+    width: 100%;
+    height: auto; }
+  main .card .owl-dots {
+    display: none; }
+main .container-class {
+  padding: 1em 2em;
+  background-color: #1dbbfe;
+  text-align: center; }
+  main .container-class .class-desc {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 30px; }
+  main .container-class .class-info {
+    color: #ffffff;
+    margin-bottom: 2em;
+    padding: 1em 7em;
+    font-weight: 300;
+    font-size: 17px; }
+  main .container-class .class-btn {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px; }
+    main .container-class .class-btn:hover {
+      background-color: #ffffff;
+      color: #000000;
       transition: ease 2s all; }
 
 .r-news {

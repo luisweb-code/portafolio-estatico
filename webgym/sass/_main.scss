@@ -27,7 +27,7 @@ main {
   .container-menu {
     text-align: center !important;
     a {
-     /*  border: 1px solid red; */
+      /*  border: 1px solid red; */
       color: $textoBlanco !important;
       cursor: pointer;
       text-decoration: none;
@@ -38,6 +38,80 @@ main {
       &:hover {
         background-color: $textoBlanco;
         color: $textoNegro !important;
+        transition: ease 2s all;
+      }
+    }
+  }
+  .cont-img {
+    text-align: center;
+    margin-top: 3em;
+    img {
+      padding: 10px;
+    }
+  }
+  .cont-info {
+    padding: 1em;
+    margin-top: 8em;
+    h3 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 2em;
+      color: $textoPlata-2;
+    }
+    p {
+      font-weight: 300;
+      color: $textoPlata-2;
+      text-align: justify;
+    }
+  }
+  .card {
+    background-color: $azul-standar-3;
+    border-bottom: 8px solid $azul-standar-3;
+    .titule,
+    .sub-titule {
+      color: $textoBlanco;
+      font-weight: 500;
+      font-size: 20px;
+      text-transform: uppercase;
+      padding: 10px;
+      font-style: italic;
+    }
+    .owl-imgen {
+      width: 100%;
+      height: auto;
+    }
+    .owl-dots {
+      display: none;
+    }
+  }
+  .container-class {
+    padding: 1em 2em;
+    background-color: $azul-standar-3;
+    text-align: center;
+    .class-desc {
+      text-transform: uppercase;
+      color: $textoBlanco;
+      font-weight: 700;
+      margin-top: 20px;
+      font-size: 30px;
+    }
+    .class-info {
+      color: $textoBlanco;
+      margin-bottom: 2em;
+      padding: 1em 7em;
+      font-weight: 300;
+      font-size: 17px;
+    }
+    .class-btn {
+      color: $textoBlanco;
+      border: 1px solid $textoBlanco;
+      cursor: pointer;
+      text-decoration: none;
+      padding: 10px 40px;
+      border-radius: 5px;
+      &:hover {
+        background-color: $textoBlanco;
+        color: $textoNegro;
         transition: ease 2s all;
       }
     }

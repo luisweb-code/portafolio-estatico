@@ -6,11 +6,18 @@
   font-family: "Lato", sans-serif;
 }
 
-
-.azul-standar-3{
+.azul-standar-3 {
   background-color: $azul-standar-3;
 }
 
-.azul-standar-5{
+.azul-standar-5 {
   background-color: $azul-standar-5 !important;
+}
+
+.fondoPlata {
+  background-color: $fondoPlataLigero !important;
+}
+
+.text-azul {
+  color: $azul-standar-3;
 }
