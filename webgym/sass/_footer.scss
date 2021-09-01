@@ -125,3 +125,118 @@
     }
   }
 }
+
+.contenedor-form,
+.contenedor-info,
+.contenedor-enlaces {
+  color: $textoBlanco;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contenedor-form {
+  h4,
+  p {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    background-color: $azul-standar-1;
+    color: $textoBlanco;
+    border: 1px solid $azul-standar-3;
+    margin-bottom: 20px;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  button {
+    background-color: $fondoRojo;
+    color: $textoBlanco;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 40%;
+    border: 1px solid $bordeRojo;
+    text-align: left;
+    &:hover {
+      background-color: $bordeRojo;
+      transition: all 2s ease;
+    }
+  }
+}
+
+.contenedor-info {
+  img {
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+  }
+  a {
+    text-decoration: none;
+    color: $textoBlanco;
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    &:hover {
+      color: $azul-standar-3;
+      transition: ease 2s all;
+    }
+  }
+}
+
+.contenedor-enlaces {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  .menu-enlaces,
+  .menu-comunity {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 16px 0;
+      a {
+        color: $textoBlanco;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+          color: $azul-standar-3;
+          transition: all 2s ease;
+        }
+      }
+    }
+  }
+}
+
+.derechos-reservados {
+  padding: 10px;
+  color: $textoBlanco;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contendor-redes-sociales {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 50%;
+  a {
+    text-decoration: none;
+    color: $textoBlanco;
+    font-size: 20px;
+    &:hover{
+      color: $textoPlata-2;
+      transition: all 2s ease;
+    }
+
+  }
+}

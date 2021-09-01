@@ -291,4 +291,93 @@ main .contenedor-twitter {
       .r-reservados .f-phone-sociales nav a:hover {
         color: #BEBEBE; }
 
+.contenedor-form,
+.contenedor-info,
+.contenedor-enlaces {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400; }
+
+.contenedor-form h4,
+.contenedor-form p {
+  text-transform: uppercase;
+  font-weight: 600 !important; }
+.contenedor-form input {
+  width: 100%;
+  padding: 10px;
+  background-color: #7bd8ff;
+  color: #ffffff;
+  border: 1px solid #1dbbfe;
+  margin-bottom: 20px; }
+.contenedor-form input:focus {
+  outline: none; }
+.contenedor-form button {
+  background-color: #c80505;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 40%;
+  border: 1px solid #FF0000;
+  text-align: left; }
+  .contenedor-form button:hover {
+    background-color: #FF0000;
+    transition: all 2s ease; }
+
+.contenedor-info img {
+  display: block;
+  width: 30%;
+  margin: 10px auto; }
+.contenedor-info a {
+  text-decoration: none;
+  color: #ffffff;
+  width: 100%;
+  font-size: 20px;
+  display: block; }
+  .contenedor-info a:hover {
+    color: #1dbbfe;
+    transition: ease 2s all; }
+
+.contenedor-enlaces {
+  width: 70%;
+  display: flex;
+  justify-content: space-between; }
+  .contenedor-enlaces .menu-enlaces,
+  .contenedor-enlaces .menu-comunity {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px; }
+  .contenedor-enlaces ul {
+    list-style: none;
+    padding: 0; }
+    .contenedor-enlaces ul li {
+      margin: 16px 0; }
+      .contenedor-enlaces ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        cursor: pointer; }
+        .contenedor-enlaces ul li a:hover {
+          color: #1dbbfe;
+          transition: all 2s ease; }
+
+.derechos-reservados {
+  padding: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center; }
+
+.contendor-redes-sociales {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 50%; }
+  .contendor-redes-sociales a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px; }
+    .contendor-redes-sociales a:hover {
+      color: rgba(90, 90, 90, 0.918);
+      transition: all 2s ease; }
+
 /*# sourceMappingURL=styles.css.map */
