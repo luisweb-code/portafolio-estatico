@@ -1,1 +1,14 @@
-
+header {
+  .nav-account,
+  .nav-list {
+    i {
+      margin: 3px;
+    }
+  }
+  .nav-link-service {
+    &:hover {
+      color: $bg-pinku2 !important;
+      transition: all 0.4s ease;
+    }
+  }
+}
