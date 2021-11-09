@@ -11,30 +11,34 @@
     <link rel="stylesheet" href="./sass/estilos.css" />
     <title>Bralette</title>
   </head>
-  <body class="container-fluid">
-    <header>
+  <body>
+    <header class="container-fluid">
       <div class="row rows-col-12">
         <div class="col-xl-8 p-0">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link nav-link-service" href="#">24/7 custumer service</a>
+                    <a class="nav-link nav-link-service" href="#"
+                      >24/7 custumer service</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-link-service" href="tel:12345678">(800) 1234-5678</a>
+                    <a class="nav-link nav-link-service" href="tel:12345678"
+                      >(800) 1234-5678</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -86,10 +90,14 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-link-service nav-account" href="#"><i class="fas fa-user-alt"></i>My Account</a>
+                    <a class="nav-link nav-link-service nav-account" href="#"
+                      ><i class="fas fa-user-alt"></i>My Account</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-link-service nav-list" href="#"><i class="far fa-heart"></i>Wishlist</a>
+                    <a class="nav-link nav-link-service nav-list" href="#"
+                      ><i class="far fa-heart"></i>Wishlist</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -97,17 +105,23 @@
           </nav>
         </div>
       </div>
-      <div class="row rows-col-12">
+      <div class="row rows-col-12 mt-4">
         <div class="col-xl-4">
           <div class="h-img">
-            <img src="./assets/img/logo.jpg" alt="logo">
+            <img src="./assets/img/logo.jpg" alt="logo" />
           </div>
         </div>
         <div class="col-xl-4">
           <div class="h-form p-3">
             <form action="#" method="post" class="h-myForm">
-              <input type="text" name="txtDato" placeholder="I am looking for..">
-              <button type="submit" class="btn-submit"><i class="fas fa-search"></i></button>
+              <input
+                type="text"
+                name="txtDato"
+                placeholder="I am looking for.."
+              />
+              <button type="submit" class="btn-submit">
+                <i class="fas fa-search"></i>
+              </button>
             </form>
           </div>
         </div>
@@ -115,18 +129,44 @@
           <div class="row rows-col-12">
             <div class="col-xl-6 col-sm-6 p-3">
               <div class="h-btn-buttom">
-                <a class="h-subtitule m-0" href="#"><i class="fas fa-paper-plane"></i>Free Shipping worldwide</a>
+                <a class="h-subtitule m-0" href="#"
+                  ><i class="fas fa-paper-plane"></i>Free Shipping worldwide</a
+                >
               </div>
             </div>
             <div class="col-xl-6 col-sm-6 p-3">
               <div class="h-btn-buttom">
-                <a class="h-subtitule m-0" href="#"><i class="fas fa-star"></i>Dayly Deals & Offers</a>
+                <a class="h-subtitule m-0" href="#"
+                  ><i class="fas fa-star"></i>Dayly Deals & Offers</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="row row-cols-12 mt-4">
+        <div class="col-xl-12 p-0">
+          <nav class="bg-pink p-3">
+            <a class="nav-categorie text-uppercase" href="#">bras</a>
+            <a class="nav-categorie text-uppercase" href="#">panties</a>
+            <a class="nav-categorie text-uppercase" href="#">corsets</a>
+            <a class="nav-categorie text-uppercase" href="#">sexy</a>
+            <a class="nav-categorie text-uppercase" href="#">sleep</a>
+            <a class="nav-categorie text-uppercase" href="#">swim</a>
+            <a class="nav-categorie text-uppercase" href="#">stockings</a>
+            <a class="nav-categorie text-uppercase" href="#">accesories</a>
+          </nav>
+        </div>
+      </div>
     </header>
+
+    <main class="container">
+      <div class="row row-cols-12 mt-4 bg-success">
+        <div class="col-xl-12 p-0">
+          <p>Carousel</p>
+        </div>
+      </div>
+    </main>
 
     <script src="./js/bootstrap.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>

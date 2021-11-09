@@ -12,17 +12,23 @@ body {
   background-color: #fff;
   font-family: 'Montserrat', sans-serif; }
 
+.bg-pink {
+  background-color: #e8caba !important; }
+
 header .nav-account i,
 header .nav-list i {
   margin: 3px; }
+
 header .nav-link-service:hover {
   color: #dbad94 !important;
   transition: all 0.4s ease; }
+
 header .h-img {
   width: 50%;
   margin: auto;
   display: flex;
   justify-content: center; }
+
 header .h-form .h-myForm {
   margin: auto; }
   header .h-form .h-myForm input[type="text"] {
@@ -45,6 +51,7 @@ header .h-form .h-myForm {
     border: 0;
     position: relative;
     right: 5px; }
+
 header .h-btn-buttom {
   border-radius: 7px;
   background: #e8caba;
@@ -63,4 +70,11 @@ header .h-btn-buttom {
   header .h-btn-buttom i {
     margin: 3px 5px 3px 3px; }
 
-/*# sourceMappingURL=estilos.css.map */
+header .nav-categorie {
+  color: #fff !important;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 10px; }
+  header .nav-categorie:hover {
+    color: #4a4a4a !important;
+    transition: ease 0.5s all; }
