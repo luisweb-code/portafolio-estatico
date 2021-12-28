@@ -1,24 +1,11 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
 
-body {
-  font-family: "Open Sans", "Blinker", "Roboto", "Inconsolata";
-}
-
-.bg-silver-two {
-  background-color: $bg-silver-two;
-}
-
-
-.tx-silver-three {
-  background-color: $tx-silver-three;
-}
-
-.bg-silver-five{
-  background-color: $bg-silver-five;
+body{
+  font-family: 'Open Sans','Noto Sans', sans-serif;
 }
