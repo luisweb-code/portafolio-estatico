@@ -3,9 +3,45 @@
   -moz-box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 
-body{
-  font-family: 'Open Sans','Noto Sans', sans-serif;
+body {
+  font-family: "Open Sans", "Noto Sans", sans-serif;
+}
+
+.bg-cafe-oscuro {
+  background-color: $bg-cafe-oscuro !important;
+}
+
+.bg-cafe-pastel {
+  background-color: $bg-cafe-pastel !important;
+}
+
+.bg-verde-oscuro {
+  background-color: $bg-verde-oscuro !important;
+}
+
+.bg-marron-ligero {
+  background-color: $bg-marron-ligero !important;
+}
+
+.bg-azul {
+  background-color: $bg-azul !important;
+}
+
+.text-blanco {
+  color: $text-blanco !important;
+  &:hover {
+    color: $text-hover !important;
+    transition: all 0.7s ease;
+  }
+}
+
+.text-negro {
+  color: $text-negro !important;
+}
+
+.bg-especial-titulo {
+  color: $bg-blanco !important;
+  border-bottom: 1px solid $text-blanco !important;
 }
